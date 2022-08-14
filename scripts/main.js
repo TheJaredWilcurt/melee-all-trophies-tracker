@@ -3,7 +3,11 @@ const app = Vue.createApp({
     return {
       localStorageId: 'meleeAllTrophiesData',
       language: 'en-us',
-      trophies: window.trophies
+      filterName: '',
+      filterNameJP: '',
+      filterGame: '',
+      filterGameJP: '',
+      filterSmash: null
     };
   },
   methods: {
@@ -63,6 +67,22 @@ const app = Vue.createApp({
         size,
         trophiesPerRow
       };
+    },
+    filteredTrophies: function () {
+      let trophies = window.trophies;
+      trophies = trophies.filter((trophy) => {
+        return (
+          trophy.name.includes(this.filterName) &&
+          trophy.nameJP.includes(this.filterNameJP) &&
+          trophy.game.includes(this.filterGame) &&
+          trophy.gameJP.includes(this.filterGameJP) &&
+          (
+            this.filterSmash === null ||
+            trophy.smash === this.filterSmash
+          )
+        );
+      });
+      return trophies
     }
   },
   watch: {

@@ -67,8 +67,25 @@
           </tr>
         </tfoot>
         <tbody>
+          <tr>
+            <th></th>
+            <th><input v-model="filterName"></th>
+            <th><input v-model="filterNameJP"></th>
+            <th><input v-model="filterGame"></th>
+            <th><input v-model="filterGameJP"></th>
+            <th>
+              <select v-model="filterSmash">
+                <option :value="null">All</option>
+                <option :value="true">true</option>
+                <option :value="false">false</option>
+              </select>
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
           <tr
-            v-for="trophy in trophies"
+            v-for="trophy in filteredTrophies"
             :id="trophy.imageIndex"
           >
             <td><a
