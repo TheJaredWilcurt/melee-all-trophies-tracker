@@ -14,6 +14,7 @@
 
 body {
   background: #333;
+  padding-top: 30px;
   color: #FFF;
   font-family: sans-serif;
 }
@@ -23,6 +24,10 @@ h2 {
   font-family: 'smash', sans-serif;
   text-transform: uppercase;
   text-align: center;
+}
+
+a {
+  color: #FFF;
 }
 
 table {
@@ -56,6 +61,8 @@ tfoot tr {
   border: 1px solid #AAA;
   margin: 6px;
   padding: 2px;
+  color: #FFF;
+  text-decoration: none;
 }
 .sprite:hover {
   background-color: #DDD;

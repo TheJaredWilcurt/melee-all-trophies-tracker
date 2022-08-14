@@ -1,8 +1,11 @@
 window.trophies = [
   {
-    imageIndex: 0,
     name: 'Mario',
+    nameJP: 'マリオ',
+    game: 'Donkey Kong Arcade 1981',
+    gameJP: 'ドンキーコング アーケード 1981',
     smash: false,
+    imageIndex: 0,
     sortBy: {
       normal: 0,
       game: 0,
@@ -10,9 +13,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 1,
     name: 'Mario',
+    nameJP: 'マリオ',
+    game: '',
+    gameJP: '',
     smash: true,
+    imageIndex: 1,
     sortBy: {
       normal: 1,
       game: 0,
@@ -20,9 +26,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 2,
     name: 'Mario',
+    nameJP: 'マリオ',
+    game: '',
+    gameJP: '',
     smash: true,
+    imageIndex: 2,
     sortBy: {
       normal: 2,
       game: 0,
@@ -30,9 +39,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 3,
     name: 'Donkey Kong',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 3,
     sortBy: {
       normal: 3,
       game: 0,
@@ -40,9 +52,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 4,
     name: 'Donkey Kong',
-    smash: false,
+    nameJP: '',
+    game: '',
+    gameJP: '',
+    smash: true,
+    imageIndex: 4,
     sortBy: {
       normal: 4,
       game: 0,
@@ -50,9 +65,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 5,
     name: 'Donkey Kong',
-    smash: false,
+    nameJP: '',
+    game: '',
+    gameJP: '',
+    smash: true,
+    imageIndex: 5,
     sortBy: {
       normal: 5,
       game: 0,
@@ -60,9 +78,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 6,
     name: 'Link',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 6,
     sortBy: {
       normal: 6,
       game: 0,
@@ -70,9 +91,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 7,
     name: 'Link',
-    smash: false,
+    nameJP: '',
+    game: '',
+    gameJP: '',
+    smash: true,
+    imageIndex: 7,
     sortBy: {
       normal: 7,
       game: 0,
@@ -80,9 +104,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 8,
     name: 'Link',
-    smash: false,
+    nameJP: '',
+    game: '',
+    gameJP: '',
+    smash: true,
+    imageIndex: 8,
     sortBy: {
       normal: 8,
       game: 0,
@@ -90,9 +117,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 9,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 9,
     sortBy: {
       normal: 9,
       game: 0,
@@ -100,9 +130,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 10,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 10,
     sortBy: {
       normal: 10,
       game: 0,
@@ -110,9 +143,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 11,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 11,
     sortBy: {
       normal: 11,
       game: 0,
@@ -120,9 +156,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 12,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 12,
     sortBy: {
       normal: 12,
       game: 0,
@@ -130,9 +169,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 13,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 13,
     sortBy: {
       normal: 13,
       game: 0,
@@ -140,9 +182,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 14,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 14,
     sortBy: {
       normal: 14,
       game: 0,
@@ -150,9 +195,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 15,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 15,
     sortBy: {
       normal: 15,
       game: 0,
@@ -160,9 +208,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 16,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 16,
     sortBy: {
       normal: 16,
       game: 0,
@@ -170,9 +221,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 17,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 17,
     sortBy: {
       normal: 17,
       game: 0,
@@ -180,9 +234,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 18,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 18,
     sortBy: {
       normal: 18,
       game: 0,
@@ -190,9 +247,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 19,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 19,
     sortBy: {
       normal: 19,
       game: 0,
@@ -200,9 +260,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 20,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 20,
     sortBy: {
       normal: 20,
       game: 0,
@@ -210,9 +273,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 21,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 21,
     sortBy: {
       normal: 21,
       game: 0,
@@ -220,9 +286,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 22,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 22,
     sortBy: {
       normal: 22,
       game: 0,
@@ -230,9 +299,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 23,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 23,
     sortBy: {
       normal: 23,
       game: 0,
@@ -240,9 +312,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 24,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 24,
     sortBy: {
       normal: 24,
       game: 0,
@@ -250,9 +325,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 25,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 25,
     sortBy: {
       normal: 25,
       game: 0,
@@ -260,9 +338,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 26,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 26,
     sortBy: {
       normal: 26,
       game: 0,
@@ -270,9 +351,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 27,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 27,
     sortBy: {
       normal: 27,
       game: 0,
@@ -280,9 +364,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 28,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 28,
     sortBy: {
       normal: 28,
       game: 0,
@@ -290,9 +377,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 29,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 29,
     sortBy: {
       normal: 29,
       game: 0,
@@ -300,9 +390,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 30,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 30,
     sortBy: {
       normal: 30,
       game: 0,
@@ -310,9 +403,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 31,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 31,
     sortBy: {
       normal: 31,
       game: 0,
@@ -320,9 +416,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 32,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 32,
     sortBy: {
       normal: 32,
       game: 0,
@@ -330,9 +429,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 33,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 33,
     sortBy: {
       normal: 33,
       game: 0,
@@ -340,9 +442,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 34,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 34,
     sortBy: {
       normal: 34,
       game: 0,
@@ -350,9 +455,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 35,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 35,
     sortBy: {
       normal: 35,
       game: 0,
@@ -360,9 +468,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 36,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 36,
     sortBy: {
       normal: 36,
       game: 0,
@@ -370,9 +481,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 37,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 37,
     sortBy: {
       normal: 37,
       game: 0,
@@ -380,9 +494,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 38,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 38,
     sortBy: {
       normal: 38,
       game: 0,
@@ -390,9 +507,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 39,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 39,
     sortBy: {
       normal: 39,
       game: 0,
@@ -400,9 +520,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 40,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 40,
     sortBy: {
       normal: 40,
       game: 0,
@@ -410,9 +533,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 41,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 41,
     sortBy: {
       normal: 41,
       game: 0,
@@ -420,9 +546,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 42,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 42,
     sortBy: {
       normal: 42,
       game: 0,
@@ -430,9 +559,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 43,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 43,
     sortBy: {
       normal: 43,
       game: 0,
@@ -440,9 +572,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 44,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 44,
     sortBy: {
       normal: 44,
       game: 0,
@@ -450,9 +585,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 45,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 45,
     sortBy: {
       normal: 45,
       game: 0,
@@ -460,9 +598,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 46,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 46,
     sortBy: {
       normal: 46,
       game: 0,
@@ -470,9 +611,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 47,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 47,
     sortBy: {
       normal: 47,
       game: 0,
@@ -480,9 +624,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 48,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 48,
     sortBy: {
       normal: 48,
       game: 0,
@@ -490,9 +637,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 49,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 49,
     sortBy: {
       normal: 49,
       game: 0,
@@ -500,9 +650,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 50,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 50,
     sortBy: {
       normal: 50,
       game: 0,
@@ -510,9 +663,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 51,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 51,
     sortBy: {
       normal: 51,
       game: 0,
@@ -520,9 +676,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 52,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 52,
     sortBy: {
       normal: 52,
       game: 0,
@@ -530,9 +689,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 53,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 53,
     sortBy: {
       normal: 53,
       game: 0,
@@ -540,9 +702,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 54,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 54,
     sortBy: {
       normal: 54,
       game: 0,
@@ -550,9 +715,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 55,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 55,
     sortBy: {
       normal: 55,
       game: 0,
@@ -560,9 +728,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 56,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 56,
     sortBy: {
       normal: 56,
       game: 0,
@@ -570,9 +741,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 57,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 57,
     sortBy: {
       normal: 57,
       game: 0,
@@ -580,9 +754,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 58,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 58,
     sortBy: {
       normal: 58,
       game: 0,
@@ -590,9 +767,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 59,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 59,
     sortBy: {
       normal: 59,
       game: 0,
@@ -600,9 +780,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 60,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 60,
     sortBy: {
       normal: 60,
       game: 0,
@@ -610,9 +793,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 61,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 61,
     sortBy: {
       normal: 61,
       game: 0,
@@ -620,9 +806,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 62,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 62,
     sortBy: {
       normal: 62,
       game: 0,
@@ -630,9 +819,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 63,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 63,
     sortBy: {
       normal: 63,
       game: 0,
@@ -640,9 +832,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 64,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 64,
     sortBy: {
       normal: 64,
       game: 0,
@@ -650,9 +845,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 65,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 65,
     sortBy: {
       normal: 65,
       game: 0,
@@ -660,9 +858,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 66,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 66,
     sortBy: {
       normal: 66,
       game: 0,
@@ -670,9 +871,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 67,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 67,
     sortBy: {
       normal: 67,
       game: 0,
@@ -680,9 +884,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 68,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 68,
     sortBy: {
       normal: 68,
       game: 0,
@@ -690,9 +897,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 69,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 69,
     sortBy: {
       normal: 69,
       game: 0,
@@ -700,9 +910,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 70,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 70,
     sortBy: {
       normal: 70,
       game: 0,
@@ -710,9 +923,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 71,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 71,
     sortBy: {
       normal: 71,
       game: 0,
@@ -720,9 +936,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 72,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 72,
     sortBy: {
       normal: 72,
       game: 0,
@@ -730,9 +949,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 73,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 73,
     sortBy: {
       normal: 73,
       game: 0,
@@ -740,9 +962,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 74,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 74,
     sortBy: {
       normal: 74,
       game: 0,
@@ -750,9 +975,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 75,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 75,
     sortBy: {
       normal: 75,
       game: 0,
@@ -760,9 +988,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 76,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 76,
     sortBy: {
       normal: 76,
       game: 0,
@@ -770,9 +1001,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 77,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 77,
     sortBy: {
       normal: 77,
       game: 0,
@@ -780,9 +1014,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 78,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 78,
     sortBy: {
       normal: 78,
       game: 0,
@@ -790,9 +1027,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 79,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 79,
     sortBy: {
       normal: 79,
       game: 0,
@@ -800,9 +1040,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 80,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 80,
     sortBy: {
       normal: 80,
       game: 0,
@@ -810,9 +1053,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 81,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 81,
     sortBy: {
       normal: 81,
       game: 0,
@@ -820,9 +1066,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 82,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 82,
     sortBy: {
       normal: 82,
       game: 0,
@@ -830,9 +1079,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 83,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 83,
     sortBy: {
       normal: 83,
       game: 0,
@@ -840,9 +1092,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 84,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 84,
     sortBy: {
       normal: 84,
       game: 0,
@@ -850,9 +1105,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 85,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 85,
     sortBy: {
       normal: 85,
       game: 0,
@@ -860,9 +1118,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 86,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 86,
     sortBy: {
       normal: 86,
       game: 0,
@@ -870,9 +1131,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 87,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 87,
     sortBy: {
       normal: 87,
       game: 0,
@@ -880,9 +1144,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 88,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 88,
     sortBy: {
       normal: 88,
       game: 0,
@@ -890,9 +1157,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 89,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 89,
     sortBy: {
       normal: 89,
       game: 0,
@@ -900,9 +1170,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 90,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 90,
     sortBy: {
       normal: 90,
       game: 0,
@@ -910,9 +1183,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 91,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 91,
     sortBy: {
       normal: 91,
       game: 0,
@@ -920,9 +1196,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 92,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 92,
     sortBy: {
       normal: 92,
       game: 0,
@@ -930,9 +1209,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 93,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 93,
     sortBy: {
       normal: 93,
       game: 0,
@@ -940,9 +1222,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 94,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 94,
     sortBy: {
       normal: 94,
       game: 0,
@@ -950,9 +1235,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 95,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 95,
     sortBy: {
       normal: 95,
       game: 0,
@@ -960,9 +1248,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 96,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 96,
     sortBy: {
       normal: 96,
       game: 0,
@@ -970,9 +1261,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 97,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 97,
     sortBy: {
       normal: 97,
       game: 0,
@@ -980,9 +1274,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 98,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 98,
     sortBy: {
       normal: 98,
       game: 0,
@@ -990,9 +1287,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 99,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 99,
     sortBy: {
       normal: 99,
       game: 0,
@@ -1000,9 +1300,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 100,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 100,
     sortBy: {
       normal: 100,
       game: 0,
@@ -1010,9 +1313,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 101,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 101,
     sortBy: {
       normal: 101,
       game: 0,
@@ -1020,9 +1326,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 102,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 102,
     sortBy: {
       normal: 102,
       game: 0,
@@ -1030,9 +1339,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 103,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 103,
     sortBy: {
       normal: 103,
       game: 0,
@@ -1040,9 +1352,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 104,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 104,
     sortBy: {
       normal: 104,
       game: 0,
@@ -1050,9 +1365,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 105,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 105,
     sortBy: {
       normal: 105,
       game: 0,
@@ -1060,9 +1378,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 106,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 106,
     sortBy: {
       normal: 106,
       game: 0,
@@ -1070,9 +1391,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 107,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 107,
     sortBy: {
       normal: 107,
       game: 0,
@@ -1080,9 +1404,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 108,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 108,
     sortBy: {
       normal: 108,
       game: 0,
@@ -1090,9 +1417,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 109,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 109,
     sortBy: {
       normal: 109,
       game: 0,
@@ -1100,9 +1430,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 110,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 110,
     sortBy: {
       normal: 110,
       game: 0,
@@ -1110,9 +1443,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 111,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 111,
     sortBy: {
       normal: 111,
       game: 0,
@@ -1120,9 +1456,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 112,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 112,
     sortBy: {
       normal: 112,
       game: 0,
@@ -1130,9 +1469,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 113,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 113,
     sortBy: {
       normal: 113,
       game: 0,
@@ -1140,9 +1482,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 114,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 114,
     sortBy: {
       normal: 114,
       game: 0,
@@ -1150,9 +1495,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 115,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 115,
     sortBy: {
       normal: 115,
       game: 0,
@@ -1160,9 +1508,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 116,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 116,
     sortBy: {
       normal: 116,
       game: 0,
@@ -1170,9 +1521,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 117,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 117,
     sortBy: {
       normal: 117,
       game: 0,
@@ -1180,9 +1534,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 118,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 118,
     sortBy: {
       normal: 118,
       game: 0,
@@ -1190,9 +1547,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 119,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 119,
     sortBy: {
       normal: 119,
       game: 0,
@@ -1200,9 +1560,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 120,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 120,
     sortBy: {
       normal: 120,
       game: 0,
@@ -1210,9 +1573,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 121,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 121,
     sortBy: {
       normal: 121,
       game: 0,
@@ -1220,9 +1586,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 122,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 122,
     sortBy: {
       normal: 122,
       game: 0,
@@ -1230,9 +1599,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 123,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 123,
     sortBy: {
       normal: 123,
       game: 0,
@@ -1240,9 +1612,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 124,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 124,
     sortBy: {
       normal: 124,
       game: 0,
@@ -1250,9 +1625,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 125,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 125,
     sortBy: {
       normal: 125,
       game: 0,
@@ -1260,9 +1638,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 126,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 126,
     sortBy: {
       normal: 126,
       game: 0,
@@ -1270,9 +1651,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 127,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 127,
     sortBy: {
       normal: 127,
       game: 0,
@@ -1280,9 +1664,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 128,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 128,
     sortBy: {
       normal: 128,
       game: 0,
@@ -1290,9 +1677,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 129,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 129,
     sortBy: {
       normal: 129,
       game: 0,
@@ -1300,9 +1690,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 130,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 130,
     sortBy: {
       normal: 130,
       game: 0,
@@ -1310,9 +1703,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 131,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 131,
     sortBy: {
       normal: 131,
       game: 0,
@@ -1320,9 +1716,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 132,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 132,
     sortBy: {
       normal: 132,
       game: 0,
@@ -1330,9 +1729,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 133,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 133,
     sortBy: {
       normal: 133,
       game: 0,
@@ -1340,9 +1742,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 134,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 134,
     sortBy: {
       normal: 134,
       game: 0,
@@ -1350,9 +1755,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 135,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 135,
     sortBy: {
       normal: 135,
       game: 0,
@@ -1360,9 +1768,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 136,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 136,
     sortBy: {
       normal: 136,
       game: 0,
@@ -1370,9 +1781,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 137,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 137,
     sortBy: {
       normal: 137,
       game: 0,
@@ -1380,9 +1794,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 138,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 138,
     sortBy: {
       normal: 138,
       game: 0,
@@ -1390,9 +1807,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 139,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 139,
     sortBy: {
       normal: 139,
       game: 0,
@@ -1400,9 +1820,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 140,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 140,
     sortBy: {
       normal: 140,
       game: 0,
@@ -1410,9 +1833,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 141,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 141,
     sortBy: {
       normal: 141,
       game: 0,
@@ -1420,9 +1846,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 142,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 142,
     sortBy: {
       normal: 142,
       game: 0,
@@ -1430,9 +1859,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 143,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 143,
     sortBy: {
       normal: 143,
       game: 0,
@@ -1440,9 +1872,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 144,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 144,
     sortBy: {
       normal: 144,
       game: 0,
@@ -1450,9 +1885,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 145,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 145,
     sortBy: {
       normal: 145,
       game: 0,
@@ -1460,9 +1898,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 146,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 146,
     sortBy: {
       normal: 146,
       game: 0,
@@ -1470,9 +1911,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 147,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 147,
     sortBy: {
       normal: 147,
       game: 0,
@@ -1480,9 +1924,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 148,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 148,
     sortBy: {
       normal: 148,
       game: 0,
@@ -1490,9 +1937,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 149,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 149,
     sortBy: {
       normal: 149,
       game: 0,
@@ -1500,9 +1950,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 150,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 150,
     sortBy: {
       normal: 150,
       game: 0,
@@ -1510,9 +1963,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 151,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 151,
     sortBy: {
       normal: 151,
       game: 0,
@@ -1520,9 +1976,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 152,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 152,
     sortBy: {
       normal: 152,
       game: 0,
@@ -1530,9 +1989,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 153,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 153,
     sortBy: {
       normal: 153,
       game: 0,
@@ -1540,9 +2002,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 154,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 154,
     sortBy: {
       normal: 154,
       game: 0,
@@ -1550,9 +2015,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 155,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 155,
     sortBy: {
       normal: 155,
       game: 0,
@@ -1560,9 +2028,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 156,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 156,
     sortBy: {
       normal: 156,
       game: 0,
@@ -1570,9 +2041,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 157,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 157,
     sortBy: {
       normal: 157,
       game: 0,
@@ -1580,9 +2054,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 158,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 158,
     sortBy: {
       normal: 158,
       game: 0,
@@ -1590,9 +2067,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 159,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 159,
     sortBy: {
       normal: 159,
       game: 0,
@@ -1600,9 +2080,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 160,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 160,
     sortBy: {
       normal: 160,
       game: 0,
@@ -1610,9 +2093,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 161,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 161,
     sortBy: {
       normal: 161,
       game: 0,
@@ -1620,9 +2106,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 162,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 162,
     sortBy: {
       normal: 162,
       game: 0,
@@ -1630,9 +2119,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 163,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 163,
     sortBy: {
       normal: 163,
       game: 0,
@@ -1640,9 +2132,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 164,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 164,
     sortBy: {
       normal: 164,
       game: 0,
@@ -1650,9 +2145,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 165,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 165,
     sortBy: {
       normal: 165,
       game: 0,
@@ -1660,9 +2158,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 166,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 166,
     sortBy: {
       normal: 166,
       game: 0,
@@ -1670,9 +2171,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 167,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 167,
     sortBy: {
       normal: 167,
       game: 0,
@@ -1680,9 +2184,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 168,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 168,
     sortBy: {
       normal: 168,
       game: 0,
@@ -1690,9 +2197,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 169,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 169,
     sortBy: {
       normal: 169,
       game: 0,
@@ -1700,9 +2210,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 170,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 170,
     sortBy: {
       normal: 170,
       game: 0,
@@ -1710,9 +2223,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 171,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 171,
     sortBy: {
       normal: 171,
       game: 0,
@@ -1720,9 +2236,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 172,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 172,
     sortBy: {
       normal: 172,
       game: 0,
@@ -1730,9 +2249,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 173,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 173,
     sortBy: {
       normal: 173,
       game: 0,
@@ -1740,9 +2262,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 174,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 174,
     sortBy: {
       normal: 174,
       game: 0,
@@ -1750,9 +2275,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 175,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 175,
     sortBy: {
       normal: 175,
       game: 0,
@@ -1760,9 +2288,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 176,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 176,
     sortBy: {
       normal: 176,
       game: 0,
@@ -1770,9 +2301,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 177,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 177,
     sortBy: {
       normal: 177,
       game: 0,
@@ -1780,9 +2314,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 178,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 178,
     sortBy: {
       normal: 178,
       game: 0,
@@ -1790,9 +2327,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 179,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 179,
     sortBy: {
       normal: 179,
       game: 0,
@@ -1800,9 +2340,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 180,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 180,
     sortBy: {
       normal: 180,
       game: 0,
@@ -1810,9 +2353,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 181,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 181,
     sortBy: {
       normal: 181,
       game: 0,
@@ -1820,9 +2366,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 182,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 182,
     sortBy: {
       normal: 182,
       game: 0,
@@ -1830,9 +2379,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 183,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 183,
     sortBy: {
       normal: 183,
       game: 0,
@@ -1840,9 +2392,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 184,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 184,
     sortBy: {
       normal: 184,
       game: 0,
@@ -1850,9 +2405,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 185,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 185,
     sortBy: {
       normal: 185,
       game: 0,
@@ -1860,9 +2418,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 186,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 186,
     sortBy: {
       normal: 186,
       game: 0,
@@ -1870,9 +2431,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 187,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 187,
     sortBy: {
       normal: 187,
       game: 0,
@@ -1880,9 +2444,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 188,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 188,
     sortBy: {
       normal: 188,
       game: 0,
@@ -1890,9 +2457,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 189,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 189,
     sortBy: {
       normal: 189,
       game: 0,
@@ -1900,9 +2470,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 190,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 190,
     sortBy: {
       normal: 190,
       game: 0,
@@ -1910,9 +2483,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 191,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 191,
     sortBy: {
       normal: 191,
       game: 0,
@@ -1920,9 +2496,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 192,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 192,
     sortBy: {
       normal: 192,
       game: 0,
@@ -1930,9 +2509,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 193,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 193,
     sortBy: {
       normal: 193,
       game: 0,
@@ -1940,9 +2522,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 194,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 194,
     sortBy: {
       normal: 194,
       game: 0,
@@ -1950,9 +2535,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 195,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 195,
     sortBy: {
       normal: 195,
       game: 0,
@@ -1960,9 +2548,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 196,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 196,
     sortBy: {
       normal: 196,
       game: 0,
@@ -1970,9 +2561,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 197,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 197,
     sortBy: {
       normal: 197,
       game: 0,
@@ -1980,9 +2574,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 198,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 198,
     sortBy: {
       normal: 198,
       game: 0,
@@ -1990,9 +2587,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 199,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 199,
     sortBy: {
       normal: 199,
       game: 0,
@@ -2000,9 +2600,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 200,
-    name: '',
+    name: 'Raccoon Mario',
+    nameJP: 'しっぽマリオ',
+    game: 'Super Mario Bros. 3',
+    gameJP: 'スーパーマリオブラザーズ 3',
     smash: false,
+    imageIndex: 200,
     sortBy: {
       normal: 200,
       game: 0,
@@ -2010,9 +2613,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 201,
-    name: '',
+    name: 'Mario ＆ Yoshi',
+    nameJP: 'マントマリオ＋ヨッシー',
+    game: 'Super Mario World',
+    gameJP: '',
     smash: false,
+    imageIndex: 201,
     sortBy: {
       normal: 201,
       game: 0,
@@ -2020,9 +2626,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 202,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 202,
     sortBy: {
       normal: 202,
       game: 0,
@@ -2030,9 +2639,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 203,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 203,
     sortBy: {
       normal: 203,
       game: 0,
@@ -2040,9 +2652,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 204,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 204,
     sortBy: {
       normal: 204,
       game: 0,
@@ -2050,9 +2665,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 205,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 205,
     sortBy: {
       normal: 205,
       game: 0,
@@ -2060,9 +2678,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 206,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 206,
     sortBy: {
       normal: 206,
       game: 0,
@@ -2070,9 +2691,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 207,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 207,
     sortBy: {
       normal: 207,
       game: 0,
@@ -2080,9 +2704,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 208,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 208,
     sortBy: {
       normal: 208,
       game: 0,
@@ -2090,9 +2717,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 209,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 209,
     sortBy: {
       normal: 209,
       game: 0,
@@ -2100,9 +2730,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 210,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 210,
     sortBy: {
       normal: 210,
       game: 0,
@@ -2110,9 +2743,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 211,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 211,
     sortBy: {
       normal: 211,
       game: 0,
@@ -2120,9 +2756,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 212,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 212,
     sortBy: {
       normal: 212,
       game: 0,
@@ -2130,9 +2769,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 213,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 213,
     sortBy: {
       normal: 213,
       game: 0,
@@ -2140,9 +2782,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 214,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 214,
     sortBy: {
       normal: 214,
       game: 0,
@@ -2150,9 +2795,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 215,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 215,
     sortBy: {
       normal: 215,
       game: 0,
@@ -2160,9 +2808,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 216,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 216,
     sortBy: {
       normal: 216,
       game: 0,
@@ -2170,9 +2821,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 217,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 217,
     sortBy: {
       normal: 217,
       game: 0,
@@ -2180,9 +2834,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 218,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 218,
     sortBy: {
       normal: 218,
       game: 0,
@@ -2190,9 +2847,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 219,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 219,
     sortBy: {
       normal: 219,
       game: 0,
@@ -2200,9 +2860,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 220,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 220,
     sortBy: {
       normal: 220,
       game: 0,
@@ -2210,9 +2873,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 221,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 221,
     sortBy: {
       normal: 221,
       game: 0,
@@ -2220,9 +2886,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 222,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 222,
     sortBy: {
       normal: 222,
       game: 0,
@@ -2230,9 +2899,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 223,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 223,
     sortBy: {
       normal: 223,
       game: 0,
@@ -2240,9 +2912,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 224,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 224,
     sortBy: {
       normal: 224,
       game: 0,
@@ -2250,9 +2925,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 225,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 225,
     sortBy: {
       normal: 225,
       game: 0,
@@ -2260,9 +2938,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 226,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 226,
     sortBy: {
       normal: 226,
       game: 0,
@@ -2270,9 +2951,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 227,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 227,
     sortBy: {
       normal: 227,
       game: 0,
@@ -2280,9 +2964,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 228,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 228,
     sortBy: {
       normal: 228,
       game: 0,
@@ -2290,9 +2977,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 229,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 229,
     sortBy: {
       normal: 229,
       game: 0,
@@ -2300,9 +2990,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 230,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 230,
     sortBy: {
       normal: 230,
       game: 0,
@@ -2310,9 +3003,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 231,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 231,
     sortBy: {
       normal: 231,
       game: 0,
@@ -2320,9 +3016,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 232,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 232,
     sortBy: {
       normal: 232,
       game: 0,
@@ -2330,9 +3029,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 233,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 233,
     sortBy: {
       normal: 233,
       game: 0,
@@ -2340,9 +3042,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 234,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 234,
     sortBy: {
       normal: 234,
       game: 0,
@@ -2350,9 +3055,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 235,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 235,
     sortBy: {
       normal: 235,
       game: 0,
@@ -2360,9 +3068,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 236,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 236,
     sortBy: {
       normal: 236,
       game: 0,
@@ -2370,9 +3081,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 237,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 237,
     sortBy: {
       normal: 237,
       game: 0,
@@ -2380,9 +3094,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 238,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 238,
     sortBy: {
       normal: 238,
       game: 0,
@@ -2390,9 +3107,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 239,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 239,
     sortBy: {
       normal: 239,
       game: 0,
@@ -2400,9 +3120,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 240,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 240,
     sortBy: {
       normal: 240,
       game: 0,
@@ -2410,9 +3133,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 241,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 241,
     sortBy: {
       normal: 241,
       game: 0,
@@ -2420,9 +3146,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 242,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 242,
     sortBy: {
       normal: 242,
       game: 0,
@@ -2430,9 +3159,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 243,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 243,
     sortBy: {
       normal: 243,
       game: 0,
@@ -2440,9 +3172,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 244,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 244,
     sortBy: {
       normal: 244,
       game: 0,
@@ -2450,9 +3185,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 245,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 245,
     sortBy: {
       normal: 245,
       game: 0,
@@ -2460,9 +3198,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 246,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 246,
     sortBy: {
       normal: 246,
       game: 0,
@@ -2470,9 +3211,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 247,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 247,
     sortBy: {
       normal: 247,
       game: 0,
@@ -2480,9 +3224,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 248,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 248,
     sortBy: {
       normal: 248,
       game: 0,
@@ -2490,9 +3237,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 249,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 249,
     sortBy: {
       normal: 249,
       game: 0,
@@ -2500,9 +3250,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 250,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 250,
     sortBy: {
       normal: 250,
       game: 0,
@@ -2510,9 +3263,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 251,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 251,
     sortBy: {
       normal: 251,
       game: 0,
@@ -2520,9 +3276,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 252,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 252,
     sortBy: {
       normal: 252,
       game: 0,
@@ -2530,9 +3289,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 253,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 253,
     sortBy: {
       normal: 253,
       game: 0,
@@ -2540,9 +3302,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 254,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 254,
     sortBy: {
       normal: 254,
       game: 0,
@@ -2550,9 +3315,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 255,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 255,
     sortBy: {
       normal: 255,
       game: 0,
@@ -2560,9 +3328,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 256,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 256,
     sortBy: {
       normal: 256,
       game: 0,
@@ -2570,9 +3341,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 257,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 257,
     sortBy: {
       normal: 257,
       game: 0,
@@ -2580,9 +3354,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 258,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 258,
     sortBy: {
       normal: 258,
       game: 0,
@@ -2590,9 +3367,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 259,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 259,
     sortBy: {
       normal: 259,
       game: 0,
@@ -2600,9 +3380,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 260,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 260,
     sortBy: {
       normal: 260,
       game: 0,
@@ -2610,9 +3393,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 261,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 261,
     sortBy: {
       normal: 261,
       game: 0,
@@ -2620,9 +3406,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 262,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 262,
     sortBy: {
       normal: 262,
       game: 0,
@@ -2630,9 +3419,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 263,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 263,
     sortBy: {
       normal: 263,
       game: 0,
@@ -2640,9 +3432,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 264,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 264,
     sortBy: {
       normal: 264,
       game: 0,
@@ -2650,9 +3445,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 265,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 265,
     sortBy: {
       normal: 265,
       game: 0,
@@ -2660,9 +3458,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 266,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 266,
     sortBy: {
       normal: 266,
       game: 0,
@@ -2670,9 +3471,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 267,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 267,
     sortBy: {
       normal: 267,
       game: 0,
@@ -2680,9 +3484,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 268,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 268,
     sortBy: {
       normal: 268,
       game: 0,
@@ -2690,9 +3497,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 269,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 269,
     sortBy: {
       normal: 269,
       game: 0,
@@ -2700,9 +3510,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 270,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 270,
     sortBy: {
       normal: 270,
       game: 0,
@@ -2710,9 +3523,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 271,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 271,
     sortBy: {
       normal: 271,
       game: 0,
@@ -2720,9 +3536,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 272,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 272,
     sortBy: {
       normal: 272,
       game: 0,
@@ -2730,9 +3549,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 273,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 273,
     sortBy: {
       normal: 273,
       game: 0,
@@ -2740,9 +3562,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 274,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 274,
     sortBy: {
       normal: 274,
       game: 0,
@@ -2750,9 +3575,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 275,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 275,
     sortBy: {
       normal: 275,
       game: 0,
@@ -2760,9 +3588,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 276,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 276,
     sortBy: {
       normal: 276,
       game: 0,
@@ -2770,9 +3601,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 277,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 277,
     sortBy: {
       normal: 277,
       game: 0,
@@ -2780,9 +3614,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 278,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 278,
     sortBy: {
       normal: 278,
       game: 0,
@@ -2790,9 +3627,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 279,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 279,
     sortBy: {
       normal: 279,
       game: 0,
@@ -2800,9 +3640,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 280,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 280,
     sortBy: {
       normal: 280,
       game: 0,
@@ -2810,9 +3653,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 281,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 281,
     sortBy: {
       normal: 281,
       game: 0,
@@ -2820,9 +3666,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 282,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 282,
     sortBy: {
       normal: 282,
       game: 0,
@@ -2830,9 +3679,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 283,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 283,
     sortBy: {
       normal: 283,
       game: 0,
@@ -2840,9 +3692,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 284,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 284,
     sortBy: {
       normal: 284,
       game: 0,
@@ -2850,9 +3705,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 285,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 285,
     sortBy: {
       normal: 285,
       game: 0,
@@ -2860,9 +3718,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 286,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 286,
     sortBy: {
       normal: 286,
       game: 0,
@@ -2870,9 +3731,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 287,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 287,
     sortBy: {
       normal: 287,
       game: 0,
@@ -2880,9 +3744,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 288,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 288,
     sortBy: {
       normal: 288,
       game: 0,
@@ -2890,9 +3757,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 289,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 289,
     sortBy: {
       normal: 289,
       game: 0,
@@ -2900,9 +3770,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 290,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 290,
     sortBy: {
       normal: 290,
       game: 0,
@@ -2910,9 +3783,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 291,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 291,
     sortBy: {
       normal: 291,
       game: 0,
@@ -2920,9 +3796,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 292,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 292,
     sortBy: {
       normal: 292,
       game: 0,
@@ -2930,9 +3809,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 293,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 293,
     sortBy: {
       normal: 293,
       game: 0,
@@ -2940,9 +3822,12 @@ window.trophies = [
     }
   },
   {
-    imageIndex: 294,
     name: '',
+    nameJP: '',
+    game: '',
+    gameJP: '',
     smash: false,
+    imageIndex: 294,
     sortBy: {
       normal: 294,
       game: 0,
