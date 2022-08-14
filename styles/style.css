@@ -31,6 +31,17 @@ table {
 th {
   text-align: left;
 }
+tfoot {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+tfoot tr {
+  background: #444;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
 .logo {
   display: block;

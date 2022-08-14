@@ -40,11 +40,15 @@
           </tr>
         </tfoot>
         <tbody>
-          <tr v-for="trophy in trophies">
-            <td><div
+          <tr
+            v-for="trophy in trophies"
+            :id="trophy.imageIndex"
+          >
+            <td><a
               class="sprite"
+              :href="'#' + trophy.imageIndex"
               :style="styling(trophy.imageIndex)"
-            >{{ trophy.imageIndex }}</div></td>
+            >{{ trophy.imageIndex }}</a></td>
             <td>{{ trophy.name }}</td>
             <td><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td>{{ trophy.sortBy.normal }}</td>
