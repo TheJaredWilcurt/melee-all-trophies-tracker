@@ -25,6 +25,13 @@ h2 {
   text-align: center;
 }
 
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+
 .logo {
   display: block;
   width: 100%;
@@ -42,4 +49,13 @@ h2 {
 .sprite:hover {
   background-color: #DDD;
   color: #000;
+}
+
+.smash-pill {
+  background: #999;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 0px 2px;
+  color: #777;
+  font-weight: 900;
 }

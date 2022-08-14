@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/cssremedy@0.1.0-beta.2/css/remedy.css">
     <link rel="stylesheet" href="styles/style.css">
     <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script>
+    <script defer type="text/javascript" src="scripts/data.js"></script>
     <script defer type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
@@ -17,11 +18,41 @@
     <h1>"All Trophies"</h1>
     <h2>Speedrun Tracker</h2>
     <div id="app">
-      <div
-        v-for="n in 294"
-        class="sprite"
-        :style="styling(n)"
-      >{{ n }}</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Trophy</th>
+            <th>Name</th>
+            <th>Smash</th>
+            <th>Normal</th>
+            <th>Game</th>
+            <th>A-Z</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th>Trophy</th>
+            <th>Name</th>
+            <th>Smash</th>
+            <th>Normal</th>
+            <th>Game</th>
+            <th>A-Z</th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr v-for="trophy in trophies">
+            <td><div
+              class="sprite"
+              :style="styling(trophy.imageIndex)"
+            >{{ trophy.imageIndex }}</div></td>
+            <td>{{ trophy.name }}</td>
+            <td><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
+            <td>{{ trophy.sortBy.normal }}</td>
+            <td>{{ trophy.sortBy.game }}</td>
+            <td>{{ trophy.sortBy.aZ }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
