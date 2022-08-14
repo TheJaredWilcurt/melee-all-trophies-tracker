@@ -1,0 +1,29 @@
+{
+  "name": "melee-all-trophies-tracker",
+  "version": "1.0.0",
+  "description": "Super Smash Bros Melee All Trophies speedrun tracker app",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./node_modules/npm-free-server/dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJaredWilcurt/melee-all-trophies-tracker.git"
+  },
+  "keywords": [
+    "melee",
+    "video",
+    "game",
+    "tracker",
+    "speedrun"
+  ],
+  "author": "The Jared Wilcurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheJaredWilcurt/melee-all-trophies-tracker/issues"
+  },
+  "homepage": "https://github.com/TheJaredWilcurt/melee-all-trophies-tracker#readme",
+  "devDependencies": {
+    "npm-free-server": "^1.1.0"
+  }
+}

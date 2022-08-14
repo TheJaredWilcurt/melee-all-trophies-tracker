@@ -1,11 +1,24 @@
 const app = Vue.createApp({
   data: function () {
     return {
+      localStorageId: 'meleeAllTrophiesData',
       language: 'en-us',
       trophies: window.trophies
     };
   },
   methods: {
+    save: function () {
+      const id = this.localStorageId;
+      const data = this.dataToSave;
+      window.localStorage.setItem(id, data);
+    },
+    load: function () {
+      let data = window.localStorage.getItem(this.localStorageId);
+      data = JSON.parse(data);
+      if (data) {
+        this.language = data.language;
+      }
+    },
     styling: function (trophyId) {
       const { width, height, size, trophiesPerRow } = this.imageSizes;
       const xOffset = width * (trophyId % trophiesPerRow) * -1;
@@ -28,6 +41,11 @@ const app = Vue.createApp({
     }
   },
   computed: {
+    dataToSave: function () {
+      return JSON.stringify({
+        language: this.language
+      });
+    },
     imageSizes: function () {
       const originalSpriteWidth = 128;
       const originalSpriteHeight = 144;
@@ -47,7 +65,13 @@ const app = Vue.createApp({
       };
     }
   },
+  watch: {
+    dataToSave: function () {
+      this.save();
+    }
+  },
   created: function () {
+    this.load();
     setTimeout(() => {
       this.scroll();
     }, 350);

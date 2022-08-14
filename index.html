@@ -5,16 +5,17 @@
     <title>Melee: All Trophies Tracker</title>
     <link rel="stylesheet" href="https://unpkg.com/cssremedy@0.1.0-beta.2/css/remedy.css">
     <link rel="stylesheet" href="styles/style.css">
-    <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script>
+    <!-- <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script> -->
+    <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script>
     <script defer type="text/javascript" src="scripts/data.js"></script>
     <script defer type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
-    <div id="app">
+    <div id="app" v-cloak>
       <img
         v-if="language === 'jp'"
         src="images/dx-logo.png"
-        class="logo"
+        class="logo-dx"
         alt="大乱闘スマッシュブラザーズＤＸ"
       />
       <img
@@ -29,6 +30,8 @@
 
       <h2 v-if="language === 'jp'">スピードラントラッカー</h2>
       <h2 v-else>Speedrun Tracker</h2>
+
+      <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
       <div>
         <label><strong>Language:</strong></label>

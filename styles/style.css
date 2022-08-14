@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 body {
   background: #333;
   padding-top: 30px;
@@ -48,11 +52,25 @@ tfoot tr {
   justify-content: space-around;
 }
 
-.logo {
+.logo,
+.logo-dx {
   display: block;
   width: 100%;
-  max-width: 400px;
   margin: 0px auto;
+}
+.logo {
+  max-width: 587px;
+}
+.logo-dx {
+  max-width: 350px;
+}
+
+.go-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 8px;
+  font-size: 50px;
+  text-decoration: none;
 }
 
 .sprite {
