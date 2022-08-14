@@ -72,10 +72,10 @@ const app = Vue.createApp({
       let trophies = window.trophies;
       trophies = trophies.filter((trophy) => {
         return (
-          trophy.name.includes(this.filterName) &&
-          trophy.nameJP.includes(this.filterNameJP) &&
-          trophy.game.includes(this.filterGame) &&
-          trophy.gameJP.includes(this.filterGameJP) &&
+          trophy.name.toLowerCase().includes(this.filterName.toLowerCase()) &&
+          trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase()) &&
+          trophy.game.toLowerCase().includes(this.filterGame.toLowerCase()) &&
+          trophy.gameJP.toLowerCase().includes(this.filterGameJP.toLowerCase()) &&
           (
             this.filterSmash === null ||
             trophy.smash === this.filterSmash
