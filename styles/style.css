@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'smash';
+  src: url('../fonts/smash/smash-webfont.woff2') format('woff2'),
+       url('../fonts/smash/smash-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: #FFF;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'smash', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.sprite {
+  display: inline-block;
+  background-image: url('../images/spritesheet.png');
+  border: 1px solid #AAA;
+  margin: 6px;
+  padding: 2px;
+}
+.sprite:hover {
+  background-color: #DDD;
+  color: #000;
+}
