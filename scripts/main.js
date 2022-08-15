@@ -3,12 +3,50 @@ const app = Vue.createApp({
     return {
       localStorageId: 'meleeAllTrophiesData',
       language: 'en-us',
+      headers: [
+        {
+          name: '',
+          class: 'center'
+        },
+        {
+          name: '',
+          class: 'center'
+        },
+        {
+          name: 'Trophy',
+          class: 'center'
+        },
+        {
+          name: 'Name',
+          class: ''
+        },
+        {
+          name: 'Name (JP)',
+          class: ''
+        },
+        {
+          name: 'Smash',
+          class: 'center'
+        },
+        {
+          name: 'Normal',
+          class: 'center'
+        },
+        {
+          name: 'Game',
+          class: 'center'
+        },
+        {
+          name: 'A-Z',
+          class: 'center'
+        },
+      ],
+      floatingHeaders: new Array(9).fill('100%'),
       filterName: '',
       filterNameJP: '',
       filterSmash: null,
       trophies: null,
       trophiesAcquired: null,
-      floatingHeaders: new Array(9).fill('100%')
     };
   },
   methods: {

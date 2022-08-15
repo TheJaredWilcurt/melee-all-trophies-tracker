@@ -44,28 +44,19 @@
       <table id="trophy-list">
         <thead>
           <tr>
-            <th></th>
-            <th></th>
-            <th>Trophy</th>
-            <th>Name</th>
-            <th>Name (JP)</th>
-            <th>Smash</th>
-            <th>Normal</th>
-            <th>Game</th>
-            <th>A-Z</th>
+            <th
+              v-for="header in headers"
+              :class="header.class"
+            >{{ header.name }}</th>
           </tr>
         </thead>
         <tfoot>
           <tr>
-            <th :width="floatingHeaders[0]"></th>
-            <th :width="floatingHeaders[1]"></th>
-            <th :width="floatingHeaders[2]">Trophy</th>
-            <th :width="floatingHeaders[3]">Name</th>
-            <th :width="floatingHeaders[4]">Name (JP)</th>
-            <th :width="floatingHeaders[5]">Smash</th>
-            <th :width="floatingHeaders[6]">Normal</th>
-            <th :width="floatingHeaders[7]">Game</th>
-            <th :width="floatingHeaders[8]">A-Z</th>
+            <th
+              v-for="(header, headerIndex) in headers"
+              :class="header.class"
+              :width="floatingHeaders[headerIndex]"
+            >{{ header.name }}</th>
           </tr>
         </tfoot>
         <tbody>
