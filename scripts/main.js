@@ -47,6 +47,7 @@ const app = Vue.createApp({
       filterSmash: null,
       trophies: null,
       trophiesAcquired: null,
+      reductionRatio: 5416
     };
   },
   methods: {
@@ -120,7 +121,8 @@ const app = Vue.createApp({
       const originalSpriteHeight = 144;
       const trophiesPerRow = 12;
       const totalSpriteSheetWidth = originalSpriteWidth * trophiesPerRow;
-      const reductionRatio = 0.54166666666666667;
+      // const reductionRatio = 0.54166666666666667;
+      const reductionRatio = this.reductionRatio / 10000;
 
       const width = originalSpriteWidth * reductionRatio;
       const height = originalSpriteHeight * reductionRatio;
@@ -151,6 +153,9 @@ const app = Vue.createApp({
   watch: {
     dataToSave: function () {
       this.save();
+    },
+    reductionRatio: function () {
+      this.setSizeTh();
     }
   },
   created: function () {

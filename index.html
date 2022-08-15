@@ -51,6 +51,14 @@
             @click="language = 'jp'"
           ></span>
         </div>
+
+        <div>
+          <label>
+            <strong>Trohpy Size:</strong>
+            <input type="range" v-model="reductionRatio" min="1" max="10000" />
+            {{ reductionRatio / 100 }}%
+          </label>
+        </div>
       </div>
 
       <table id="trophy-list">
