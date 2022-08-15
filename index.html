@@ -100,10 +100,13 @@
           <tr
             v-for="(trophy, trophyIndex) in filteredTrophies"
             :key="trophy.id"
+            :class="{ acquired: trophiesAcquired[trophy.id] }"
             :id="trophy.imageIndex"
+            @click.stop="toggleTrohpyAcquired(trophy.id)"
           >
             <td
               class="center"
+              @click.stop.prevent
             ><a
               class="trophy-link"
               :href="'#' + trophy.id"

@@ -107,6 +107,9 @@ const app = Vue.createApp({
           this.floatingHeaders[index] = Math.round((width / tableWidth) * 100) + '%';
         });
       }
+    },
+    toggleTrohpyAcquired: function (id) {
+      this.trophiesAcquired[id] = !this.trophiesAcquired[id];
     }
   },
   computed: {

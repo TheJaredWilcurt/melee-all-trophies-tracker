@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #333;
+  background: #222;
   padding-top: 30px;
   color: #FFF;
   font-family: sans-serif;
@@ -53,6 +53,35 @@ tfoot tr {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+tbody tr {
+  border-radius: 10px 0px 0px 0px;
+  clip-path: polygon(
+    0% 0%,
+    95% 0%, 100% 5%,
+    100% 100%, 100% 100%,
+    5% 100%, 0% 95%,
+    0% 5%
+  );
+}
+tbody tr td {
+  background-color: #333;
+}
+tbody tr td:first-of-type {
+  border-radius: 3px 0px 0px 0px;
+}
+tbody tr td:last-of-type {
+  border-radius: 0px 0px 3px 0px;
+}
+tbody tr:hover td {
+  background-color: #444;
+}
+
+.center {
+  text-align: center;
+}
+.cursor {
+  cursor: pointer;
 }
 .underline {
   text-decoration: underline;
@@ -90,16 +119,29 @@ tfoot tr {
   height: 30px;
 }
 
+.acquired td {
+  background-color: #367B36;
+}
+.acquired:hover td {
+  background-color: #468B46;
+}
 .sprite {
   display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
   background-image: url('../images/spritesheet.png');
-  border: 1px solid #AAA;
-  margin: 6px;
+  border-radius: 5px;
+  margin-top: 2px;
   padding: 2px;
+  clip-path: polygon(
+    0% 0%,
+    80% 0%, 100% 20%,
+    100% 100%, 100% 100%,
+    20% 100%, 0% 80%,
+    0% 20%
+  );
 }
 .sprite:hover {
-  background-color: #DDD;
-  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .smash-pill {
