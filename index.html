@@ -40,7 +40,7 @@
         <button @click="language = 'en-us'">EN-US</button>
         <button @click="language = 'jp'">JP</button>
       </div>
-      <a href="#200">Go to Raccoon</a>
+
       <table id="trophy-list">
         <thead>
           <tr>
@@ -97,7 +97,7 @@
               :title="'ID: ' + trophy.id"
             >🔗</a></td>
             <td><input
-              v-model="trophies[trophyIndex].acquired"
+              v-model="trophiesAcquired[trophy.id]"
               type="checkbox"
               class="trophy-checkbox"
             /></td>

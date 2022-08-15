@@ -7,6 +7,7 @@ const app = Vue.createApp({
       filterNameJP: '',
       filterSmash: null,
       trophies: null,
+      trophiesAcquired: null,
       floatingHeaders: new Array(9).fill('100%')
     };
   },
@@ -21,7 +22,20 @@ const app = Vue.createApp({
       data = JSON.parse(data);
       if (data) {
         this.language = data.language;
+        if (!data.trophiesAcquired) {
+          // this.generateTrohpyAcquisitionMap();
+        } else {
+          this.trophiesAcquired = data.trophiesAcquired;
+        }
       }
+    },
+    generateTrohpyAcquisitionMap: function () {
+      const maxID = 294;
+      const trophiesAcquired = {};
+      for (let id = 0; id < (maxID + 1); id++) {
+        trophiesAcquired[id] = false;
+      }
+      this.trophiesAcquired = trophiesAcquired;
     },
     styling: function (trophyId) {
       const { width, height, size, trophiesPerRow } = this.imageSizes;
@@ -42,19 +56,23 @@ const app = Vue.createApp({
     },
     setSizeTh: function () {
       const ths = Array.from(document.querySelectorAll('thead th'));
-      const tableSizes = document.getElementById('trophy-list').getBoundingClientRect();
-      const tableWidth = tableSizes.right - tableSizes.left;
-      ths.forEach((th, index) => {
-        const sizes = th.getBoundingClientRect();
-        const width = sizes.right - sizes.left;
-        this.floatingHeaders[index] = Math.round((width / tableWidth) * 100) + '%';
-      });
+      const table = document.getElementById('trophy-list');
+      const tableSizes = table && table.getBoundingClientRect();
+      const tableWidth = tableSizes && (tableSizes.right - tableSizes.left);
+      if (tableWidth) {
+        ths.forEach((th, index) => {
+          const sizes = th.getBoundingClientRect();
+          const width = sizes.right - sizes.left;
+          this.floatingHeaders[index] = Math.round((width / tableWidth) * 100) + '%';
+        });
+      }
     }
   },
   computed: {
     dataToSave: function () {
       return JSON.stringify({
-        language: this.language
+        language: this.language,
+        trophiesAcquired: this.trophiesAcquired
       });
     },
     imageSizes: function () {

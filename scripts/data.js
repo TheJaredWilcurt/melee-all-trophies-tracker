@@ -2,7 +2,6 @@ window.generateTrophyData = function () {
   return [
     {
       id: 0,
-      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
       smash: false,
@@ -15,7 +14,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 1,
-      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
       smash: true,
@@ -28,7 +26,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 2,
-      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
       smash: true,
@@ -41,7 +38,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 3,
-      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
       smash: false,
@@ -54,7 +50,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 4,
-      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
       smash: true,
@@ -67,7 +62,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 5,
-      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
       smash: true,
@@ -80,7 +74,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 6,
-      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
       smash: false,
@@ -93,7 +86,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 7,
-      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
       smash: true,
@@ -106,7 +98,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 8,
-      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
       smash: true,
@@ -119,7 +110,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 9,
-      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
       smash: false,
@@ -132,7 +122,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 10,
-      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
       smash: true,
@@ -145,7 +134,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 11,
-      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
       smash: true,
@@ -158,7 +146,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 12,
-      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
       smash: false,
@@ -171,7 +158,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 13,
-      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
       smash: true,
@@ -184,7 +170,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 14,
-      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
       smash: true,
@@ -197,7 +182,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 15,
-      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
       smash: false,
@@ -210,7 +194,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 16,
-      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
       smash: true,
@@ -223,7 +206,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 17,
-      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
       smash: true,
@@ -236,7 +218,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 18,
-      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
       smash: false,
@@ -249,7 +230,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 19,
-      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
       smash: true,
@@ -262,7 +242,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 20,
-      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
       smash: true,
@@ -275,7 +254,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 21,
-      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
       smash: false,
@@ -288,7 +266,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 22,
-      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
       smash: true,
@@ -301,7 +278,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 23,
-      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
       smash: true,
@@ -314,7 +290,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 24,
-      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
       smash: false,
@@ -327,7 +302,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 25,
-      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
       smash: true,
@@ -340,7 +314,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 26,
-      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
       smash: true,
@@ -353,7 +326,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 27,
-      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
       smash: false,
@@ -366,7 +338,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 28,
-      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
       smash: true,
@@ -379,7 +350,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 29,
-      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
       smash: true,
@@ -392,7 +362,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 30,
-      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
       smash: false,
@@ -405,7 +374,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 31,
-      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
       smash: true,
@@ -418,7 +386,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 32,
-      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
       smash: true,
@@ -431,7 +398,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 33,
-      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
       smash: false,
@@ -444,7 +410,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 34,
-      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
       smash: true,
@@ -457,7 +422,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 35,
-      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
       smash: true,
@@ -470,7 +434,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 36,
-      acquired: false,
       name: 'Ice Climbers',
       nameJP: 'アイスクライマー',
       smash: false,
@@ -483,7 +446,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 37,
-      acquired: false,
       name: 'Ice Climbers',
       nameJP: 'アイスクライマー',
       smash: true,
@@ -496,7 +458,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 38,
-      acquired: false,
       name: 'Ice Climbers',
       nameJP: 'アイスクライマー',
       smash: true,
@@ -509,7 +470,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 39,
-      acquired: false,
       name: 'Zelda',
       nameJP: 'ゼルダ',
       smash: false,
@@ -522,7 +482,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 40,
-      acquired: false,
       name: 'Zelda',
       nameJP: 'ゼルダ',
       smash: true,
@@ -535,7 +494,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 41,
-      acquired: false,
       name: 'Zelda',
       nameJP: 'ゼルダ',
       smash: true,
@@ -548,7 +506,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 42,
-      acquired: false,
       name: 'Sheik',
       nameJP: 'シーク',
       smash: false,
@@ -561,7 +518,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 43,
-      acquired: false,
       name: 'Sheik',
       nameJP: 'シーク',
       smash: true,
@@ -574,7 +530,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 44,
-      acquired: false,
       name: 'Sheik',
       nameJP: 'シーク',
       smash: true,
@@ -587,7 +542,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 45,
-      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
       smash: false,
@@ -600,7 +554,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 46,
-      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
       smash: true,
@@ -613,7 +566,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 47,
-      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
       smash: true,
@@ -626,7 +578,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 48,
-      acquired: false,
       name: 'Jigglypuff',
       nameJP: 'プリン',
       smash: false,
@@ -639,7 +590,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 49,
-      acquired: false,
       name: 'Jigglypuff',
       nameJP: 'プリン',
       smash: true,
@@ -652,7 +602,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 50,
-      acquired: false,
       name: 'Jigglypuff',
       nameJP: 'プリン',
       smash: true,
@@ -665,7 +614,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 51,
-      acquired: false,
       name: 'Mewtwo',
       nameJP: 'ミュウツー',
       smash: false,
@@ -678,7 +626,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 52,
-      acquired: false,
       name: 'Mewtwo',
       nameJP: 'ミュウツー',
       smash: true,
@@ -691,7 +638,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 53,
-      acquired: false,
       name: 'Mewtwo',
       nameJP: 'ミュウツー',
       smash: true,
@@ -704,7 +650,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 54,
-      acquired: false,
       name: 'Marth',
       nameJP: 'マルス',
       smash: false,
@@ -717,7 +662,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 55,
-      acquired: false,
       name: 'Marth',
       nameJP: 'マルス',
       smash: true,
@@ -730,7 +674,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 56,
-      acquired: false,
       name: 'Marth',
       nameJP: 'マルス',
       smash: true,
@@ -743,7 +686,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 57,
-      acquired: false,
       name: 'Mr. Game & Watch',
       nameJP: 'かくちょう/ 拡張',
       smash: false,
@@ -756,7 +698,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 58,
-      acquired: false,
       name: 'Mr. Game & Watch',
       nameJP: 'かくちょう/ 拡張',
       smash: true,
@@ -769,7 +710,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 59,
-      acquired: false,
       name: 'Mr. Game & Watch',
       nameJP: 'かくちょう/ 拡張',
       smash: true,
@@ -782,7 +722,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 60,
-      acquired: false,
       name: 'Dr. Mario',
       nameJP: 'ドクターマリオ',
       smash: false,
@@ -795,7 +734,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 61,
-      acquired: false,
       name: 'Dr. Mario',
       nameJP: 'ドクターマリオ',
       smash: true,
@@ -808,7 +746,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 62,
-      acquired: false,
       name: 'Dr. Mario',
       nameJP: 'ドクターマリオ',
       smash: true,
@@ -821,7 +758,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 63,
-      acquired: false,
       name: 'Ganondorf',
       nameJP: 'ガノンドロフ',
       smash: false,
@@ -834,7 +770,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 64,
-      acquired: false,
       name: 'Ganondorf',
       nameJP: 'ガノンドロフ',
       smash: true,
@@ -847,7 +782,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 65,
-      acquired: false,
       name: 'Ganondorf',
       nameJP: 'ガノンドロフ',
       smash: true,
@@ -860,7 +794,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 66,
-      acquired: false,
       name: 'Falco Lombardi',
       nameJP: 'ファルコ・ランバルディ',
       smash: false,
@@ -873,7 +806,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 67,
-      acquired: false,
       name: 'Falco Lombardi',
       nameJP: 'ファルコ・ランバルディ',
       smash: true,
@@ -886,7 +818,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 68,
-      acquired: false,
       name: 'Falco Lombardi',
       nameJP: 'ファルコ・ランバルディ',
       smash: true,
@@ -899,7 +830,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 69,
-      acquired: false,
       name: 'Young Link',
       nameJP: 'こどもリンク',
       smash: false,
@@ -912,7 +842,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 70,
-      acquired: false,
       name: 'Young Link',
       nameJP: 'こどもリンク',
       smash: true,
@@ -925,7 +854,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 71,
-      acquired: false,
       name: 'Young Link',
       nameJP: 'こどもリンク',
       smash: true,
@@ -938,7 +866,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 72,
-      acquired: false,
       name: 'Pichu',
       nameJP: 'ピチュー',
       smash: false,
@@ -951,7 +878,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 73,
-      acquired: false,
       name: 'Pichu',
       nameJP: 'ピチュー',
       smash: true,
@@ -964,7 +890,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 74,
-      acquired: false,
       name: 'Pichu',
       nameJP: 'ピチュー',
       smash: true,
@@ -977,7 +902,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 75,
-      acquired: false,
       name: 'Roy',
       nameJP: 'ロイ',
       smash: false,
@@ -990,7 +914,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 76,
-      acquired: false,
       name: 'Roy',
       nameJP: 'ロイ',
       smash: true,
@@ -1003,7 +926,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 77,
-      acquired: false,
       name: 'Roy',
       nameJP: 'ロイ',
       smash: true,
@@ -1016,7 +938,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 78,
-      acquired: false,
       name: 'Male Wire Frame',
       nameJP: '',
       smash: false,
@@ -1029,7 +950,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 79,
-      acquired: false,
       name: 'Female Wire Frame',
       nameJP: '',
       smash: false,
@@ -1042,7 +962,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 80,
-      acquired: false,
       name: 'Fighting Wire Frames',
       nameJP: '',
       smash: false,
@@ -1055,7 +974,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 81,
-      acquired: false,
       name: 'Giga Bowser',
       nameJP: '',
       smash: false,
@@ -1068,7 +986,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 82,
-      acquired: false,
       name: 'Master Hand',
       nameJP: '',
       smash: false,
@@ -1081,7 +998,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 83,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1094,7 +1010,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 84,
-      acquired: false,
       name: 'Food',
       nameJP: '',
       smash: false,
@@ -1107,7 +1022,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 85,
-      acquired: false,
       name: 'Maxim Tomato',
       nameJP: '',
       smash: false,
@@ -1120,7 +1034,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 86,
-      acquired: false,
       name: 'Heart Container',
       nameJP: '',
       smash: false,
@@ -1133,7 +1046,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 87,
-      acquired: false,
       name: 'Warp Star',
       nameJP: '',
       smash: false,
@@ -1146,7 +1058,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 88,
-      acquired: false,
       name: 'Ray Gun',
       nameJP: 'レイガン',
       smash: false,
@@ -1159,7 +1070,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 89,
-      acquired: false,
       name: 'Super Scope',
       nameJP: 'スーパースコープ',
       smash: false,
@@ -1172,7 +1082,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 90,
-      acquired: false,
       name: 'Fire Flower',
       nameJP: 'ファイアフラワー',
       smash: false,
@@ -1185,7 +1094,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 91,
-      acquired: false,
       name: 'Lip\'s Stick',
       nameJP: '',
       smash: false,
@@ -1198,7 +1106,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 92,
-      acquired: false,
       name: 'Star Rod',
       nameJP: 'スターロッド',
       smash: false,
@@ -1211,7 +1118,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 93,
-      acquired: false,
       name: 'Beam Sword',
       nameJP: '',
       smash: false,
@@ -1224,7 +1130,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 94,
-      acquired: false,
       name: 'Home-Run Bat',
       nameJP: 'ホームランバット',
       smash: false,
@@ -1237,7 +1142,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 95,
-      acquired: false,
       name: 'Fan',
       nameJP: 'はりせん',
       smash: false,
@@ -1250,7 +1154,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 96,
-      acquired: false,
       name: 'Hammer',
       nameJP: 'ハンマー',
       smash: false,
@@ -1263,7 +1166,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 97,
-      acquired: false,
       name: 'Green Shell',
       nameJP: '',
       smash: false,
@@ -1276,7 +1178,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 98,
-      acquired: false,
       name: 'Red Shell',
       nameJP: 'アカのこうら',
       smash: false,
@@ -1289,7 +1190,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 99,
-      acquired: false,
       name: 'Flipper',
       nameJP: 'グルグル',
       smash: false,
@@ -1302,7 +1202,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 100,
-      acquired: false,
       name: 'Freezie',
       nameJP: '',
       smash: false,
@@ -1315,7 +1214,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 101,
-      acquired: false,
       name: 'Mr. Saturn',
       nameJP: 'どせいさん',
       smash: false,
@@ -1328,7 +1226,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 102,
-      acquired: false,
       name: 'Bob-omb',
       nameJP: 'ボム兵',
       smash: false,
@@ -1341,7 +1238,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 103,
-      acquired: false,
       name: 'Motion-Sensor Bomb',
       nameJP: '',
       smash: false,
@@ -1354,7 +1250,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 104,
-      acquired: false,
       name: 'Super Mushroom',
       nameJP: 'スーパーキノコ',
       smash: false,
@@ -1367,7 +1262,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 105,
-      acquired: false,
       name: 'Poison Mushroom',
       nameJP: '毒キノコ',
       smash: false,
@@ -1380,7 +1274,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 106,
-      acquired: false,
       name: 'Starman',
       nameJP: 'スーパースター',
       smash: false,
@@ -1393,7 +1286,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 107,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1406,7 +1298,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 108,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1419,7 +1310,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 109,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1432,7 +1322,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 110,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1445,7 +1334,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 111,
-      acquired: false,
       name: '',
       nameJP: 'スパイクローク',
       smash: false,
@@ -1458,7 +1346,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 112,
-      acquired: false,
       name: '',
       nameJP: 'タル大砲',
       smash: false,
@@ -1471,7 +1358,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 113,
-      acquired: false,
       name: '',
       nameJP: 'くす玉',
       smash: false,
@@ -1484,7 +1370,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 114,
-      acquired: false,
       name: '',
       nameJP: '箱',
       smash: false,
@@ -1497,7 +1382,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 115,
-      acquired: false,
       name: '',
       nameJP: 'タル',
       smash: false,
@@ -1510,7 +1394,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 116,
-      acquired: false,
       name: '',
       nameJP: 'カプセル',
       smash: false,
@@ -1523,7 +1406,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 117,
-      acquired: false,
       name: '',
       nameJP: 'たまご',
       smash: false,
@@ -1536,7 +1418,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 118,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1549,7 +1430,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 119,
-      acquired: false,
       name: '',
       nameJP: 'モンスターボール',
       smash: false,
@@ -1562,7 +1442,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 120,
-      acquired: false,
       name: '',
       nameJP: 'フシギバナ',
       smash: false,
@@ -1575,7 +1454,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 121,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1588,7 +1466,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 122,
-      acquired: false,
       name: '',
       nameJP: 'ゼニガメ',
       smash: false,
@@ -1601,7 +1478,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 123,
-      acquired: false,
       name: '',
       nameJP: 'カメックス',
       smash: false,
@@ -1614,7 +1490,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 124,
-      acquired: false,
       name: '',
       nameJP: 'ピッピ',
       smash: false,
@@ -1627,7 +1502,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 125,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1640,7 +1514,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 126,
-      acquired: false,
       name: '',
       nameJP: 'マタドガス',
       smash: false,
@@ -1653,7 +1526,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 127,
-      acquired: false,
       name: '',
       nameJP: 'ラッキー',
       smash: false,
@@ -1666,7 +1538,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 128,
-      acquired: false,
       name: '',
       nameJP: 'トサキント',
       smash: false,
@@ -1679,7 +1550,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 129,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1692,7 +1562,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 130,
-      acquired: false,
       name: '',
       nameJP: 'カビゴン',
       smash: false,
@@ -1705,7 +1574,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 131,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1718,7 +1586,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 132,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1731,7 +1598,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 133,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1744,7 +1610,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 134,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1757,7 +1622,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 135,
-      acquired: false,
       name: '',
       nameJP: 'チコリータ',
       smash: false,
@@ -1770,7 +1634,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 136,
-      acquired: false,
       name: '',
       nameJP: 'ヒノアラシ',
       smash: false,
@@ -1783,7 +1646,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 137,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1796,7 +1658,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 138,
-      acquired: false,
       name: '',
       nameJP: 'キレイハナ',
       smash: false,
@@ -1809,7 +1670,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 139,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1822,7 +1682,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 140,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1835,7 +1694,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 141,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1848,7 +1706,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 142,
-      acquired: false,
       name: '',
       nameJP: 'ソーナンス',
       smash: false,
@@ -1861,7 +1718,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 143,
-      acquired: false,
       name: '',
       nameJP: 'ハッサム',
       smash: false,
@@ -1874,7 +1730,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 144,
-      acquired: false,
       name: '',
       nameJP: 'ポリゴン',
       smash: false,
@@ -1887,7 +1742,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 145,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1900,7 +1754,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 146,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1913,7 +1766,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 147,
-      acquired: false,
       name: '',
       nameJP: 'スイクン',
       smash: false,
@@ -1926,7 +1778,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 148,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1939,7 +1790,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 149,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1952,7 +1802,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 150,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -1965,7 +1814,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 151,
-      acquired: false,
       name: '',
       nameJP: 'キノピオ',
       smash: false,
@@ -1978,7 +1826,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 152,
-      acquired: false,
       name: '',
       nameJP: 'コイン（マリオ）',
       smash: false,
@@ -1991,7 +1838,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 153,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2004,7 +1850,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 154,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2017,7 +1862,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 155,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2030,7 +1874,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 156,
-      acquired: false,
       name: '',
       nameJP: 'カービィコピーセット１',
       smash: false,
@@ -2043,7 +1886,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 157,
-      acquired: false,
       name: '',
       nameJP: 'カービィコピーセット２',
       smash: false,
@@ -2056,7 +1898,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 158,
-      acquired: false,
       name: '',
       nameJP: 'カービィコピーセット３',
       smash: false,
@@ -2069,7 +1910,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 159,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2082,7 +1922,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 160,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2095,7 +1934,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 161,
-      acquired: false,
       name: '',
       nameJP: 'ピーチ城',
       smash: false,
@@ -2108,7 +1946,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 162,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2121,7 +1958,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 163,
-      acquired: false,
       name: '',
       nameJP: 'ジュゲム',
       smash: false,
@@ -2134,7 +1970,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 164,
-      acquired: false,
       name: '',
       nameJP: 'ドドリゲス',
       smash: false,
@@ -2147,7 +1982,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 165,
-      acquired: false,
       name: '',
       nameJP: 'キャサリン',
       smash: false,
@@ -2160,7 +1994,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 166,
-      acquired: false,
       name: '',
       nameJP: 'クラップトラップ',
       smash: false,
@@ -2173,7 +2006,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 167,
-      acquired: false,
       name: '',
       nameJP: 'ヘイホー',
       smash: false,
@@ -2186,7 +2018,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 168,
-      acquired: false,
       name: '',
       nameJP: 'とおさんぞう',
       smash: false,
@@ -2199,7 +2030,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 169,
-      acquired: false,
       name: '',
       nameJP: 'チンクル',
       smash: false,
@@ -2212,7 +2042,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 170,
-      acquired: false,
       name: '',
       nameJP: '月',
       smash: false,
@@ -2225,7 +2054,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 171,
-      acquired: false,
       name: '',
       nameJP: 'カメジマ',
       smash: false,
@@ -2238,7 +2066,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 172,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2251,7 +2078,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 173,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2264,7 +2090,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 174,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2277,7 +2102,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 175,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2290,7 +2114,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 176,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2303,7 +2126,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 177,
-      acquired: false,
       name: '',
       nameJP: 'アーウィン',
       smash: false,
@@ -2316,7 +2138,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 178,
-      acquired: false,
       name: '',
       nameJP: 'グレートフォックス',
       smash: false,
@@ -2329,7 +2150,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 179,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2342,7 +2162,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 180,
-      acquired: false,
       name: '',
       nameJP: 'スリッピー',
       smash: false,
@@ -2355,7 +2174,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 181,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2368,7 +2186,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 182,
-      acquired: false,
       name: '',
       nameJP: '鳥人族の像',
       smash: false,
@@ -2381,7 +2198,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 183,
-      acquired: false,
       name: '',
       nameJP: 'ウィスピーウッズ',
       smash: false,
@@ -2394,7 +2210,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 184,
-      acquired: false,
       name: '',
       nameJP: '夢の泉',
       smash: false,
@@ -2407,7 +2222,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 185,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2420,7 +2234,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 186,
-      acquired: false,
       name: '',
       nameJP: 'ポケモンスタジアム',
       smash: false,
@@ -2433,7 +2246,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 187,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2446,7 +2258,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 188,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2459,7 +2270,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 189,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2472,7 +2282,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 190,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2485,7 +2294,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 191,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2498,7 +2306,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 192,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2511,7 +2318,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 193,
-      acquired: false,
       name: '',
       nameJP: 'ノコノコ',
       smash: false,
@@ -2524,7 +2330,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 194,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2537,7 +2342,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 195,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2550,7 +2354,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 196,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2563,7 +2366,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 197,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2576,7 +2378,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 198,
-      acquired: false,
       name: '',
       nameJP: 'トッピー',
       smash: false,
@@ -2589,7 +2390,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 199,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2602,7 +2402,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 200,
-      acquired: false,
       name: 'Raccoon Mario',
       nameJP: 'しっぽマリオ',
       smash: false,
@@ -2615,7 +2414,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 201,
-      acquired: false,
       name: 'Mario ＆ Yoshi',
       nameJP: 'マントマリオ＋ヨッシー',
       smash: false,
@@ -2628,7 +2426,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 202,
-      acquired: false,
       name: '',
       nameJP: 'メタルマリオ',
       smash: false,
@@ -2641,7 +2438,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 203,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2654,7 +2450,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 204,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2667,7 +2462,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 205,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2680,7 +2474,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 206,
-      acquired: false,
       name: '',
       nameJP: 'デイジー',
       smash: false,
@@ -2693,7 +2486,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 207,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2706,7 +2498,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 208,
-      acquired: false,
       name: '',
       nameJP: 'ドッスン',
       smash: false,
@@ -2719,7 +2510,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 209,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2732,7 +2522,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 210,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2745,7 +2534,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 211,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2758,7 +2546,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 212,
-      acquired: false,
       name: '',
       nameJP: 'バケツ',
       smash: false,
@@ -2771,7 +2558,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 213,
-      acquired: false,
       name: '',
       nameJP: 'カート',
       smash: false,
@@ -2784,7 +2570,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 214,
-      acquired: false,
       name: '',
       nameJP: 'ベビーマリオ',
       smash: false,
@@ -2797,7 +2582,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 215,
-      acquired: false,
       name: '',
       nameJP: 'ベビークッパ',
       smash: false,
@@ -2810,7 +2594,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 216,
-      acquired: false,
       name: '',
       nameJP: 'キューちゃん',
       smash: false,
@@ -2823,7 +2606,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 217,
-      acquired: false,
       name: '',
       nameJP: 'ディクシーコング',
       smash: false,
@@ -2836,7 +2618,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 218,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2849,7 +2630,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 219,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2862,7 +2642,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 220,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2875,7 +2654,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 221,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2888,7 +2666,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 222,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2901,7 +2678,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 223,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2914,7 +2690,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 224,
-      acquired: false,
       name: '',
       nameJP: 'Dr.スチュワート',
       smash: false,
@@ -2927,7 +2702,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 225,
-      acquired: false,
       name: '',
       nameJP: 'ジョディ・サマー',
       smash: false,
@@ -2940,7 +2714,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 226,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2953,7 +2726,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 227,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2966,7 +2738,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 228,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -2979,7 +2750,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 229,
-      acquired: false,
       name: '',
       nameJP: 'アンドルフ',
       smash: false,
@@ -2992,7 +2762,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 230,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3005,7 +2774,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 231,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3018,7 +2786,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 232,
-      acquired: false,
       name: '',
       nameJP: 'メトロイド',
       smash: false,
@@ -3031,7 +2798,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 233,
-      acquired: false,
       name: '',
       nameJP: 'リドリー',
       smash: false,
@@ -3044,7 +2810,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 234,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3057,7 +2822,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 235,
-      acquired: false,
       name: '',
       nameJP: 'ファイターカービィ',
       smash: false,
@@ -3070,7 +2834,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 236,
-      acquired: false,
       name: '',
       nameJP: 'ボールカービィ',
       smash: false,
@@ -3083,7 +2846,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 237,
-      acquired: false,
       name: '',
       nameJP: 'ワドルディ',
       smash: false,
@@ -3096,7 +2858,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 238,
-      acquired: false,
       name: '',
       nameJP: 'デデデ大王',
       smash: false,
@@ -3109,7 +2870,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 239,
-      acquired: false,
       name: '',
       nameJP: 'リック',
       smash: false,
@@ -3122,7 +2882,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 240,
-      acquired: false,
       name: '',
       nameJP: 'グーイ',
       smash: false,
@@ -3135,7 +2894,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 241,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3148,7 +2906,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 242,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3161,7 +2918,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 243,
-      acquired: false,
       name: '',
       nameJP: 'ジェフ',
       smash: false,
@@ -3174,7 +2930,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 244,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3187,7 +2942,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 245,
-      acquired: false,
       name: '',
       nameJP: 'スターマン',
       smash: false,
@@ -3200,7 +2954,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 246,
-      acquired: false,
       name: '',
       nameJP: 'フシギダネ',
       smash: false,
@@ -3213,7 +2966,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 247,
-      acquired: false,
       name: '',
       nameJP: 'ニョロゾ',
       smash: false,
@@ -3226,7 +2978,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 248,
-      acquired: false,
       name: '',
       nameJP: 'メタモン',
       smash: false,
@@ -3239,7 +2990,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 249,
-      acquired: false,
       name: '',
       nameJP: 'イーブイ',
       smash: false,
@@ -3252,7 +3002,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 250,
-      acquired: false,
       name: '',
       nameJP: 'ワニノコ',
       smash: false,
@@ -3265,7 +3014,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 251,
-      acquired: false,
       name: '',
       nameJP: 'クロバット',
       smash: false,
@@ -3278,7 +3026,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 252,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3291,7 +3038,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 253,
-      acquired: false,
       name: '',
       nameJP: 'ププリン',
       smash: false,
@@ -3304,7 +3050,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 254,
-      acquired: false,
       name: '',
       nameJP: 'ハガネール',
       smash: false,
@@ -3317,7 +3062,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 255,
-      acquired: false,
       name: '',
       nameJP: 'ヘラクロス',
       smash: false,
@@ -3330,7 +3074,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 256,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3343,7 +3086,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 257,
-      acquired: false,
       name: '',
       nameJP: 'オーキド博士',
       smash: false,
@@ -3356,7 +3098,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 258,
-      acquired: false,
       name: '',
       nameJP: 'カスミ',
       smash: false,
@@ -3369,7 +3110,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 259,
-      acquired: false,
       name: '',
       nameJP: 'ゼロワン号',
       smash: false,
@@ -3382,7 +3122,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 260,
-      acquired: false,
       name: '',
       nameJP: 'マルヒゲ屋店長',
       smash: false,
@@ -3395,7 +3134,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 261,
-      acquired: false,
       name: '',
       nameJP: '速水　涼太',
       smash: false,
@@ -3408,7 +3146,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 262,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3421,7 +3158,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 263,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3434,7 +3170,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 264,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3447,7 +3182,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 265,
-      acquired: false,
       name: '',
       nameJP: 'レイMkⅡ',
       smash: false,
@@ -3460,7 +3194,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 266,
-      acquired: false,
       name: '',
       nameJP: 'ベイオネット',
       smash: false,
@@ -3473,7 +3206,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 267,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3486,7 +3218,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 268,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3499,7 +3230,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 269,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3512,7 +3242,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 270,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3525,7 +3254,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 271,
-      acquired: false,
       name: '',
       nameJP: 'ヘリリン',
       smash: false,
@@ -3538,7 +3266,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 272,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3551,7 +3278,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 273,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3564,7 +3290,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 274,
-      acquired: false,
       name: '',
       nameJP: 'ピクミン',
       smash: false,
@@ -3577,7 +3302,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 275,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3590,7 +3314,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 276,
-      acquired: false,
       name: '',
       nameJP: 'モトクロッサー',
       smash: false,
@@ -3603,7 +3326,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 277,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3616,7 +3338,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 278,
-      acquired: false,
       name: '',
       nameJP: 'カモ',
       smash: false,
@@ -3629,7 +3350,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 279,
-      acquired: false,
       name: '',
       nameJP: 'グルッピー',
       smash: false,
@@ -3642,7 +3362,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 280,
-      acquired: false,
       name: '',
       nameJP: 'ナスビ仮面',
       smash: false,
@@ -3655,7 +3374,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 281,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3668,7 +3386,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 282,
-      acquired: false,
       name: '',
       nameJP: 'バルーンファイトの主人公',
       smash: false,
@@ -3681,7 +3398,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 283,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3694,7 +3410,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 284,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3707,7 +3422,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 285,
-      acquired: false,
       name: '',
       nameJP: 'ドクターライト',
       smash: false,
@@ -3720,7 +3434,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 286,
-      acquired: false,
       name: '',
       nameJP: 'どんべ＆ひかり',
       smash: false,
@@ -3733,7 +3446,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 287,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3746,7 +3458,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 288,
-      acquired: false,
       name: '',
       nameJP: 'モンスター',
       smash: false,
@@ -3759,7 +3470,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 289,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3772,7 +3482,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 290,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3785,7 +3494,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 291,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3798,7 +3506,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 292,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
@@ -3811,7 +3518,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 293,
-      acquired: false,
       name: '',
       nameJP: 'トッピー',
       smash: false,
@@ -3824,7 +3530,6 @@ window.generateTrophyData = function () {
     },
     {
       id: 294,
-      acquired: false,
       name: '',
       nameJP: '',
       smash: false,
