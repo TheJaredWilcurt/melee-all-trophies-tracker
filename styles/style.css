@@ -26,6 +26,7 @@ body {
 h1,
 h2 {
   font-family: 'smash', sans-serif;
+  font-weight: normal;
   text-transform: uppercase;
   text-align: center;
 }
@@ -125,9 +126,14 @@ tbody tr:hover td {
   text-decoration: none;
 }
 .trophy-link svg {
+  width: 100%;
   max-width: 24px;
   max-height: 24px;
   margin: 0px auto;
+}
+.trophy-link.compact svg {
+  max-width: 15px;
+  max-height: 15px;
 }
 .trophy-link path {
   fill: RGBA(255, 255, 255, 0.7);
@@ -139,6 +145,10 @@ tbody tr:hover td {
 .trophy-checkbox {
   width: 30px;
   height: 30px;
+}
+.trophy-checkbox.compact {
+  width: 15px;
+  height: 15px;
 }
 
 .acquired td {

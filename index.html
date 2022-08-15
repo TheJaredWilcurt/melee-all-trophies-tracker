@@ -5,10 +5,12 @@
     <title>Melee: All Trophies Tracker</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
-    <link rel="stylesheet" href="https://unpkg.com/cssremedy@0.1.0-beta.2/css/remedy.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/cssremedy@0.1.0-beta.2/css/remedy.css" /> -->
+    <link rel="stylesheet" href="styles/remedy.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <!-- <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script> -->
-    <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script>
+    <!-- <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script> -->
+    <script defer type="text/javascript" src="scripts/vue.js"></script>
     <script defer type="text/javascript" src="scripts/data.js"></script>
     <script defer type="text/javascript" src="scripts/main.js"></script>
   </head>
@@ -98,7 +100,7 @@
             <th></th>
             <th><input v-model="filterName"></th>
             <th><input v-model="filterNameJP"></th>
-            <th>
+            <th class="center">
               <select v-model="filterSmash">
                 <option :value="null">All</option>
                 <option :value="true">true</option>
@@ -122,6 +124,7 @@
             >
               <a
                 class="trophy-link"
+                :class="{ compact: reductionRatio < 2104 }"
                 :href="'#' + trophy.id"
                 :title="'ID: ' + trophy.id"
               >
@@ -139,6 +142,7 @@
               v-model="trophiesAcquired[trophy.id]"
               type="checkbox"
               class="trophy-checkbox"
+              :class="{ compact: reductionRatio < 2104 }"
             /></td>
             <td class="center"><div
               class="sprite"

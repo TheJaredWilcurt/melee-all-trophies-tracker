@@ -60,7 +60,12 @@ const app = Vue.createApp({
       let data = window.localStorage.getItem(this.localStorageId);
       data = JSON.parse(data);
       if (data) {
-        this.language = data.language;
+        if (data.language) {
+          this.language = data.language;
+        }
+        if (data.reductionRatio) {
+          this.reductionRatio = data.reductionRatio;
+        }
         if (!data.trophiesAcquired) {
           this.generateTrohpyAcquisitionMap();
         } else {
@@ -122,7 +127,8 @@ const app = Vue.createApp({
     dataToSave: function () {
       return JSON.stringify({
         language: this.language,
-        trophiesAcquired: this.trophiesAcquired
+        trophiesAcquired: this.trophiesAcquired,
+        reductionRatio: this.reductionRatio
       });
     },
     imageSizes: function () {
