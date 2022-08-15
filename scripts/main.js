@@ -8,6 +8,7 @@ const app = Vue.createApp({
       filterGame: '',
       filterGameJP: '',
       filterSmash: null
+      floatingHeaders: new Array(9).fill('100%')
     };
   },
   methods: {
@@ -40,8 +41,15 @@ const app = Vue.createApp({
         document.getElementById(id).scrollIntoView();
       }
     },
-    sizeTh: function (size) {
-      return Math.round((size / 1903) * 100) + '%';
+    setSizeTh: function () {
+      const ths = Array.from(document.querySelectorAll('thead th'));
+      const tableSizes = document.getElementById('trophy-list').getBoundingClientRect();
+      const tableWidth = tableSizes.right - tableSizes.left;
+      ths.forEach((th, index) => {
+        const sizes = th.getBoundingClientRect();
+        const width = sizes.right - sizes.left;
+        this.floatingHeaders[index] = Math.round((width / tableWidth) * 100) + '%';
+      });
     }
   },
   computed: {
@@ -94,6 +102,7 @@ const app = Vue.createApp({
     this.load();
     setTimeout(() => {
       this.scroll();
+      this.setSizeTh();
     }, 350);
   }
 }).mount('#app');

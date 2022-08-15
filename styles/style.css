@@ -34,8 +34,11 @@ a {
   color: #FFF;
 }
 
-table {
+table,
+tfoot {
   width: 100%;
+  max-width: 1090px;
+  margin: 0px auto;
 }
 th {
   text-align: left;
@@ -43,7 +46,6 @@ th {
 tfoot {
   position: fixed;
   top: 0px;
-  width: 100%;
 }
 tfoot tr {
   background: #444;
