@@ -1369,7 +1369,7 @@ window.generateTrophyData = function () {
       id: 105,
       acquired: false,
       name: 'Poison Mushroom',
-      nameJP: '',
+      nameJP: '毒キノコ',
       smash: false,
       imageIndex: 105,
       sortBy: {
@@ -1447,7 +1447,7 @@ window.generateTrophyData = function () {
       id: 111,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'スパイクローク',
       smash: false,
       imageIndex: 111,
       sortBy: {
@@ -2422,7 +2422,7 @@ window.generateTrophyData = function () {
       id: 186,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'ポケモンスタジアム',
       smash: false,
       imageIndex: 186,
       sortBy: {
@@ -2786,7 +2786,7 @@ window.generateTrophyData = function () {
       id: 214,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'ベビーマリオ',
       smash: false,
       imageIndex: 214,
       sortBy: {
@@ -3098,7 +3098,7 @@ window.generateTrophyData = function () {
       id: 238,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'デデデ大王',
       smash: false,
       imageIndex: 238,
       sortBy: {
@@ -3124,7 +3124,7 @@ window.generateTrophyData = function () {
       id: 240,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'グーイ',
       smash: false,
       imageIndex: 240,
       sortBy: {
@@ -3228,7 +3228,7 @@ window.generateTrophyData = function () {
       id: 248,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'メタモン',
       smash: false,
       imageIndex: 248,
       sortBy: {
@@ -3462,7 +3462,7 @@ window.generateTrophyData = function () {
       id: 266,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'ベイオネット',
       smash: false,
       imageIndex: 266,
       sortBy: {
@@ -3566,7 +3566,7 @@ window.generateTrophyData = function () {
       id: 274,
       acquired: false,
       name: '',
-      nameJP: '',
+      nameJP: 'ピクミン',
       smash: false,
       imageIndex: 274,
       sortBy: {
