@@ -2,9 +2,9 @@ window.generateTrophyData = function () {
   return [
     {
       id: 0,
+      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
-      acquired: false,
       smash: false,
       imageIndex: 0,
       sortBy: {
@@ -15,9 +15,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 1,
+      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
-      acquired: false,
       smash: true,
       imageIndex: 1,
       sortBy: {
@@ -28,9 +28,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 2,
+      acquired: false,
       name: 'Mario',
       nameJP: 'マリオ',
-      acquired: false,
       smash: true,
       imageIndex: 2,
       sortBy: {
@@ -41,9 +41,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 3,
+      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
-      acquired: false,
       smash: false,
       imageIndex: 3,
       sortBy: {
@@ -54,9 +54,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 4,
+      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
-      acquired: false,
       smash: true,
       imageIndex: 4,
       sortBy: {
@@ -67,9 +67,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 5,
+      acquired: false,
       name: 'Donkey Kong',
       nameJP: 'ドンキーコング',
-      acquired: false,
       smash: true,
       imageIndex: 5,
       sortBy: {
@@ -80,9 +80,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 6,
+      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
-      acquired: false,
       smash: false,
       imageIndex: 6,
       sortBy: {
@@ -93,9 +93,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 7,
+      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
-      acquired: false,
       smash: true,
       imageIndex: 7,
       sortBy: {
@@ -106,9 +106,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 8,
+      acquired: false,
       name: 'Link',
       nameJP: 'リンク',
-      acquired: false,
       smash: true,
       imageIndex: 8,
       sortBy: {
@@ -119,9 +119,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 9,
+      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
-      acquired: false,
       smash: false,
       imageIndex: 9,
       sortBy: {
@@ -132,9 +132,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 10,
+      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
-      acquired: false,
       smash: true,
       imageIndex: 10,
       sortBy: {
@@ -145,9 +145,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 11,
+      acquired: false,
       name: 'Samus Aran',
       nameJP: 'サムス・アラン',
-      acquired: false,
       smash: true,
       imageIndex: 11,
       sortBy: {
@@ -158,9 +158,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 12,
+      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
-      acquired: false,
       smash: false,
       imageIndex: 12,
       sortBy: {
@@ -171,9 +171,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 13,
+      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
-      acquired: false,
       smash: true,
       imageIndex: 13,
       sortBy: {
@@ -184,9 +184,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 14,
+      acquired: false,
       name: 'Yoshi',
       nameJP: 'ヨッシー',
-      acquired: false,
       smash: true,
       imageIndex: 14,
       sortBy: {
@@ -197,9 +197,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 15,
+      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
-      acquired: false,
       smash: false,
       imageIndex: 15,
       sortBy: {
@@ -210,9 +210,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 16,
+      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
-      acquired: false,
       smash: true,
       imageIndex: 16,
       sortBy: {
@@ -223,9 +223,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 17,
+      acquired: false,
       name: 'Kirby',
       nameJP: 'カービィ',
-      acquired: false,
       smash: true,
       imageIndex: 17,
       sortBy: {
@@ -236,9 +236,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 18,
+      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
-      acquired: false,
       smash: false,
       imageIndex: 18,
       sortBy: {
@@ -249,9 +249,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 19,
+      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
-      acquired: false,
       smash: true,
       imageIndex: 19,
       sortBy: {
@@ -262,9 +262,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 20,
+      acquired: false,
       name: 'Fox McCloud',
       nameJP: 'フォックス・マクラウド',
-      acquired: false,
       smash: true,
       imageIndex: 20,
       sortBy: {
@@ -275,9 +275,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 21,
+      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
-      acquired: false,
       smash: false,
       imageIndex: 21,
       sortBy: {
@@ -288,9 +288,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 22,
+      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
-      acquired: false,
       smash: true,
       imageIndex: 22,
       sortBy: {
@@ -301,9 +301,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 23,
+      acquired: false,
       name: 'Pikachu',
       nameJP: 'ピカチュウ',
-      acquired: false,
       smash: true,
       imageIndex: 23,
       sortBy: {
@@ -314,9 +314,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 24,
+      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
-      acquired: false,
       smash: false,
       imageIndex: 24,
       sortBy: {
@@ -327,9 +327,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 25,
+      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
-      acquired: false,
       smash: true,
       imageIndex: 25,
       sortBy: {
@@ -340,9 +340,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 26,
+      acquired: false,
       name: 'Ness',
       nameJP: 'ネス',
-      acquired: false,
       smash: true,
       imageIndex: 26,
       sortBy: {
@@ -353,9 +353,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 27,
+      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 27,
       sortBy: {
@@ -366,9 +366,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 28,
+      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
-      acquired: false,
       smash: true,
       imageIndex: 28,
       sortBy: {
@@ -379,9 +379,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 29,
+      acquired: false,
       name: 'Capt. Falcon',
       nameJP: '',
-      acquired: false,
       smash: true,
       imageIndex: 29,
       sortBy: {
@@ -392,9 +392,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 30,
+      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
-      acquired: false,
       smash: false,
       imageIndex: 30,
       sortBy: {
@@ -405,9 +405,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 31,
+      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
-      acquired: false,
       smash: true,
       imageIndex: 31,
       sortBy: {
@@ -418,9 +418,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 32,
+      acquired: false,
       name: 'Bowser',
       nameJP: 'クッパ',
-      acquired: false,
       smash: true,
       imageIndex: 32,
       sortBy: {
@@ -431,9 +431,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 33,
+      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
-      acquired: false,
       smash: false,
       imageIndex: 33,
       sortBy: {
@@ -444,9 +444,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 34,
+      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
-      acquired: false,
       smash: true,
       imageIndex: 34,
       sortBy: {
@@ -457,9 +457,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 35,
+      acquired: false,
       name: 'Peach',
       nameJP: 'ピーチ',
-      acquired: false,
       smash: true,
       imageIndex: 35,
       sortBy: {
@@ -470,9 +470,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 36,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Ice Climbers',
+      nameJP: 'アイスクライマー',
       smash: false,
       imageIndex: 36,
       sortBy: {
@@ -483,10 +483,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 37,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Ice Climbers',
+      nameJP: 'アイスクライマー',
+      smash: true,
       imageIndex: 37,
       sortBy: {
         normal: 38,
@@ -496,10 +496,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 38,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Ice Climbers',
+      nameJP: 'アイスクライマー',
+      smash: true,
       imageIndex: 38,
       sortBy: {
         normal: 39,
@@ -509,9 +509,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 39,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Zelda',
+      nameJP: 'ゼルダ',
       smash: false,
       imageIndex: 39,
       sortBy: {
@@ -522,10 +522,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 40,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Zelda',
+      nameJP: 'ゼルダ',
+      smash: true,
       imageIndex: 40,
       sortBy: {
         normal: 41,
@@ -535,10 +535,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 41,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Zelda',
+      nameJP: 'ゼルダ',
+      smash: true,
       imageIndex: 41,
       sortBy: {
         normal: 42,
@@ -548,9 +548,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 42,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Sheik',
+      nameJP: 'シーク',
       smash: false,
       imageIndex: 42,
       sortBy: {
@@ -561,10 +561,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 43,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Sheik',
+      nameJP: 'シーク',
+      smash: true,
       imageIndex: 43,
       sortBy: {
         normal: 44,
@@ -574,10 +574,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 44,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Sheik',
+      nameJP: 'シーク',
+      smash: true,
       imageIndex: 44,
       sortBy: {
         normal: 45,
@@ -587,9 +587,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 45,
+      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
-      acquired: false,
       smash: false,
       imageIndex: 45,
       sortBy: {
@@ -600,9 +600,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 46,
+      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
-      acquired: false,
       smash: true,
       imageIndex: 46,
       sortBy: {
@@ -613,9 +613,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 47,
+      acquired: false,
       name: 'Luigi',
       nameJP: 'ルイージ',
-      acquired: false,
       smash: true,
       imageIndex: 47,
       sortBy: {
@@ -626,9 +626,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 48,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Jigglypuff',
+      nameJP: 'プリン',
       smash: false,
       imageIndex: 48,
       sortBy: {
@@ -639,10 +639,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 49,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Jigglypuff',
+      nameJP: 'プリン',
+      smash: true,
       imageIndex: 49,
       sortBy: {
         normal: 50,
@@ -652,10 +652,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 50,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Jigglypuff',
+      nameJP: 'プリン',
+      smash: true,
       imageIndex: 50,
       sortBy: {
         normal: 51,
@@ -665,9 +665,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 51,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Mewtwo',
+      nameJP: 'ミュウツー',
       smash: false,
       imageIndex: 51,
       sortBy: {
@@ -678,10 +678,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 52,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Mewtwo',
+      nameJP: 'ミュウツー',
+      smash: true,
       imageIndex: 52,
       sortBy: {
         normal: 53,
@@ -691,10 +691,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 53,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Mewtwo',
+      nameJP: 'ミュウツー',
+      smash: true,
       imageIndex: 53,
       sortBy: {
         normal: 54,
@@ -704,9 +704,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 54,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Marth',
+      nameJP: 'マルス',
       smash: false,
       imageIndex: 54,
       sortBy: {
@@ -717,10 +717,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 55,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Marth',
+      nameJP: 'マルス',
+      smash: true,
       imageIndex: 55,
       sortBy: {
         normal: 56,
@@ -730,10 +730,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 56,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Marth',
+      nameJP: 'マルス',
+      smash: true,
       imageIndex: 56,
       sortBy: {
         normal: 57,
@@ -743,9 +743,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 57,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Mr. Game & Watch',
+      nameJP: 'かくちょう/ 拡張',
       smash: false,
       imageIndex: 57,
       sortBy: {
@@ -756,10 +756,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 58,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Mr. Game & Watch',
+      nameJP: 'かくちょう/ 拡張',
+      smash: true,
       imageIndex: 58,
       sortBy: {
         normal: 59,
@@ -769,10 +769,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 59,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Mr. Game & Watch',
+      nameJP: 'かくちょう/ 拡張',
+      smash: true,
       imageIndex: 59,
       sortBy: {
         normal: 60,
@@ -782,9 +782,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 60,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Dr. Mario',
+      nameJP: 'ドクターマリオ',
       smash: false,
       imageIndex: 60,
       sortBy: {
@@ -795,10 +795,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 61,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Dr. Mario',
+      nameJP: 'ドクターマリオ',
+      smash: true,
       imageIndex: 61,
       sortBy: {
         normal: 62,
@@ -808,10 +808,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 62,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Dr. Mario',
+      nameJP: 'ドクターマリオ',
+      smash: true,
       imageIndex: 62,
       sortBy: {
         normal: 63,
@@ -821,9 +821,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 63,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Ganondorf',
+      nameJP: 'ガノンドロフ',
       smash: false,
       imageIndex: 63,
       sortBy: {
@@ -834,10 +834,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 64,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Ganondorf',
+      nameJP: 'ガノンドロフ',
+      smash: true,
       imageIndex: 64,
       sortBy: {
         normal: 65,
@@ -847,10 +847,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 65,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Ganondorf',
+      nameJP: 'ガノンドロフ',
+      smash: true,
       imageIndex: 65,
       sortBy: {
         normal: 66,
@@ -860,9 +860,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 66,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Falco Lombardi',
+      nameJP: 'ファルコ・ランバルディ',
       smash: false,
       imageIndex: 66,
       sortBy: {
@@ -873,10 +873,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 67,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Falco Lombardi',
+      nameJP: 'ファルコ・ランバルディ',
+      smash: true,
       imageIndex: 67,
       sortBy: {
         normal: 68,
@@ -886,10 +886,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 68,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Falco Lombardi',
+      nameJP: 'ファルコ・ランバルディ',
+      smash: true,
       imageIndex: 68,
       sortBy: {
         normal: 69,
@@ -899,9 +899,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 69,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Young Link',
+      nameJP: 'こどもリンク',
       smash: false,
       imageIndex: 69,
       sortBy: {
@@ -912,10 +912,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 70,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Young Link',
+      nameJP: 'こどもリンク',
+      smash: true,
       imageIndex: 70,
       sortBy: {
         normal: 71,
@@ -925,10 +925,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 71,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Young Link',
+      nameJP: 'こどもリンク',
+      smash: true,
       imageIndex: 71,
       sortBy: {
         normal: 72,
@@ -938,9 +938,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 72,
-      name: '',
-      nameJP: '',
       acquired: false,
+      name: 'Pichu',
+      nameJP: 'ピチュー',
       smash: false,
       imageIndex: 72,
       sortBy: {
@@ -951,10 +951,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 73,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Pichu',
+      nameJP: 'ピチュー',
+      smash: true,
       imageIndex: 73,
       sortBy: {
         normal: 74,
@@ -964,10 +964,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 74,
-      name: '',
-      nameJP: '',
       acquired: false,
-      smash: false,
+      name: 'Pichu',
+      nameJP: 'ピチュー',
+      smash: true,
       imageIndex: 74,
       sortBy: {
         normal: 75,
@@ -977,9 +977,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 75,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 75,
       sortBy: {
@@ -990,9 +990,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 76,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 76,
       sortBy: {
@@ -1003,9 +1003,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 77,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 77,
       sortBy: {
@@ -1016,9 +1016,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 78,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 78,
       sortBy: {
@@ -1029,9 +1029,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 79,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 79,
       sortBy: {
@@ -1042,9 +1042,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 80,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 80,
       sortBy: {
@@ -1055,9 +1055,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 81,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 81,
       sortBy: {
@@ -1068,9 +1068,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 82,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 82,
       sortBy: {
@@ -1081,9 +1081,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 83,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 83,
       sortBy: {
@@ -1094,9 +1094,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 84,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 84,
       sortBy: {
@@ -1107,9 +1107,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 85,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 85,
       sortBy: {
@@ -1120,9 +1120,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 86,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 86,
       sortBy: {
@@ -1133,9 +1133,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 87,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 87,
       sortBy: {
@@ -1146,9 +1146,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 88,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 88,
       sortBy: {
@@ -1159,9 +1159,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 89,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 89,
       sortBy: {
@@ -1172,9 +1172,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 90,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 90,
       sortBy: {
@@ -1185,9 +1185,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 91,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 91,
       sortBy: {
@@ -1198,9 +1198,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 92,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 92,
       sortBy: {
@@ -1211,9 +1211,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 93,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 93,
       sortBy: {
@@ -1224,9 +1224,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 94,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 94,
       sortBy: {
@@ -1237,9 +1237,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 95,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 95,
       sortBy: {
@@ -1250,9 +1250,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 96,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 96,
       sortBy: {
@@ -1263,9 +1263,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 97,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 97,
       sortBy: {
@@ -1276,9 +1276,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 98,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 98,
       sortBy: {
@@ -1289,9 +1289,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 99,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 99,
       sortBy: {
@@ -1302,9 +1302,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 100,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 100,
       sortBy: {
@@ -1315,9 +1315,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 101,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 101,
       sortBy: {
@@ -1328,9 +1328,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 102,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 102,
       sortBy: {
@@ -1341,9 +1341,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 103,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 103,
       sortBy: {
@@ -1354,9 +1354,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 104,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 104,
       sortBy: {
@@ -1367,9 +1367,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 105,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 105,
       sortBy: {
@@ -1380,9 +1380,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 106,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 106,
       sortBy: {
@@ -1393,9 +1393,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 107,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 107,
       sortBy: {
@@ -1406,9 +1406,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 108,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 108,
       sortBy: {
@@ -1419,9 +1419,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 109,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 109,
       sortBy: {
@@ -1432,9 +1432,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 110,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 110,
       sortBy: {
@@ -1445,9 +1445,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 111,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 111,
       sortBy: {
@@ -1458,9 +1458,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 112,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 112,
       sortBy: {
@@ -1471,9 +1471,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 113,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 113,
       sortBy: {
@@ -1484,9 +1484,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 114,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 114,
       sortBy: {
@@ -1497,9 +1497,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 115,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 115,
       sortBy: {
@@ -1510,9 +1510,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 116,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 116,
       sortBy: {
@@ -1523,9 +1523,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 117,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 117,
       sortBy: {
@@ -1536,9 +1536,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 118,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 118,
       sortBy: {
@@ -1549,9 +1549,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 119,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 119,
       sortBy: {
@@ -1562,9 +1562,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 120,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 120,
       sortBy: {
@@ -1575,9 +1575,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 121,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 121,
       sortBy: {
@@ -1588,9 +1588,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 122,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 122,
       sortBy: {
@@ -1601,9 +1601,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 123,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 123,
       sortBy: {
@@ -1614,9 +1614,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 124,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 124,
       sortBy: {
@@ -1627,9 +1627,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 125,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 125,
       sortBy: {
@@ -1640,9 +1640,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 126,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 126,
       sortBy: {
@@ -1653,9 +1653,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 127,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 127,
       sortBy: {
@@ -1666,9 +1666,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 128,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 128,
       sortBy: {
@@ -1679,9 +1679,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 129,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 129,
       sortBy: {
@@ -1692,9 +1692,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 130,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 130,
       sortBy: {
@@ -1705,9 +1705,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 131,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 131,
       sortBy: {
@@ -1718,9 +1718,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 132,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 132,
       sortBy: {
@@ -1731,9 +1731,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 133,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 133,
       sortBy: {
@@ -1744,9 +1744,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 134,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 134,
       sortBy: {
@@ -1757,9 +1757,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 135,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 135,
       sortBy: {
@@ -1770,9 +1770,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 136,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 136,
       sortBy: {
@@ -1783,9 +1783,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 137,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 137,
       sortBy: {
@@ -1796,9 +1796,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 138,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 138,
       sortBy: {
@@ -1809,9 +1809,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 139,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 139,
       sortBy: {
@@ -1822,9 +1822,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 140,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 140,
       sortBy: {
@@ -1835,9 +1835,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 141,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 141,
       sortBy: {
@@ -1848,9 +1848,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 142,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 142,
       sortBy: {
@@ -1861,9 +1861,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 143,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 143,
       sortBy: {
@@ -1874,9 +1874,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 144,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 144,
       sortBy: {
@@ -1887,9 +1887,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 145,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 145,
       sortBy: {
@@ -1900,9 +1900,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 146,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 146,
       sortBy: {
@@ -1913,9 +1913,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 147,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 147,
       sortBy: {
@@ -1926,9 +1926,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 148,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 148,
       sortBy: {
@@ -1939,9 +1939,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 149,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 149,
       sortBy: {
@@ -1952,9 +1952,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 150,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 150,
       sortBy: {
@@ -1965,9 +1965,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 151,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 151,
       sortBy: {
@@ -1978,9 +1978,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 152,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 152,
       sortBy: {
@@ -1991,9 +1991,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 153,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 153,
       sortBy: {
@@ -2004,9 +2004,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 154,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 154,
       sortBy: {
@@ -2017,9 +2017,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 155,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 155,
       sortBy: {
@@ -2030,9 +2030,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 156,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 156,
       sortBy: {
@@ -2043,9 +2043,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 157,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 157,
       sortBy: {
@@ -2056,9 +2056,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 158,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 158,
       sortBy: {
@@ -2069,9 +2069,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 159,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 159,
       sortBy: {
@@ -2082,9 +2082,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 160,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 160,
       sortBy: {
@@ -2095,9 +2095,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 161,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 161,
       sortBy: {
@@ -2108,9 +2108,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 162,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 162,
       sortBy: {
@@ -2121,9 +2121,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 163,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 163,
       sortBy: {
@@ -2134,9 +2134,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 164,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 164,
       sortBy: {
@@ -2147,9 +2147,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 165,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 165,
       sortBy: {
@@ -2160,9 +2160,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 166,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 166,
       sortBy: {
@@ -2173,9 +2173,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 167,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 167,
       sortBy: {
@@ -2186,9 +2186,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 168,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 168,
       sortBy: {
@@ -2199,9 +2199,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 169,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 169,
       sortBy: {
@@ -2212,9 +2212,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 170,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 170,
       sortBy: {
@@ -2225,9 +2225,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 171,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 171,
       sortBy: {
@@ -2238,9 +2238,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 172,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 172,
       sortBy: {
@@ -2251,9 +2251,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 173,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 173,
       sortBy: {
@@ -2264,9 +2264,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 174,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 174,
       sortBy: {
@@ -2277,9 +2277,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 175,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 175,
       sortBy: {
@@ -2290,9 +2290,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 176,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 176,
       sortBy: {
@@ -2303,9 +2303,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 177,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 177,
       sortBy: {
@@ -2316,9 +2316,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 178,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 178,
       sortBy: {
@@ -2329,9 +2329,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 179,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 179,
       sortBy: {
@@ -2342,9 +2342,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 180,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 180,
       sortBy: {
@@ -2355,9 +2355,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 181,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 181,
       sortBy: {
@@ -2368,9 +2368,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 182,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 182,
       sortBy: {
@@ -2381,9 +2381,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 183,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 183,
       sortBy: {
@@ -2394,9 +2394,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 184,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 184,
       sortBy: {
@@ -2407,9 +2407,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 185,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 185,
       sortBy: {
@@ -2420,9 +2420,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 186,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 186,
       sortBy: {
@@ -2433,9 +2433,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 187,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 187,
       sortBy: {
@@ -2446,9 +2446,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 188,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 188,
       sortBy: {
@@ -2459,9 +2459,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 189,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 189,
       sortBy: {
@@ -2472,9 +2472,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 190,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 190,
       sortBy: {
@@ -2485,9 +2485,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 191,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 191,
       sortBy: {
@@ -2498,9 +2498,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 192,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 192,
       sortBy: {
@@ -2511,9 +2511,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 193,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 193,
       sortBy: {
@@ -2524,9 +2524,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 194,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 194,
       sortBy: {
@@ -2537,9 +2537,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 195,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 195,
       sortBy: {
@@ -2550,9 +2550,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 196,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 196,
       sortBy: {
@@ -2563,9 +2563,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 197,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 197,
       sortBy: {
@@ -2576,9 +2576,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 198,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 198,
       sortBy: {
@@ -2589,9 +2589,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 199,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 199,
       sortBy: {
@@ -2602,9 +2602,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 200,
+      acquired: false,
       name: 'Raccoon Mario',
       nameJP: 'しっぽマリオ',
-      acquired: false,
       smash: false,
       imageIndex: 200,
       sortBy: {
@@ -2615,9 +2615,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 201,
+      acquired: false,
       name: 'Mario ＆ Yoshi',
       nameJP: 'マントマリオ＋ヨッシー',
-      acquired: false,
       smash: false,
       imageIndex: 201,
       sortBy: {
@@ -2628,9 +2628,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 202,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 202,
       sortBy: {
@@ -2641,9 +2641,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 203,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 203,
       sortBy: {
@@ -2654,9 +2654,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 204,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 204,
       sortBy: {
@@ -2667,9 +2667,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 205,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 205,
       sortBy: {
@@ -2680,9 +2680,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 206,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 206,
       sortBy: {
@@ -2693,9 +2693,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 207,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 207,
       sortBy: {
@@ -2706,9 +2706,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 208,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 208,
       sortBy: {
@@ -2719,9 +2719,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 209,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 209,
       sortBy: {
@@ -2732,9 +2732,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 210,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 210,
       sortBy: {
@@ -2745,9 +2745,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 211,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 211,
       sortBy: {
@@ -2758,9 +2758,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 212,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 212,
       sortBy: {
@@ -2771,9 +2771,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 213,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 213,
       sortBy: {
@@ -2784,9 +2784,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 214,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 214,
       sortBy: {
@@ -2797,9 +2797,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 215,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 215,
       sortBy: {
@@ -2810,9 +2810,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 216,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 216,
       sortBy: {
@@ -2823,9 +2823,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 217,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 217,
       sortBy: {
@@ -2836,9 +2836,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 218,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 218,
       sortBy: {
@@ -2849,9 +2849,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 219,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 219,
       sortBy: {
@@ -2862,9 +2862,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 220,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 220,
       sortBy: {
@@ -2875,9 +2875,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 221,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 221,
       sortBy: {
@@ -2888,9 +2888,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 222,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 222,
       sortBy: {
@@ -2901,9 +2901,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 223,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 223,
       sortBy: {
@@ -2914,9 +2914,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 224,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 224,
       sortBy: {
@@ -2927,9 +2927,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 225,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 225,
       sortBy: {
@@ -2940,9 +2940,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 226,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 226,
       sortBy: {
@@ -2953,9 +2953,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 227,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 227,
       sortBy: {
@@ -2966,9 +2966,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 228,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 228,
       sortBy: {
@@ -2979,9 +2979,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 229,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 229,
       sortBy: {
@@ -2992,9 +2992,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 230,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 230,
       sortBy: {
@@ -3005,9 +3005,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 231,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 231,
       sortBy: {
@@ -3018,9 +3018,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 232,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 232,
       sortBy: {
@@ -3031,9 +3031,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 233,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 233,
       sortBy: {
@@ -3044,9 +3044,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 234,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 234,
       sortBy: {
@@ -3057,9 +3057,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 235,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 235,
       sortBy: {
@@ -3070,9 +3070,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 236,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 236,
       sortBy: {
@@ -3083,9 +3083,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 237,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 237,
       sortBy: {
@@ -3096,9 +3096,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 238,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 238,
       sortBy: {
@@ -3109,9 +3109,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 239,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 239,
       sortBy: {
@@ -3122,9 +3122,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 240,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 240,
       sortBy: {
@@ -3135,9 +3135,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 241,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 241,
       sortBy: {
@@ -3148,9 +3148,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 242,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 242,
       sortBy: {
@@ -3161,9 +3161,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 243,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 243,
       sortBy: {
@@ -3174,9 +3174,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 244,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 244,
       sortBy: {
@@ -3187,9 +3187,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 245,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 245,
       sortBy: {
@@ -3200,9 +3200,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 246,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 246,
       sortBy: {
@@ -3213,9 +3213,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 247,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 247,
       sortBy: {
@@ -3226,9 +3226,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 248,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 248,
       sortBy: {
@@ -3239,9 +3239,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 249,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 249,
       sortBy: {
@@ -3252,9 +3252,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 250,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 250,
       sortBy: {
@@ -3265,9 +3265,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 251,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 251,
       sortBy: {
@@ -3278,9 +3278,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 252,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 252,
       sortBy: {
@@ -3291,9 +3291,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 253,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 253,
       sortBy: {
@@ -3304,9 +3304,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 254,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 254,
       sortBy: {
@@ -3317,9 +3317,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 255,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 255,
       sortBy: {
@@ -3330,9 +3330,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 256,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 256,
       sortBy: {
@@ -3343,9 +3343,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 257,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 257,
       sortBy: {
@@ -3356,9 +3356,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 258,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 258,
       sortBy: {
@@ -3369,9 +3369,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 259,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 259,
       sortBy: {
@@ -3382,9 +3382,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 260,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 260,
       sortBy: {
@@ -3395,9 +3395,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 261,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 261,
       sortBy: {
@@ -3408,9 +3408,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 262,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 262,
       sortBy: {
@@ -3421,9 +3421,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 263,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 263,
       sortBy: {
@@ -3434,9 +3434,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 264,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 264,
       sortBy: {
@@ -3447,9 +3447,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 265,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 265,
       sortBy: {
@@ -3460,9 +3460,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 266,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 266,
       sortBy: {
@@ -3473,9 +3473,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 267,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 267,
       sortBy: {
@@ -3486,9 +3486,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 268,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 268,
       sortBy: {
@@ -3499,9 +3499,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 269,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 269,
       sortBy: {
@@ -3512,9 +3512,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 270,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 270,
       sortBy: {
@@ -3525,9 +3525,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 271,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 271,
       sortBy: {
@@ -3538,9 +3538,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 272,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 272,
       sortBy: {
@@ -3551,9 +3551,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 273,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 273,
       sortBy: {
@@ -3564,9 +3564,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 274,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 274,
       sortBy: {
@@ -3577,9 +3577,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 275,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 275,
       sortBy: {
@@ -3590,9 +3590,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 276,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 276,
       sortBy: {
@@ -3603,9 +3603,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 277,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 277,
       sortBy: {
@@ -3616,9 +3616,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 278,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 278,
       sortBy: {
@@ -3629,9 +3629,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 279,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 279,
       sortBy: {
@@ -3642,9 +3642,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 280,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 280,
       sortBy: {
@@ -3655,9 +3655,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 281,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 281,
       sortBy: {
@@ -3668,9 +3668,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 282,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 282,
       sortBy: {
@@ -3681,9 +3681,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 283,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 283,
       sortBy: {
@@ -3694,9 +3694,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 284,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 284,
       sortBy: {
@@ -3707,9 +3707,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 285,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 285,
       sortBy: {
@@ -3720,9 +3720,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 286,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 286,
       sortBy: {
@@ -3733,9 +3733,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 287,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 287,
       sortBy: {
@@ -3746,9 +3746,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 288,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 288,
       sortBy: {
@@ -3759,9 +3759,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 289,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 289,
       sortBy: {
@@ -3772,9 +3772,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 290,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 290,
       sortBy: {
@@ -3785,9 +3785,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 291,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 291,
       sortBy: {
@@ -3798,9 +3798,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 292,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 292,
       sortBy: {
@@ -3811,9 +3811,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 293,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 293,
       sortBy: {
@@ -3824,9 +3824,9 @@ window.generateTrophyData = function () {
     },
     {
       id: 294,
+      acquired: false,
       name: '',
       nameJP: '',
-      acquired: false,
       smash: false,
       imageIndex: 294,
       sortBy: {
