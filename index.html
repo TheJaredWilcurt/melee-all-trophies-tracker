@@ -36,9 +36,21 @@
       <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
       <div>
-        <label><strong>Language:</strong></label>
-        <button @click="language = 'en-us'">EN-US</button>
-        <button @click="language = 'jp'">JP</button>
+        <div>
+          <label><strong>Language: </strong></label>
+          <span
+            v-text="'EN-US'"
+            class="cursor"
+            :class="{ underline: language === 'en-us' }"
+            @click="language = 'en-us'"
+          ></span> |
+          <span
+            v-text="'JP'"
+            class="cursor"
+            :class="{ underline: language === 'jp' }"
+            @click="language = 'jp'"
+          ></span>
+        </div>
       </div>
 
       <table id="trophy-list">

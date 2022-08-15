@@ -46,12 +46,16 @@ th {
 tfoot {
   position: fixed;
   top: 0px;
+  z-index: 2;
 }
 tfoot tr {
   background: #444;
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+.underline {
+  text-decoration: underline;
 }
 
 .logo,
