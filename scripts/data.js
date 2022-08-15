@@ -81,7 +81,7 @@ window.generateTrophyData = function () {
     {
       id: 6,
       name: 'Link',
-      nameJP: '',
+      nameJP: 'リンク',
       acquired: false,
       smash: false,
       imageIndex: 6,
@@ -94,7 +94,7 @@ window.generateTrophyData = function () {
     {
       id: 7,
       name: 'Link',
-      nameJP: '',
+      nameJP: 'リンク',
       acquired: false,
       smash: true,
       imageIndex: 7,
@@ -107,7 +107,7 @@ window.generateTrophyData = function () {
     {
       id: 8,
       name: 'Link',
-      nameJP: '',
+      nameJP: 'リンク',
       acquired: false,
       smash: true,
       imageIndex: 8,
@@ -120,7 +120,7 @@ window.generateTrophyData = function () {
     {
       id: 9,
       name: 'Samus Aran',
-      nameJP: '',
+      nameJP: 'サムス・アラン',
       acquired: false,
       smash: false,
       imageIndex: 9,
@@ -133,7 +133,7 @@ window.generateTrophyData = function () {
     {
       id: 10,
       name: 'Samus Aran',
-      nameJP: '',
+      nameJP: 'サムス・アラン',
       acquired: false,
       smash: true,
       imageIndex: 10,
@@ -146,7 +146,7 @@ window.generateTrophyData = function () {
     {
       id: 11,
       name: 'Samus Aran',
-      nameJP: '',
+      nameJP: 'サムス・アラン',
       acquired: false,
       smash: true,
       imageIndex: 11,
@@ -197,8 +197,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 15,
-      name: '',
-      nameJP: '',
+      name: 'Kirby',
+      nameJP: 'カービィ',
       acquired: false,
       smash: false,
       imageIndex: 15,
@@ -210,10 +210,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 16,
-      name: '',
-      nameJP: '',
+      name: 'Kirby',
+      nameJP: 'カービィ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 16,
       sortBy: {
         normal: 17,
@@ -223,10 +223,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 17,
-      name: '',
-      nameJP: '',
+      name: 'Kirby',
+      nameJP: 'カービィ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 17,
       sortBy: {
         normal: 18,
@@ -236,8 +236,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 18,
-      name: '',
-      nameJP: '',
+      name: 'Fox McCloud',
+      nameJP: 'フォックス・マクラウド',
       acquired: false,
       smash: false,
       imageIndex: 18,
@@ -249,10 +249,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 19,
-      name: '',
-      nameJP: '',
+      name: 'Fox McCloud',
+      nameJP: 'フォックス・マクラウド',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 19,
       sortBy: {
         normal: 20,
@@ -262,10 +262,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 20,
-      name: '',
-      nameJP: '',
+      name: 'Fox McCloud',
+      nameJP: 'フォックス・マクラウド',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 20,
       sortBy: {
         normal: 21,
@@ -275,8 +275,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 21,
-      name: '',
-      nameJP: '',
+      name: 'Pikachu',
+      nameJP: 'ピカチュウ',
       acquired: false,
       smash: false,
       imageIndex: 21,
@@ -288,10 +288,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 22,
-      name: '',
-      nameJP: '',
+      name: 'Pikachu',
+      nameJP: 'ピカチュウ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 22,
       sortBy: {
         normal: 23,
@@ -301,10 +301,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 23,
-      name: '',
-      nameJP: '',
+      name: 'Pikachu',
+      nameJP: 'ピカチュウ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 23,
       sortBy: {
         normal: 24,
@@ -314,8 +314,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 24,
-      name: '',
-      nameJP: '',
+      name: 'Ness',
+      nameJP: 'ネス',
       acquired: false,
       smash: false,
       imageIndex: 24,
@@ -327,10 +327,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 25,
-      name: '',
-      nameJP: '',
+      name: 'Ness',
+      nameJP: 'ネス',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 25,
       sortBy: {
         normal: 26,
@@ -340,10 +340,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 26,
-      name: '',
-      nameJP: '',
+      name: 'Ness',
+      nameJP: 'ネス',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 26,
       sortBy: {
         normal: 27,
@@ -353,7 +353,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 27,
-      name: '',
+      name: 'Capt. Falcon',
       nameJP: '',
       acquired: false,
       smash: false,
@@ -366,10 +366,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 28,
-      name: '',
+      name: 'Capt. Falcon',
       nameJP: '',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 28,
       sortBy: {
         normal: 29,
@@ -379,10 +379,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 29,
-      name: '',
+      name: 'Capt. Falcon',
       nameJP: '',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 29,
       sortBy: {
         normal: 30,
@@ -392,8 +392,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 30,
-      name: '',
-      nameJP: '',
+      name: 'Bowser',
+      nameJP: 'クッパ',
       acquired: false,
       smash: false,
       imageIndex: 30,
@@ -405,10 +405,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 31,
-      name: '',
-      nameJP: '',
+      name: 'Bowser',
+      nameJP: 'クッパ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 31,
       sortBy: {
         normal: 32,
@@ -418,10 +418,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 32,
-      name: '',
-      nameJP: '',
+      name: 'Bowser',
+      nameJP: 'クッパ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 32,
       sortBy: {
         normal: 33,
@@ -431,8 +431,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 33,
-      name: '',
-      nameJP: '',
+      name: 'Peach',
+      nameJP: 'ピーチ',
       acquired: false,
       smash: false,
       imageIndex: 33,
@@ -444,10 +444,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 34,
-      name: '',
-      nameJP: '',
+      name: 'Peach',
+      nameJP: 'ピーチ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 34,
       sortBy: {
         normal: 35,
@@ -457,10 +457,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 35,
-      name: '',
-      nameJP: '',
+      name: 'Peach',
+      nameJP: 'ピーチ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 35,
       sortBy: {
         normal: 36,
@@ -587,8 +587,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 45,
-      name: '',
-      nameJP: '',
+      name: 'Luigi',
+      nameJP: 'ルイージ',
       acquired: false,
       smash: false,
       imageIndex: 45,
@@ -600,10 +600,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 46,
-      name: '',
-      nameJP: '',
+      name: 'Luigi',
+      nameJP: 'ルイージ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 46,
       sortBy: {
         normal: 47,
@@ -613,10 +613,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 47,
-      name: '',
-      nameJP: '',
+      name: 'Luigi',
+      nameJP: 'ルイージ',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 47,
       sortBy: {
         normal: 48,
