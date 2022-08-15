@@ -70,11 +70,11 @@ const app = Vue.createApp({
         this.generateTrohpyAcquisitionMap();
       }
     },
-    generateTrohpyAcquisitionMap: function () {
+    generateTrohpyAcquisitionMap: function (bool) {
       const maxID = 294;
       const trophiesAcquired = {};
       for (let id = 0; id < (maxID + 1); id++) {
-        trophiesAcquired[id] = false;
+        trophiesAcquired[id] = bool || false;
       }
       this.trophiesAcquired = trophiesAcquired;
     },
@@ -110,6 +110,12 @@ const app = Vue.createApp({
     },
     toggleTrohpyAcquired: function (id) {
       this.trophiesAcquired[id] = !this.trophiesAcquired[id];
+    },
+    selectAll: function () {
+      this.generateTrohpyAcquisitionMap(true);
+    },
+    selectNone: function () {
+      this.generateTrohpyAcquisitionMap(false);
     }
   },
   computed: {

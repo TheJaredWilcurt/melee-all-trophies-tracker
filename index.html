@@ -35,8 +35,8 @@
 
       <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
-      <div>
-        <div>
+      <div class="controls">
+        <div class="form-control">
           <label><strong>Language: </strong></label>
           <span
             v-text="'EN-US'"
@@ -52,12 +52,24 @@
           ></span>
         </div>
 
-        <div>
+        <div class="form-control">
           <label>
-            <strong>Trohpy Size:</strong>
+            <strong>Trohpy Size: </strong>
             <input type="range" v-model="reductionRatio" min="1" max="10000" />
             {{ reductionRatio / 100 }}%
           </label>
+        </div>
+
+        <div class="form-control">
+          <label>
+            <strong>Currently Selected: </strong>
+            <textarea readonly v-text="JSON.stringify(trophiesAcquired)"></textarea>
+          </label>
+        </div>
+
+        <div>
+          <button @click="selectAll">Select All</button>
+          <button @click="selectNone">Select None</button>
         </div>
       </div>
 

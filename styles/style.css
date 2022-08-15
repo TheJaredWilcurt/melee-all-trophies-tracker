@@ -108,6 +108,17 @@ tbody tr:hover td {
   text-decoration: none;
 }
 
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-control label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .trophy-link {
   color: #FFF;
