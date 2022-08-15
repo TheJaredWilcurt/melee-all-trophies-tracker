@@ -45,8 +45,6 @@
             <th>Trophy</th>
             <th>Name</th>
             <th>Name (JP)</th>
-            <th>Game</th>
-            <th>Game (JP)</th>
             <th>Smash</th>
             <th>Normal</th>
             <th>Game</th>
@@ -71,8 +69,6 @@
             <th></th>
             <th><input v-model="filterName"></th>
             <th><input v-model="filterNameJP"></th>
-            <th><input v-model="filterGame"></th>
-            <th><input v-model="filterGameJP"></th>
             <th>
               <select v-model="filterSmash">
                 <option :value="null">All</option>
@@ -95,8 +91,6 @@
             >{{ trophy.imageIndex }}</a></td>
             <td>{{ trophy.name }}</td>
             <td>{{ trophy.nameJP }}</td>
-            <td>{{ trophy.game }}</td>
-            <td>{{ trophy.gameJP }}</td>
             <td><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td>{{ trophy.sortBy.normal }}</td>
             <td>{{ trophy.sortBy.game }}</td>

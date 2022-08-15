@@ -5,8 +5,6 @@ const app = Vue.createApp({
       language: 'en-us',
       filterName: '',
       filterNameJP: '',
-      filterGame: '',
-      filterGameJP: '',
       filterSmash: null
       floatingHeaders: new Array(9).fill('100%')
     };
