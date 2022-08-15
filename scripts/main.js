@@ -5,7 +5,8 @@ const app = Vue.createApp({
       language: 'en-us',
       filterName: '',
       filterNameJP: '',
-      filterSmash: null
+      filterSmash: null,
+      trophies: null,
       floatingHeaders: new Array(9).fill('100%')
     };
   },
@@ -75,13 +76,11 @@ const app = Vue.createApp({
       };
     },
     filteredTrophies: function () {
-      let trophies = window.trophies;
+      let trophies = this.trophies;
       trophies = trophies.filter((trophy) => {
         return (
           trophy.name.toLowerCase().includes(this.filterName.toLowerCase()) &&
           trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase()) &&
-          trophy.game.toLowerCase().includes(this.filterGame.toLowerCase()) &&
-          trophy.gameJP.toLowerCase().includes(this.filterGameJP.toLowerCase()) &&
           (
             this.filterSmash === null ||
             trophy.smash === this.filterSmash
@@ -98,6 +97,7 @@ const app = Vue.createApp({
   },
   created: function () {
     this.load();
+    this.trophies = window.generateTrophyData();
     setTimeout(() => {
       this.scroll();
       this.setSizeTh();
