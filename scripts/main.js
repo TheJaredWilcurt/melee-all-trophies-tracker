@@ -23,10 +23,12 @@ const app = Vue.createApp({
       if (data) {
         this.language = data.language;
         if (!data.trophiesAcquired) {
-          // this.generateTrohpyAcquisitionMap();
+          this.generateTrohpyAcquisitionMap();
         } else {
           this.trophiesAcquired = data.trophiesAcquired;
         }
+      } else {
+        this.generateTrohpyAcquisitionMap();
       }
     },
     generateTrohpyAcquisitionMap: function () {
