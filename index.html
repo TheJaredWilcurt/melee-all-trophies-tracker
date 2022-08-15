@@ -102,26 +102,28 @@
             :key="trophy.id"
             :id="trophy.imageIndex"
           >
-            <td><a
+            <td
+              class="center"
+            ><a
               class="trophy-link"
               :href="'#' + trophy.id"
               :title="'ID: ' + trophy.id"
             >🔗</a></td>
-            <td><input
+            <td class="center"><input
               v-model="trophiesAcquired[trophy.id]"
               type="checkbox"
               class="trophy-checkbox"
             /></td>
-            <td><div
+            <td class="center"><div
               class="sprite"
               :style="styling(trophy.imageIndex)"
             ></div></td>
             <td>{{ trophy.name }}</td>
             <td>{{ trophy.nameJP }}</td>
-            <td><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
-            <td>{{ trophy.sortBy.normal }}</td>
-            <td>{{ trophy.sortBy.game }}</td>
-            <td>{{ trophy.sortBy.aZ }}</td>
+            <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
+            <td class="center">{{ trophy.sortBy.normal }}</td>
+            <td class="center">{{ trophy.sortBy.game }}</td>
+            <td class="center">{{ trophy.sortBy.aZ }}</td>
           </tr>
         </tbody>
       </table>
