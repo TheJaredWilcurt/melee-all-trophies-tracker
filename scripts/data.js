@@ -42,7 +42,7 @@ window.generateTrophyData = function () {
     {
       id: 3,
       name: 'Donkey Kong',
-      nameJP: '',
+      nameJP: 'ドンキーコング',
       acquired: false,
       smash: false,
       imageIndex: 3,
@@ -55,7 +55,7 @@ window.generateTrophyData = function () {
     {
       id: 4,
       name: 'Donkey Kong',
-      nameJP: '',
+      nameJP: 'ドンキーコング',
       acquired: false,
       smash: true,
       imageIndex: 4,
@@ -68,7 +68,7 @@ window.generateTrophyData = function () {
     {
       id: 5,
       name: 'Donkey Kong',
-      nameJP: '',
+      nameJP: 'ドンキーコング',
       acquired: false,
       smash: true,
       imageIndex: 5,
@@ -119,7 +119,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 9,
-      name: '',
+      name: 'Samus Aran',
       nameJP: '',
       acquired: false,
       smash: false,
@@ -132,10 +132,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 10,
-      name: '',
+      name: 'Samus Aran',
       nameJP: '',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 10,
       sortBy: {
         normal: 10,
@@ -145,10 +145,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 11,
-      name: '',
+      name: 'Samus Aran',
       nameJP: '',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 11,
       sortBy: {
         normal: 11,
@@ -158,8 +158,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 12,
-      name: '',
-      nameJP: '',
+      name: 'Yoshi',
+      nameJP: 'ヨッシー',
       acquired: false,
       smash: false,
       imageIndex: 12,
@@ -171,10 +171,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 13,
-      name: '',
-      nameJP: '',
+      name: 'Yoshi',
+      nameJP: 'ヨッシー',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 13,
       sortBy: {
         normal: 13,
@@ -184,10 +184,10 @@ window.generateTrophyData = function () {
     },
     {
       id: 14,
-      name: '',
-      nameJP: '',
+      name: 'Yoshi',
+      nameJP: 'ヨッシー',
       acquired: false,
-      smash: false,
+      smash: true,
       imageIndex: 14,
       sortBy: {
         normal: 14,
