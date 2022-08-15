@@ -113,6 +113,17 @@ tbody tr:hover td {
   color: #FFF;
   text-decoration: none;
 }
+.trophy-link svg {
+  max-width: 24px;
+  max-height: 24px;
+  margin: 0px auto;
+}
+.trophy-link path {
+  fill: RGBA(255, 255, 255, 0.7);
+}
+.trophy-link:hover path {
+  fill: RGBA(255, 255, 255, 0.9);
+}
 
 .trophy-checkbox {
   width: 30px;
