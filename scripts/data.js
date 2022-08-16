@@ -2763,7 +2763,7 @@ window.generateTrophyData = function () {
     {
       id: 230,
       name: '',
-      nameJP: '',
+      nameJP: 'マスクを脱いだサムス',
       smash: false,
       imageIndex: 230,
       sortBy: {
@@ -3075,7 +3075,7 @@ window.generateTrophyData = function () {
     {
       id: 256,
       name: '',
-      nameJP: '',
+      nameJP: 'ニャース',
       smash: false,
       imageIndex: 256,
       sortBy: {
@@ -3219,7 +3219,7 @@ window.generateTrophyData = function () {
     {
       id: 268,
       name: '',
-      nameJP: '',
+      nameJP: 'たぬきち',
       smash: false,
       imageIndex: 268,
       sortBy: {
@@ -3243,7 +3243,7 @@ window.generateTrophyData = function () {
     {
       id: 270,
       name: '',
-      nameJP: '',
+      nameJP: 'リセットさん',
       smash: false,
       imageIndex: 270,
       sortBy: {
@@ -3303,7 +3303,7 @@ window.generateTrophyData = function () {
     {
       id: 275,
       name: '',
-      nameJP: '',
+      nameJP: 'キャプテン・オリマー',
       smash: false,
       imageIndex: 275,
       sortBy: {
@@ -3327,7 +3327,7 @@ window.generateTrophyData = function () {
     {
       id: 277,
       name: '',
-      nameJP: '',
+      nameJP: 'ドンキーコングJr.',
       smash: false,
       imageIndex: 277,
       sortBy: {
@@ -3375,7 +3375,7 @@ window.generateTrophyData = function () {
     {
       id: 281,
       name: '',
-      nameJP: '',
+      nameJP: 'マッハライダー',
       smash: false,
       imageIndex: 281,
       sortBy: {
@@ -3471,7 +3471,7 @@ window.generateTrophyData = function () {
     {
       id: 289,
       name: '',
-      nameJP: '',
+      nameJP: 'シェリフ',
       smash: false,
       imageIndex: 289,
       sortBy: {
@@ -3483,7 +3483,7 @@ window.generateTrophyData = function () {
     {
       id: 290,
       name: '',
-      nameJP: '',
+      nameJP: 'ディスくん',
       smash: false,
       imageIndex: 290,
       sortBy: {
