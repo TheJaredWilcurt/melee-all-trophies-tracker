@@ -177,10 +177,13 @@
           </tr>
         </tbody>
       </table>
+      <footer v-if="isJP">
+        <p>ソースコードは <a href="https://github.com/TheJaredWilcurt/melee-all-trophies-tracker">GitHub</a> で入手可能</p>
+      </footer>
+      <footer v-else>
+        <p>source code available on</p>
+        <a href="https://github.com/TheJaredWilcurt/melee-all-trophies-tracker">GitHub</a>
+      </footer>
     </div>
-    <footer>
-      <p>source code available on</p>
-      <a href="https://github.com/TheJaredWilcurt/melee-all-trophies-tracker">GitHub</a>
-    </footer>
   </body>
 </html>
