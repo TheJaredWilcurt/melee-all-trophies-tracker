@@ -14,30 +14,32 @@ const app = Vue.createApp({
         },
         {
           name: 'Trophy',
+          nameJP: 'フィギュア',
           class: 'center'
         },
         {
           name: 'Name',
-          class: ''
-        },
-        {
-          name: 'Name (JP)',
+          nameJP: '名前',
           class: ''
         },
         {
           name: 'Smash',
+          nameJP: 'スマッシュ',
           class: 'center'
         },
         {
           name: 'Normal',
+          nameJP: '通常',
           class: 'center'
         },
         {
           name: 'Game',
+          nameJP: 'タイトル',
           class: 'center'
         },
         {
           name: 'A-Z',
+          nameJP: 'あいうえお',
           class: 'center'
         },
       ],
@@ -131,6 +133,9 @@ const app = Vue.createApp({
         reductionRatio: this.reductionRatio
       });
     },
+    isJP: function () {
+      return this.language === 'jp';
+    },
     imageSizes: function () {
       const originalSpriteWidth = 128;
       const originalSpriteHeight = 144;
@@ -153,14 +158,15 @@ const app = Vue.createApp({
     filteredTrophies: function () {
       let trophies = this.trophies;
       trophies = trophies.filter((trophy) => {
-        return (
-          trophy.name.toLowerCase().includes(this.filterName.toLowerCase()) &&
-          trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase()) &&
-          (
-            this.filterSmash === null ||
-            trophy.smash === this.filterSmash
-          )
+        let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
+        if (this.isJP) {
+          name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
+        }
+        const smash = (
+          this.filterSmash === null ||
+          trophy.smash === this.filterSmash
         );
+        return name && smash;
       });
       return trophies
     }
@@ -168,6 +174,11 @@ const app = Vue.createApp({
   watch: {
     dataToSave: function () {
       this.save();
+    },
+    language: function () {
+      setTimeout(() => {
+        this.setSizeTh();
+      }, 100);
     },
     reductionRatio: function () {
       this.setSizeTh();

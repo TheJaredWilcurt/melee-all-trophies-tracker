@@ -17,7 +17,7 @@
   <body>
     <div id="app" v-cloak>
       <img
-        v-if="language === 'jp'"
+        v-if="isJP"
         src="images/dx-logo.png"
         class="logo-dx"
         alt="大乱闘スマッシュブラザーズＤＸ"
@@ -29,34 +29,40 @@
         alt="Super Smash Bros. Melee"
       />
 
-      <h1 v-if="language === 'jp'">"全てフィギュア"</h1>
+      <h1 v-if="isJP">"全てフィギュア"</h1>
       <h1 v-else>"All Trophies"</h1>
 
-      <h2 v-if="language === 'jp'">スピードラントラッカー</h2>
+      <h2 v-if="isJP">スピードラントラッカー</h2>
       <h2 v-else>Speedrun Tracker</h2>
 
       <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
       <div class="controls">
         <div class="form-control">
-          <label><strong>Language: </strong></label>
+          <label>
+            <strong v-if="isJP">言語: </strong>
+            <strong v-else>Language: </strong>
+          </label>
           <span
-            v-text="'EN-US'"
-            class="cursor"
-            :class="{ underline: language === 'en-us' }"
+            v-text="'🇺🇸'"
+            class="cursor flag"
+            :class="{ selected: language === 'en-us' }"
+            title="EN-US"
             @click="language = 'en-us'"
-          ></span> |
+          ></span>
           <span
-            v-text="'JP'"
-            class="cursor"
-            :class="{ underline: language === 'jp' }"
+            v-text="'🇯🇵'"
+            class="cursor flag"
+            :class="{ selected: isJP }"
+            title="JP"
             @click="language = 'jp'"
           ></span>
         </div>
 
         <div class="form-control">
           <label>
-            <strong>Trohpy Size: </strong>
+            <strong v-if="isJP">フィギュアサイズ: </strong>
+            <strong v-else>Trohpy Size: </strong>
             <input type="range" v-model="reductionRatio" min="1" max="10000" />
             {{ reductionRatio / 100 }}%
           </label>
@@ -81,7 +87,14 @@
             <th
               v-for="header in headers"
               :class="header.class"
-            >{{ header.name }}</th>
+            >
+              <template v-if="isJP">
+                {{ header.nameJP }}
+              </template>
+              <template v-else>
+                {{ header.name }}
+              </template>
+            </th>
           </tr>
         </thead>
         <tfoot>
@@ -90,7 +103,14 @@
               v-for="(header, headerIndex) in headers"
               :class="header.class"
               :width="floatingHeaders[headerIndex]"
-            >{{ header.name }}</th>
+            >
+              <template v-if="isJP">
+                {{ header.nameJP }}
+              </template>
+              <template v-else>
+                {{ header.name }}
+              </template>
+            </th>
           </tr>
         </tfoot>
         <tbody>
@@ -98,8 +118,8 @@
             <th></th>
             <th></th>
             <th></th>
-            <th><input v-model="filterName"></th>
-            <th><input v-model="filterNameJP"></th>
+            <th v-if="isJP"><input v-model="filterNameJP"></th>
+            <th v-else><input v-model="filterName"></th>
             <th class="center">
               <select v-model="filterSmash">
                 <option :value="null">All</option>
@@ -148,8 +168,8 @@
               class="sprite"
               :style="styling(trophy.imageIndex)"
             ></div></td>
-            <td>{{ trophy.name }}</td>
-            <td>{{ trophy.nameJP }}</td>
+            <td v-if="isJP">{{ trophy.nameJP }}</td>
+            <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td class="center">{{ trophy.sortBy.normal }}</td>
             <td class="center">{{ trophy.sortBy.game }}</td>

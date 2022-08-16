@@ -145,6 +145,18 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 6px;
+}
+
+.flag {
+  border: 1px solid transparent;
+  border-radius: 11px;
+  margin: 10px;
+  padding: 0px 7px;
+  font-size: 50px;
+}
+.flag.selected {
+  border: 1px solid #FFF;
 }
 
 .trophy-link {
