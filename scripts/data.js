@@ -939,7 +939,7 @@ window.generateTrophyData = function () {
     {
       id: 78,
       name: 'Male Wire Frame',
-      nameJP: '',
+      nameJP: '謎のザコ敵軍団♂',
       smash: false,
       imageIndex: 78,
       sortBy: {
@@ -951,7 +951,7 @@ window.generateTrophyData = function () {
     {
       id: 79,
       name: 'Female Wire Frame',
-      nameJP: '',
+      nameJP: '謎のザコ敵軍団♀',
       smash: false,
       imageIndex: 79,
       sortBy: {
@@ -963,7 +963,7 @@ window.generateTrophyData = function () {
     {
       id: 80,
       name: 'Fighting Wire Frames',
-      nameJP: '',
+      nameJP: '謎のザコ敵軍団♂♀',
       smash: false,
       imageIndex: 80,
       sortBy: {
@@ -975,7 +975,7 @@ window.generateTrophyData = function () {
     {
       id: 81,
       name: 'Giga Bowser',
-      nameJP: '',
+      nameJP: 'ギガクッパ',
       smash: false,
       imageIndex: 81,
       sortBy: {
@@ -987,7 +987,7 @@ window.generateTrophyData = function () {
     {
       id: 82,
       name: 'Master Hand',
-      nameJP: '',
+      nameJP: 'マスターハンド',
       smash: false,
       imageIndex: 82,
       sortBy: {
@@ -999,7 +999,7 @@ window.generateTrophyData = function () {
     {
       id: 83,
       name: '',
-      nameJP: '',
+      nameJP: 'クレイジーハンド',
       smash: false,
       imageIndex: 83,
       sortBy: {
@@ -1011,7 +1011,7 @@ window.generateTrophyData = function () {
     {
       id: 84,
       name: 'Food',
-      nameJP: '',
+      nameJP: 'たべもの',
       smash: false,
       imageIndex: 84,
       sortBy: {
@@ -1023,7 +1023,7 @@ window.generateTrophyData = function () {
     {
       id: 85,
       name: 'Maxim Tomato',
-      nameJP: '',
+      nameJP: 'マキシムトマト',
       smash: false,
       imageIndex: 85,
       sortBy: {
@@ -1035,7 +1035,7 @@ window.generateTrophyData = function () {
     {
       id: 86,
       name: 'Heart Container',
-      nameJP: '',
+      nameJP: 'ハートのうつわ',
       smash: false,
       imageIndex: 86,
       sortBy: {
@@ -1095,7 +1095,7 @@ window.generateTrophyData = function () {
     {
       id: 91,
       name: 'Lip\'s Stick',
-      nameJP: '',
+      nameJP: 'リップステッキ',
       smash: false,
       imageIndex: 91,
       sortBy: {
@@ -1239,7 +1239,7 @@ window.generateTrophyData = function () {
     {
       id: 103,
       name: 'Motion-Sensor Bomb',
-      nameJP: '',
+      nameJP: 'センサー爆弾',
       smash: false,
       imageIndex: 103,
       sortBy: {
@@ -1311,7 +1311,7 @@ window.generateTrophyData = function () {
     {
       id: 109,
       name: '',
-      nameJP: '',
+      nameJP: '緑ブロック',
       smash: false,
       imageIndex: 109,
       sortBy: {
@@ -1323,7 +1323,7 @@ window.generateTrophyData = function () {
     {
       id: 110,
       name: '',
-      nameJP: '',
+      nameJP: 'ウサギずきん',
       smash: false,
       imageIndex: 110,
       sortBy: {
@@ -1419,7 +1419,7 @@ window.generateTrophyData = function () {
     {
       id: 118,
       name: '',
-      nameJP: '',
+      nameJP: 'コイン',
       smash: false,
       imageIndex: 118,
       sortBy: {
@@ -1611,7 +1611,7 @@ window.generateTrophyData = function () {
     {
       id: 134,
       name: '',
-      nameJP: '',
+      nameJP: 'ミュウ',
       smash: false,
       imageIndex: 134,
       sortBy: {
@@ -1683,7 +1683,7 @@ window.generateTrophyData = function () {
     {
       id: 140,
       name: '',
-      nameJP: '',
+      nameJP: 'ウソッキー',
       smash: false,
       imageIndex: 140,
       sortBy: {
@@ -1695,7 +1695,7 @@ window.generateTrophyData = function () {
     {
       id: 141,
       name: '',
-      nameJP: '',
+      nameJP: 'アンノーン',
       smash: false,
       imageIndex: 141,
       sortBy: {
@@ -1755,7 +1755,7 @@ window.generateTrophyData = function () {
     {
       id: 146,
       name: '',
-      nameJP: '',
+      nameJP: 'エンテイ',
       smash: false,
       imageIndex: 146,
       sortBy: {
@@ -1803,7 +1803,7 @@ window.generateTrophyData = function () {
     {
       id: 150,
       name: '',
-      nameJP: '',
+      nameJP: 'セレビィ',
       smash: false,
       imageIndex: 150,
       sortBy: {
@@ -1863,7 +1863,7 @@ window.generateTrophyData = function () {
     {
       id: 155,
       name: '',
-      nameJP: '',
+      nameJP: 'ロンロン牛乳',
       smash: false,
       imageIndex: 155,
       sortBy: {
@@ -1911,7 +1911,7 @@ window.generateTrophyData = function () {
     {
       id: 159,
       name: '',
-      nameJP: '',
+      nameJP: 'カービィコピーセット4',
       smash: false,
       imageIndex: 159,
       sortBy: {
@@ -1923,7 +1923,7 @@ window.generateTrophyData = function () {
     {
       id: 160,
       name: '',
-      nameJP: '',
+      nameJP: 'カービィコピーセット5',
       smash: false,
       imageIndex: 160,
       sortBy: {
@@ -2091,7 +2091,7 @@ window.generateTrophyData = function () {
     {
       id: 174,
       name: '',
-      nameJP: '',
+      nameJP: 'ファルコン・フライヤー',
       smash: false,
       imageIndex: 174,
       sortBy: {
@@ -2103,7 +2103,7 @@ window.generateTrophyData = function () {
     {
       id: 175,
       name: '',
-      nameJP: '',
+      nameJP: 'F-ZEROマシン',
       smash: false,
       imageIndex: 175,
       sortBy: {
@@ -2115,7 +2115,7 @@ window.generateTrophyData = function () {
     {
       id: 176,
       name: '',
-      nameJP: '',
+      nameJP: 'ミュートシティ',
       smash: false,
       imageIndex: 176,
       sortBy: {
@@ -2175,7 +2175,7 @@ window.generateTrophyData = function () {
     {
       id: 181,
       name: '',
-      nameJP: '',
+      nameJP: 'クレイド',
       smash: false,
       imageIndex: 181,
       sortBy: {
@@ -2223,7 +2223,7 @@ window.generateTrophyData = function () {
     {
       id: 185,
       name: '',
-      nameJP: '',
+      nameJP: 'UFO',
       smash: false,
       imageIndex: 185,
       sortBy: {
@@ -2247,7 +2247,7 @@ window.generateTrophyData = function () {
     {
       id: 187,
       name: '',
-      nameJP: '',
+      nameJP: 'ゲーム＆ウォッチ',
       smash: false,
       imageIndex: 187,
       sortBy: {
@@ -2259,7 +2259,7 @@ window.generateTrophyData = function () {
     {
       id: 188,
       name: '',
-      nameJP: '',
+      nameJP: 'ターゲット',
       smash: false,
       imageIndex: 188,
       sortBy: {
@@ -2271,7 +2271,7 @@ window.generateTrophyData = function () {
     {
       id: 189,
       name: '',
-      nameJP: '',
+      nameJP: 'サンドバッグくん',
       smash: false,
       imageIndex: 189,
       sortBy: {
@@ -2283,7 +2283,7 @@ window.generateTrophyData = function () {
     {
       id: 190,
       name: '',
-      nameJP: '',
+      nameJP: '戦場',
       smash: false,
       imageIndex: 190,
       sortBy: {
@@ -2295,7 +2295,7 @@ window.generateTrophyData = function () {
     {
       id: 191,
       name: '',
-      nameJP: '',
+      nameJP: '終点',
       smash: false,
       imageIndex: 191,
       sortBy: {
@@ -2307,7 +2307,7 @@ window.generateTrophyData = function () {
     {
       id: 192,
       name: '',
-      nameJP: '',
+      nameJP: 'クリボー',
       smash: false,
       imageIndex: 192,
       sortBy: {
@@ -2439,7 +2439,7 @@ window.generateTrophyData = function () {
     {
       id: 203,
       name: '',
-      nameJP: '',
+      nameJP: 'マリオ（ペーパー）',
       smash: false,
       imageIndex: 203,
       sortBy: {
@@ -2451,7 +2451,7 @@ window.generateTrophyData = function () {
     {
       id: 204,
       name: '',
-      nameJP: '',
+      nameJP: 'ワリオ',
       smash: false,
       imageIndex: 204,
       sortBy: {
@@ -2643,7 +2643,7 @@ window.generateTrophyData = function () {
     {
       id: 220,
       name: '',
-      nameJP: '',
+      nameJP: 'マリン',
       smash: false,
       imageIndex: 220,
       sortBy: {
@@ -2655,7 +2655,7 @@ window.generateTrophyData = function () {
     {
       id: 221,
       name: '',
-      nameJP: '',
+      nameJP: 'ムジュラの仮面',
       smash: false,
       imageIndex: 221,
       sortBy: {
@@ -2715,7 +2715,7 @@ window.generateTrophyData = function () {
     {
       id: 226,
       name: '',
-      nameJP: '',
+      nameJP: 'ランドマスター',
       smash: false,
       imageIndex: 226,
       sortBy: {
@@ -2727,7 +2727,7 @@ window.generateTrophyData = function () {
     {
       id: 227,
       name: '',
-      nameJP: '',
+      nameJP: 'ウルフェン',
       smash: false,
       imageIndex: 227,
       sortBy: {
@@ -2775,7 +2775,7 @@ window.generateTrophyData = function () {
     {
       id: 231,
       name: '',
-      nameJP: '',
+      nameJP: 'スターシップ',
       smash: false,
       imageIndex: 231,
       sortBy: {
@@ -3506,8 +3506,8 @@ window.generateTrophyData = function () {
     },
     {
       id: 292,
-      name: '',
-      nameJP: '',
+      name: 'Motion-Sensor Bomb',
+      nameJP: 'センサー爆弾',
       smash: false,
       imageIndex: 292,
       sortBy: {
