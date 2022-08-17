@@ -3506,7 +3506,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 292,
-      name: 'Motion-Sensor Bomb',
+      name: 'Proximity Mine',
       nameJP: 'センサー爆弾',
       smash: false,
       imageIndex: 292,
