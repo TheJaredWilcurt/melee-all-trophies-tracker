@@ -998,7 +998,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 83,
-      name: '',
+      name: 'Crazy Hand',
       nameJP: 'クレイジーハンド',
       smash: false,
       imageIndex: 83,
@@ -1286,7 +1286,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 107,
-      name: '',
+      name: 'Parasol',
       nameJP: 'パラソル',
       smash: false,
       imageIndex: 107,
@@ -1298,7 +1298,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 108,
-      name: '',
+      name: 'Screw Attack',
       nameJP: 'スクリューアタック',
       smash: false,
       imageIndex: 108,
@@ -1310,7 +1310,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 109,
-      name: '',
+      name: 'Metal Box',
       nameJP: '緑ブロック',
       smash: false,
       imageIndex: 109,
@@ -1322,7 +1322,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 110,
-      name: '',
+      name: 'Bunny Hood',
       nameJP: 'ウサギずきん',
       smash: false,
       imageIndex: 110,
@@ -1334,7 +1334,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 111,
-      name: '',
+      name: 'Cloaking Device',
       nameJP: 'スパイクローク',
       smash: false,
       imageIndex: 111,
@@ -1346,7 +1346,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 112,
-      name: '',
+      name: 'Barrel Cannon',
       nameJP: 'タル大砲',
       smash: false,
       imageIndex: 112,
@@ -1358,7 +1358,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 113,
-      name: '',
+      name: 'Party Ball',
       nameJP: 'くす玉',
       smash: false,
       imageIndex: 113,
@@ -1370,7 +1370,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 114,
-      name: '',
+      name: 'Crate',
       nameJP: '箱',
       smash: false,
       imageIndex: 114,
@@ -1382,7 +1382,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 115,
-      name: '',
+      name: 'Barrel',
       nameJP: 'タル',
       smash: false,
       imageIndex: 115,
@@ -1394,7 +1394,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 116,
-      name: '',
+      name: 'Capsule',
       nameJP: 'カプセル',
       smash: false,
       imageIndex: 116,
@@ -1406,7 +1406,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 117,
-      name: '',
+      name: 'Egg',
       nameJP: 'たまご',
       smash: false,
       imageIndex: 117,
@@ -1418,7 +1418,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 118,
-      name: '',
+      name: 'Smash Coins',
       nameJP: 'コイン',
       smash: false,
       imageIndex: 118,
@@ -1430,7 +1430,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 119,
-      name: '',
+      name: 'Poké Ball',
       nameJP: 'モンスターボール',
       smash: false,
       imageIndex: 119,
@@ -1442,7 +1442,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 120,
-      name: '',
+      name: 'Venusaur',
       nameJP: 'フシギバナ',
       smash: false,
       imageIndex: 120,
@@ -1454,7 +1454,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 121,
-      name: '',
+      name: 'Charizard',
       nameJP: 'リザードン',
       smash: false,
       imageIndex: 121,
@@ -1466,7 +1466,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 122,
-      name: '',
+      name: 'Squirtle',
       nameJP: 'ゼニガメ',
       smash: false,
       imageIndex: 122,
@@ -1478,7 +1478,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 123,
-      name: '',
+      name: 'Blastoise',
       nameJP: 'カメックス',
       smash: false,
       imageIndex: 123,
@@ -1490,7 +1490,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 124,
-      name: '',
+      name: 'Clefairy',
       nameJP: 'ピッピ',
       smash: false,
       imageIndex: 124,
@@ -1502,7 +1502,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 125,
-      name: '',
+      name: 'Electrode',
       nameJP: 'マルマイン',
       smash: false,
       imageIndex: 125,
@@ -1514,7 +1514,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 126,
-      name: '',
+      name: 'Weezing',
       nameJP: 'マタドガス',
       smash: false,
       imageIndex: 126,
@@ -1526,7 +1526,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 127,
-      name: '',
+      name: 'Chansey',
       nameJP: 'ラッキー',
       smash: false,
       imageIndex: 127,
@@ -1538,7 +1538,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 128,
-      name: '',
+      name: 'Goldeen',
       nameJP: 'トサキント',
       smash: false,
       imageIndex: 128,
@@ -1550,7 +1550,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 129,
-      name: '',
+      name: 'Staryu',
       nameJP: 'ヒトデマン',
       smash: false,
       imageIndex: 129,
@@ -1562,7 +1562,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 130,
-      name: '',
+      name: 'Snorlax',
       nameJP: 'カビゴン',
       smash: false,
       imageIndex: 130,
@@ -1574,7 +1574,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 131,
-      name: '',
+      name: 'Articuno',
       nameJP: 'フリーザー（ポケモン）',
       smash: false,
       imageIndex: 131,
@@ -1586,7 +1586,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 132,
-      name: '',
+      name: 'Zapdos',
       nameJP: 'サンダー',
       smash: false,
       imageIndex: 132,
@@ -1598,7 +1598,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 133,
-      name: '',
+      name: 'Moltres',
       nameJP: 'ファイヤー',
       smash: false,
       imageIndex: 133,
@@ -1610,7 +1610,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 134,
-      name: '',
+      name: 'Mew',
       nameJP: 'ミュウ',
       smash: false,
       imageIndex: 134,
@@ -1622,7 +1622,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 135,
-      name: '',
+      name: 'Chikorita',
       nameJP: 'チコリータ',
       smash: false,
       imageIndex: 135,
@@ -1634,7 +1634,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 136,
-      name: '',
+      name: 'Cyndaquil',
       nameJP: 'ヒノアラシ',
       smash: false,
       imageIndex: 136,
@@ -1646,7 +1646,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 137,
-      name: '',
+      name: 'Togepi',
       nameJP: 'トゲピー',
       smash: false,
       imageIndex: 137,
@@ -1658,7 +1658,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 138,
-      name: '',
+      name: 'Bellossom',
       nameJP: 'キレイハナ',
       smash: false,
       imageIndex: 138,
@@ -1670,7 +1670,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 139,
-      name: '',
+      name: 'Marill',
       nameJP: 'マリル',
       smash: false,
       imageIndex: 139,
@@ -1682,7 +1682,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 140,
-      name: '',
+      name: 'Sudowoodo',
       nameJP: 'ウソッキー',
       smash: false,
       imageIndex: 140,
@@ -1694,7 +1694,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 141,
-      name: '',
+      name: 'Unown',
       nameJP: 'アンノーン',
       smash: false,
       imageIndex: 141,
@@ -1706,7 +1706,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 142,
-      name: '',
+      name: 'Wobbuffet',
       nameJP: 'ソーナンス',
       smash: false,
       imageIndex: 142,
@@ -1718,7 +1718,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 143,
-      name: '',
+      name: 'Scizor',
       nameJP: 'ハッサム',
       smash: false,
       imageIndex: 143,
@@ -1730,7 +1730,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 144,
-      name: '',
+      name: 'Porygon2',
       nameJP: 'ポリゴン',
       smash: false,
       imageIndex: 144,
@@ -1742,7 +1742,7 @@ window.generateTrophyData = function () {
     },
     {
       id: 145,
-      name: '',
+      name: 'Raikou',
       nameJP: 'ライコウ',
       smash: false,
       imageIndex: 145,
