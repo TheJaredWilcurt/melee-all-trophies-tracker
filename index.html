@@ -20,35 +20,31 @@
         v-if="isJP"
         src="images/dx-logo.png"
         class="logo-dx"
-        alt="大乱闘スマッシュブラザーズＤＸ"
+        :alt="dictionary.jp.superSmashBrosMelee"
       />
       <img
         v-else
         src="images/melee-logo.png"
         class="logo"
-        alt="Super Smash Bros. Melee"
+        :alt="dictionary.en.superSmashBrosMelee"
       />
 
-      <h1 v-if="isJP">"全てフィギュア"</h1>
-      <h1 v-else>"All Trophies"</h1>
+      <h1>"{{ dictionary[language].allTrophies }}"</h1>
+      <h2>{{ dictionary[language].speedrunTracker }}</h2>
 
-      <h2 v-if="isJP">スピードラントラッカー</h2>
-      <h2 v-else>Speedrun Tracker</h2>
+
 
       <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
       <div class="controls">
         <div class="form-control">
-          <label>
-            <strong v-if="isJP">言語: </strong>
-            <strong v-else>Language: </strong>
-          </label>
+          <label><strong>{{ dictionary[language].language }}</strong></label>
           <span
             v-text="'🇺🇸'"
             class="cursor flag"
-            :class="{ selected: language === 'en-us' }"
+            :class="{ selected: language === 'en' }"
             title="EN-US"
-            @click="language = 'en-us'"
+            @click="language = 'en'"
           ></span>
           <span
             v-text="'🇯🇵'"
@@ -61,10 +57,20 @@
 
         <div class="form-control">
           <label>
-            <strong v-if="isJP">フィギュアサイズ: </strong>
-            <strong v-else>Trohpy Size: </strong>
+            <strong>{{ dictionary[language].trophySize }}</strong>
             <input type="range" v-model="reductionRatio" min="1" max="10000" />
             {{ reductionRatio / 100 }}%
+          </label>
+        </div>
+
+        <div class="form-control">
+          <label>
+            <strong>{{ dictionary[language].sortBy }}</strong>
+            <select v-model="sortBy">
+              <option value="normal">Normal</option>
+              <option value="game">Game</option>
+              <option value="aZ">A-Z</option>
+            </select>
           </label>
         </div>
 
@@ -110,11 +116,8 @@
               v-for="header in headers"
               :class="header.class"
             >
-              <template v-if="isJP">
-                {{ header.nameJP }}
-              </template>
-              <template v-else>
-                {{ header.name }}
+              <template v-if="header.dictionaryKey">
+                {{ dictionary[language][header.dictionaryKey] }}
               </template>
             </th>
           </tr>
@@ -126,11 +129,8 @@
               :class="header.class"
               :width="floatingHeaders[headerIndex]"
             >
-              <template v-if="isJP">
-                {{ header.nameJP }}
-              </template>
-              <template v-else>
-                {{ header.name }}
+              <template v-if="header.dictionaryKey">
+                {{ dictionary[language][header.dictionaryKey] }}
               </template>
             </th>
           </tr>

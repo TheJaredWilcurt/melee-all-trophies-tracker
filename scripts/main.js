@@ -1,45 +1,69 @@
+const dictionary = {
+  en: {
+    allTrophies: 'All Trophies',
+    aZ: 'A-Z',
+    game: 'Game',
+    language: 'Language: ',
+    name: 'Name',
+    normal: 'Normal',
+    smash: 'Smash',
+    sortBy: 'Sort by: ',
+    speedrunTracker: 'Speedrun Tracker',
+    superSmashBrosMelee: 'Super Smash Bros. Melee',
+    trophy: 'Trophy',
+    trophySize: 'Trohpy Size: '
+  },
+  jp: {
+    allTrophies: '全てフィギュア',
+    aZ: 'あいうえお',
+    game: 'タイトル',
+    language: '言語： ',
+    name: '名前',
+    normal: '通常',
+    smash: 'スマッシュ',
+    sortBy: '並び替え： ',
+    speedrunTracker: 'スピードラントラッカー',
+    superSmashBrosMelee: '大乱闘スマッシュブラザーズＤＸ',
+    trophy: 'フィギュア',
+    trophySize: 'フィギュアサイズ： '
+  }
+};
+
 const app = Vue.createApp({
   data: function () {
     return {
       localStorageId: 'meleeAllTrophiesData',
-      language: 'en-us',
+      language: 'en',
+      sortBy: 'normal',
       headers: [
         {
-          name: '',
           class: 'center'
         },
         {
-          name: '',
           class: 'center'
         },
         {
-          name: 'Trophy',
-          nameJP: 'フィギュア',
+          dictionaryKey: 'trophy',
           class: 'center'
         },
         {
-          name: 'Name',
-          nameJP: '名前',
+          dictionaryKey: 'name',
           class: ''
         },
         {
-          name: 'Smash',
-          nameJP: 'スマッシュ',
+          dictionaryKey: 'smash',
           class: 'center'
         },
         {
-          name: 'Normal',
-          nameJP: '通常',
+          dictionaryKey: 'normal',
           class: 'center'
         },
         {
-          name: 'Game',
-          nameJP: 'タイトル',
+          dictionaryKey: 'game',
           class: 'center'
         },
         {
-          name: 'A-Z',
-          nameJP: 'あいうえお',
+          dictionaryKey: 'aZ',
           class: 'center'
         },
       ],
@@ -139,6 +163,9 @@ const app = Vue.createApp({
     }
   },
   computed: {
+    dictionary: function () {
+      return dictionary;
+    },
     trophyTextBox: function () {
       return 'window.generateTrophyData = function () {\n' +
         '  return [\n' +
