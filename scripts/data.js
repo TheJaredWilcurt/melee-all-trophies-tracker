@@ -2745,7 +2745,7 @@ window.generateTrophyData = function () {
       sortBy: {
         normal: 229,
         game: 92,
-        aZ: 500
+        aZ: 3
       }
     },
     {
@@ -2757,7 +2757,7 @@ window.generateTrophyData = function () {
       sortBy: {
         normal: 230,
         game: 91,
-        aZ: 500
+        aZ: 2
       }
     },
     {
@@ -3273,7 +3273,7 @@ window.generateTrophyData = function () {
       sortBy: {
         normal: 273,
         game: 201,
-        aZ: 500
+        aZ: 1
       }
     },
     {

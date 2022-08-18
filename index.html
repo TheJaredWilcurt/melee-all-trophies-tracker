@@ -77,12 +77,12 @@
 
         <div class="form-control">
           <label>
-            <strong>Highest Game: </strong>
-            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499)) }} -
-            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499))).length }} -
-            {{ trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499).length }}
+            <strong>Highest A-Z: </strong>
+            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499)) }} -
+            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499))).length }} -
+            {{ trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499).length }}
             <template
-              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499))).length === trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499).length"
+              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499))).length === trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499).length"
             >
               ✔️
             </template>
@@ -194,11 +194,11 @@
             <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td class="center">{{ trophy.sortBy.normal }}</td>
+            <td class="center">{{ trophy.sortBy.game }}</td>
             <td class="center">
-              <input type="number" v-model="trophies[trophy.id].sortBy.game">
+              <input type="number" v-model="trophies[trophy.id].sortBy.aZ">
               <button @click="nextIs(trophy.id)">this</button>
             </td>
-            <td class="center">{{ trophy.sortBy.aZ }}</td>
           </tr>
         </tbody>
       </table>
