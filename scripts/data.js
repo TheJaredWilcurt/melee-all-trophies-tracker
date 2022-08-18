@@ -3325,13 +3325,25 @@ window.generateTrophyData = function () {
       }
     },
     {
+      id: 294,
+      name: 'Tamagon',
+      nameJP: 'タマゴン',
+      smash: false,
+      imageIndex: 294,
+      sortBy: {
+        normal: 278,
+        game: 0,
+        aZ: 0
+      }
+    },
+    {
       id: 277,
       name: 'Donkey Kong Junior',
       nameJP: 'ドンキーコングJr.',
       smash: false,
       imageIndex: 277,
       sortBy: {
-        normal: 278,
+        normal: 279,
         game: 0,
         aZ: 0
       }
@@ -3343,7 +3355,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 278,
       sortBy: {
-        normal: 279,
+        normal: 280,
         game: 0,
         aZ: 0
       }
@@ -3355,7 +3367,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 279,
       sortBy: {
-        normal: 280,
+        normal: 281,
         game: 0,
         aZ: 0
       }
@@ -3367,7 +3379,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 280,
       sortBy: {
-        normal: 281,
+        normal: 282,
         game: 0,
         aZ: 0
       }
@@ -3379,7 +3391,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 281,
       sortBy: {
-        normal: 282,
+        normal: 283,
         game: 0,
         aZ: 0
       }
@@ -3391,7 +3403,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 282,
       sortBy: {
-        normal: 283,
+        normal: 284,
         game: 0,
         aZ: 0
       }
@@ -3403,7 +3415,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 283,
       sortBy: {
-        normal: 284,
+        normal: 285,
         game: 0,
         aZ: 0
       }
@@ -3415,7 +3427,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 284,
       sortBy: {
-        normal: 285,
+        normal: 286,
         game: 0,
         aZ: 0
       }
@@ -3427,7 +3439,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 285,
       sortBy: {
-        normal: 286,
+        normal: 287,
         game: 0,
         aZ: 0
       }
@@ -3439,7 +3451,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 286,
       sortBy: {
-        normal: 287,
+        normal: 288,
         game: 0,
         aZ: 0
       }
@@ -3451,7 +3463,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 287,
       sortBy: {
-        normal: 288,
+        normal: 289,
         game: 0,
         aZ: 0
       }
@@ -3463,7 +3475,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 288,
       sortBy: {
-        normal: 289,
+        normal: 290,
         game: 0,
         aZ: 0
       }
@@ -3475,7 +3487,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 289,
       sortBy: {
-        normal: 290,
+        normal: 291,
         game: 0,
         aZ: 0
       }
@@ -3487,7 +3499,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 290,
       sortBy: {
-        normal: 291,
+        normal: 292,
         game: 0,
         aZ: 0
       }
@@ -3499,7 +3511,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 291,
       sortBy: {
-        normal: 292,
+        normal: 293,
         game: 0,
         aZ: 0
       }
@@ -3511,7 +3523,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 292,
       sortBy: {
-        normal: 293,
+        normal: 294,
         game: 0,
         aZ: 0
       }
@@ -3522,18 +3534,6 @@ window.generateTrophyData = function () {
       nameJP: 'トッピー',
       smash: false,
       imageIndex: 293,
-      sortBy: {
-        normal: 294,
-        game: 0,
-        aZ: 0
-      }
-    },
-    {
-      id: 294,
-      name: 'Tamagon',
-      nameJP: 'タマゴン',
-      smash: false,
-      imageIndex: 294,
       sortBy: {
         normal: 295,
         game: 0,
