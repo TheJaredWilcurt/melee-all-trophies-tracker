@@ -13,6 +13,10 @@ const app = Vue.createApp({
           class: 'center'
         },
         {
+          name: '',
+          class: 'center'
+        },
+        {
           name: 'Trophy',
           nameJP: 'フィギュア',
           class: 'center'
@@ -123,9 +127,39 @@ const app = Vue.createApp({
     },
     selectNone: function () {
       this.generateTrohpyAcquisitionMap(false);
+    },
+    move: function (id, amount) {
+      const trophy = this.trophies.findIndex(function (trophy) {
+        return trophy.id === id;
+      });
+      const gameSort = trophy.sortBy.game;
+      console.log(trophy, gameSort, amount);
     }
   },
   computed: {
+    trophyTextBox: function () {
+      return 'window.generateTrophyData = function () {\n' +
+        '  return [\n' +
+        JSON.stringify(this.trophies, null, 2)
+          .split('\'').join('\\\'')
+          .split('"').join('\'')
+          .split('\n')
+          .map(function (line) {
+            if (line === '[') {
+              return '';
+            }
+            if (!line.includes(':')) {
+              return '  ' + line;
+            }
+            let [key, value] = line.split(':');
+            key = key.replace('\'', '');
+            key = key.replace('\'', '');
+            return '  ' + key + ':' + value;
+          })
+          .filter(Boolean)
+          .join('\n') +
+        ';\n};\n';
+    },
     dataToSave: function () {
       return JSON.stringify({
         language: this.language,
@@ -168,7 +202,12 @@ const app = Vue.createApp({
         );
         return name && smash;
       });
-      return trophies
+      trophies = trophies.sort(function (a, b) {
+        let A = a.sortBy.game;
+        let B = b.sortBy.game;
+        return A > B ? 1 : -1;
+      });
+      return trophies;
     }
   },
   watch: {

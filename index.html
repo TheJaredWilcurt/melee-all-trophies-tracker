@@ -75,6 +75,13 @@
           </label>
         </div>
 
+        <div class="form-control">
+          <label>
+            <strong>Trophy Data: </strong>
+            <textarea readonly v-text="trophyTextBox"></textarea>
+          </label>
+        </div>
+
         <div>
           <button @click="selectAll">Select All</button>
           <button @click="selectNone">Select None</button>
@@ -118,6 +125,7 @@
             <th></th>
             <th></th>
             <th></th>
+            <th></th>
             <th v-if="isJP"><input v-model="filterNameJP"></th>
             <th v-else><input v-model="filterName"></th>
             <th class="center">
@@ -138,6 +146,15 @@
             :id="trophy.imageIndex"
             @click.stop="toggleTrohpyAcquired(trophy.id)"
           >
+            <td
+              class="center"
+              @click.stop
+            >
+              <button @click="move(trophy.id, 1)">+1</button>
+              <button @click="move(trophy.id, 10)">+10</button><br>
+              <button @click="move(trophy.id, -1)">-1</button>
+              <button @click="move(trophy.id, -10)">-10</button>
+            </td>
             <td
               class="center"
               @click.stop
@@ -172,7 +189,7 @@
             <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td class="center">{{ trophy.sortBy.normal }}</td>
-            <td class="center">{{ trophy.sortBy.game }}</td>
+            <td class="center"><input type="number" v-model="trophies[trophy.id].sortBy.game"></td>
             <td class="center">{{ trophy.sortBy.aZ }}</td>
           </tr>
         </tbody>

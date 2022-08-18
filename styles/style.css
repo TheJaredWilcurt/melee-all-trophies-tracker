@@ -35,6 +35,21 @@ a {
   color: #FFF;
 }
 
+button {
+  background: #AAA;
+  border: 0px;
+  border-radius: 5px;
+  margin: 3px 4px;
+  padding: 7px;
+  clip-path: polygon(0% 0%, 80% 0%, 100% 20%, 100% 100%, 100% 100%, 20% 100%, 0% 80%);
+}
+button:hover {
+  background: #CCC;
+}
+button:active {
+  background: #888;
+}
+
 table,
 tfoot {
   width: 100%;
