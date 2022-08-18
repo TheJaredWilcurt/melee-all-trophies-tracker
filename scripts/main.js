@@ -125,17 +125,17 @@ const app = Vue.createApp({
       this.generateTrohpyAcquisitionMap(false);
     },
     nextIs: function (id) {
-      const validGameSorts = this.trophies
+      const validAZSorts = this.trophies
         .map(function (trophy) {
-          return trophy.sortBy.game;
+          return trophy.sortBy.aZ;
         })
         .filter(function (game) {
           return game < 499;
         });
-      const highestGameSort = Math.max(...validGameSorts);
-      const newSortValue = highestGameSort + 1
-      if (this.trophies[id].sortBy.game !== highestGameSort)
-      this.trophies[id].sortBy.game = newSortValue;
+      const highestAZSort = Math.max(...validAZSorts);
+      const newSortValue = highestAZSort + 1
+      if (this.trophies[id].sortBy.aZ !== highestAZSort)
+      this.trophies[id].sortBy.aZ = newSortValue;
     }
   },
   computed: {
@@ -206,11 +206,8 @@ const app = Vue.createApp({
           return name && smash;
         })
         .sort(function (a, b) {
-          let A = a.sortBy.game;
-          let B = b.sortBy.game;
-          if (A === 500 || B === 500) {
-            console.log({ A, B, C: A - B });
-          }
+          let A = a.sortBy.aZ;
+          let B = b.sortBy.aZ;
           return A > B ? 1 : -1;
         });
       return trophies;
