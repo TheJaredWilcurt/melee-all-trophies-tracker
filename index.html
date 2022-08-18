@@ -69,7 +69,8 @@
             <select v-model="sortBy">
               <option value="normal">{{ dictionary[language].normal }}</option>
               <option value="game">{{ dictionary[language].game }}</option>
-              <option value="aZ">{{ dictionary[language].aZ }}</option>
+              <option value="aZ">{{ dictionary[language].aZ }} (US)</option>
+              <option value="aZjp">{{ dictionary[language].aZ }} (JP)</option>
             </select>
           </label>
         </div>
@@ -83,12 +84,12 @@
 
         <div class="form-control">
           <label>
-            <strong>Highest A-Z: </strong>
-            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499)) }} -
-            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499))).length }} -
-            {{ trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499).length }}
+            <strong>Highest A-Z (JP): </strong>
+            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499)) }} -
+            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499))).length }} -
+            {{ trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499).length }}
             <template
-              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499))).length === trophies.map((trophy) => trophy.sortBy.aZ).filter((aZ) => aZ < 499).length"
+              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499))).length === trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499).length"
             >
               ✔️
             </template>
@@ -149,9 +150,7 @@
                 <option :value="false">false</option>
               </select>
             </th>
-            <th><!-- Normal --></th>
-            <th><!-- Game --></th>
-            <th><!-- A-Z --></th>
+            <th><!-- aZjp --></th>
           </tr>
           <tr
             v-for="(trophy, trophyIndex) in filteredTrophies"
@@ -193,10 +192,8 @@
             <td v-if="isJP">{{ trophy.nameJP }}</td>
             <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
-            <td class="center">{{ trophy.sortBy.normal }}</td>
-            <td class="center">{{ trophy.sortBy.game }}</td>
             <td class="center">
-              <input type="number" v-model="trophies[trophy.id].sortBy.aZ">
+              <input type="number" v-model="trophies[trophy.id].sortBy.aZjp">
               <button @click="nextIs(trophy.id)">this</button>
             </td>
           </tr>

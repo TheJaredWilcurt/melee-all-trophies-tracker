@@ -55,14 +55,6 @@ const app = Vue.createApp({
           class: 'center'
         },
         {
-          dictionaryKey: 'normal',
-          class: 'center'
-        },
-        {
-          dictionaryKey: 'game',
-          class: 'center'
-        },
-        {
           dictionaryKey: 'aZ',
           class: 'center'
         },
@@ -152,17 +144,17 @@ const app = Vue.createApp({
       this.generateTrohpyAcquisitionMap(false);
     },
     nextIs: function (id) {
-      const validAZSorts = this.trophies
+      const validAZJPSorts = this.trophies
         .map(function (trophy) {
-          return trophy.sortBy.aZ;
+          return trophy.sortBy.aZjp;
         })
         .filter(function (game) {
           return game < 499;
         });
-      const highestAZSort = Math.max(...validAZSorts);
-      const newSortValue = highestAZSort + 1
-      if (this.trophies[id].sortBy.aZ !== highestAZSort)
-      this.trophies[id].sortBy.aZ = newSortValue;
+      const highestAZJPSort = Math.max(...validAZJPSorts);
+      const newSortValue = highestAZJPSort + 1
+      if (this.trophies[id].sortBy.aZjp !== highestAZJPSort)
+      this.trophies[id].sortBy.aZjp = newSortValue;
     }
   },
   computed: {
