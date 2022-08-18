@@ -13,10 +13,6 @@ const app = Vue.createApp({
           class: 'center'
         },
         {
-          name: '',
-          class: 'center'
-        },
-        {
           name: 'Trophy',
           nameJP: 'フィギュア',
           class: 'center'
@@ -128,12 +124,16 @@ const app = Vue.createApp({
     selectNone: function () {
       this.generateTrohpyAcquisitionMap(false);
     },
-    move: function (id, amount) {
-      const trophy = this.trophies.findIndex(function (trophy) {
-        return trophy.id === id;
-      });
-      const gameSort = trophy.sortBy.game;
-      console.log(trophy, gameSort, amount);
+    nextIs: function (id) {
+      const validGameSorts = this.trophies
+        .map(function (trophy) {
+          return trophy.sortBy.game;
+        })
+        .filter(function (game) {
+          return game < 499;
+        });
+      const highestGameSort = Math.max(...validGameSorts);
+      this.trophies[id].sortBy.game = highestGameSort + 1;
     }
   },
   computed: {

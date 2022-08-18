@@ -79,6 +79,12 @@
           <label>
             <strong>Highest Game: </strong>
             {{ Math.max(...trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499)) }}
+            <template
+              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499))).length === trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499).length"
+            >
+              ✔️
+            </template>
+            <template v-else>❌</template>
           </label>
         </div>
 
@@ -129,10 +135,9 @@
         </tfoot>
         <tbody>
           <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th><!-- link --></th>
+            <th><!-- checkbox --></th>
+            <th><!-- trophy image --></th>
             <th v-if="isJP"><input v-model="filterNameJP"></th>
             <th v-else><input v-model="filterName"></th>
             <th class="center">
@@ -142,9 +147,9 @@
                 <option :value="false">false</option>
               </select>
             </th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th><!-- Normal --></th>
+            <th><!-- Game --></th>
+            <th><!-- A-Z --></th>
           </tr>
           <tr
             v-for="(trophy, trophyIndex) in filteredTrophies"
@@ -153,15 +158,6 @@
             :id="trophy.imageIndex"
             @click.stop="toggleTrohpyAcquired(trophy.id)"
           >
-            <td
-              class="center"
-              @click.stop
-            >
-              <button @click="move(trophy.id, 1)">+1</button>
-              <button @click="move(trophy.id, 10)">+10</button><br>
-              <button @click="move(trophy.id, -1)">-1</button>
-              <button @click="move(trophy.id, -10)">-10</button>
-            </td>
             <td
               class="center"
               @click.stop
@@ -196,7 +192,10 @@
             <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
             <td class="center">{{ trophy.sortBy.normal }}</td>
-            <td class="center"><input type="number" v-model="trophies[trophy.id].sortBy.game"></td>
+            <td class="center">
+              <input type="number" v-model="trophies[trophy.id].sortBy.game">
+              <button @click="nextIs(trophy.id)">this</button>
+            </td>
             <td class="center">{{ trophy.sortBy.aZ }}</td>
           </tr>
         </tbody>
