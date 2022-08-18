@@ -133,7 +133,9 @@ const app = Vue.createApp({
           return game < 499;
         });
       const highestGameSort = Math.max(...validGameSorts);
-      this.trophies[id].sortBy.game = highestGameSort + 1;
+      const newSortValue = highestGameSort + 1
+      if (this.trophies[id].sortBy.game !== highestGameSort)
+      this.trophies[id].sortBy.game = newSortValue;
     }
   },
   computed: {

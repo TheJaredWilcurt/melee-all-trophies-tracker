@@ -440,7 +440,7 @@ window.generateTrophyData = function () {
       imageIndex: 36,
       sortBy: {
         normal: 37,
-        game: 500,
+        game: 181,
         aZ: 0
       }
     },
@@ -1436,7 +1436,7 @@ window.generateTrophyData = function () {
       imageIndex: 119,
       sortBy: {
         normal: 120,
-        game: 500,
+        game: 178,
         aZ: 0
       }
     },
@@ -1796,7 +1796,7 @@ window.generateTrophyData = function () {
       imageIndex: 149,
       sortBy: {
         normal: 150,
-        game: 500,
+        game: 173,
         aZ: 0
       }
     },
@@ -1808,7 +1808,7 @@ window.generateTrophyData = function () {
       imageIndex: 150,
       sortBy: {
         normal: 151,
-        game: 500,
+        game: 174,
         aZ: 0
       }
     },
@@ -2240,7 +2240,7 @@ window.generateTrophyData = function () {
       imageIndex: 186,
       sortBy: {
         normal: 187,
-        game: 500,
+        game: 180,
         aZ: 0
       }
     },
@@ -2384,7 +2384,7 @@ window.generateTrophyData = function () {
       imageIndex: 198,
       sortBy: {
         normal: 199,
-        game: 500,
+        game: 182,
         aZ: 0
       }
     },
@@ -2396,7 +2396,7 @@ window.generateTrophyData = function () {
       imageIndex: 199,
       sortBy: {
         normal: 200,
-        game: 500,
+        game: 184,
         aZ: 0
       }
     },
@@ -3080,7 +3080,7 @@ window.generateTrophyData = function () {
       imageIndex: 256,
       sortBy: {
         normal: 257,
-        game: 500,
+        game: 175,
         aZ: 0
       }
     },
@@ -3092,7 +3092,7 @@ window.generateTrophyData = function () {
       imageIndex: 257,
       sortBy: {
         normal: 258,
-        game: 500,
+        game: 176,
         aZ: 0
       }
     },
@@ -3104,7 +3104,7 @@ window.generateTrophyData = function () {
       imageIndex: 258,
       sortBy: {
         normal: 259,
-        game: 500,
+        game: 177,
         aZ: 0
       }
     },
@@ -3116,7 +3116,7 @@ window.generateTrophyData = function () {
       imageIndex: 259,
       sortBy: {
         normal: 260,
-        game: 500,
+        game: 179,
         aZ: 0
       }
     },
@@ -3524,7 +3524,7 @@ window.generateTrophyData = function () {
       imageIndex: 293,
       sortBy: {
         normal: 295,
-        game: 500,
+        game: 183,
         aZ: 0
       }
     },
