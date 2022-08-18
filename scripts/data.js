@@ -3325,18 +3325,6 @@ window.generateTrophyData = function () {
       }
     },
     {
-      id: 294,
-      name: 'Tamagon',
-      nameJP: 'タマゴン',
-      smash: false,
-      imageIndex: 294,
-      sortBy: {
-        normal: 278,
-        game: 49,
-        aZ: 0
-      }
-    },
-    {
       id: 277,
       name: 'Donkey Kong Junior',
       nameJP: 'ドンキーコングJr.',
@@ -3539,6 +3527,18 @@ window.generateTrophyData = function () {
         game: 500,
         aZ: 0
       }
-    }
+    },
+    {
+      id: 294,
+      name: 'Tamagon',
+      nameJP: 'タマゴン',
+      smash: false,
+      imageIndex: 294,
+      sortBy: {
+        normal: 278,
+        game: 49,
+        aZ: 0
+      }
+    },
   ];
 };
