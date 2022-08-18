@@ -944,7 +944,7 @@ window.generateTrophyData = function () {
       imageIndex: 78,
       sortBy: {
         normal: 79,
-        game: 500,
+        game: 290,
         aZ: 0
       }
     },
@@ -956,7 +956,7 @@ window.generateTrophyData = function () {
       imageIndex: 79,
       sortBy: {
         normal: 80,
-        game: 500,
+        game: 291,
         aZ: 0
       }
     },
@@ -968,7 +968,7 @@ window.generateTrophyData = function () {
       imageIndex: 80,
       sortBy: {
         normal: 81,
-        game: 500,
+        game: 292,
         aZ: 0
       }
     },
@@ -980,7 +980,7 @@ window.generateTrophyData = function () {
       imageIndex: 81,
       sortBy: {
         normal: 82,
-        game: 500,
+        game: 293,
         aZ: 0
       }
     },
@@ -992,7 +992,7 @@ window.generateTrophyData = function () {
       imageIndex: 82,
       sortBy: {
         normal: 83,
-        game: 500,
+        game: 294,
         aZ: 0
       }
     },
@@ -1004,7 +1004,7 @@ window.generateTrophyData = function () {
       imageIndex: 83,
       sortBy: {
         normal: 84,
-        game: 500,
+        game: 295,
         aZ: 0
       }
     },
@@ -1016,7 +1016,7 @@ window.generateTrophyData = function () {
       imageIndex: 84,
       sortBy: {
         normal: 85,
-        game: 500,
+        game: 281,
         aZ: 0
       }
     },
@@ -1064,7 +1064,7 @@ window.generateTrophyData = function () {
       imageIndex: 88,
       sortBy: {
         normal: 89,
-        game: 500,
+        game: 285,
         aZ: 0
       }
     },
@@ -1124,7 +1124,7 @@ window.generateTrophyData = function () {
       imageIndex: 93,
       sortBy: {
         normal: 94,
-        game: 500,
+        game: 276,
         aZ: 0
       }
     },
@@ -1136,7 +1136,7 @@ window.generateTrophyData = function () {
       imageIndex: 94,
       sortBy: {
         normal: 95,
-        game: 500,
+        game: 283,
         aZ: 0
       }
     },
@@ -1148,7 +1148,7 @@ window.generateTrophyData = function () {
       imageIndex: 95,
       sortBy: {
         normal: 96,
-        game: 500,
+        game: 282,
         aZ: 0
       }
     },
@@ -1364,7 +1364,7 @@ window.generateTrophyData = function () {
       imageIndex: 113,
       sortBy: {
         normal: 114,
-        game: 500,
+        game: 284,
         aZ: 0
       }
     },
@@ -1376,7 +1376,7 @@ window.generateTrophyData = function () {
       imageIndex: 114,
       sortBy: {
         normal: 115,
-        game: 500,
+        game: 277,
         aZ: 0
       }
     },
@@ -1400,7 +1400,7 @@ window.generateTrophyData = function () {
       imageIndex: 116,
       sortBy: {
         normal: 117,
-        game: 500,
+        game: 278,
         aZ: 0
       }
     },
@@ -1412,7 +1412,7 @@ window.generateTrophyData = function () {
       imageIndex: 117,
       sortBy: {
         normal: 118,
-        game: 500,
+        game: 280,
         aZ: 0
       }
     },
@@ -1424,7 +1424,7 @@ window.generateTrophyData = function () {
       imageIndex: 118,
       sortBy: {
         normal: 119,
-        game: 500,
+        game: 279,
         aZ: 0
       }
     },
@@ -2264,7 +2264,7 @@ window.generateTrophyData = function () {
       imageIndex: 188,
       sortBy: {
         normal: 189,
-        game: 500,
+        game: 287,
         aZ: 0
       }
     },
@@ -2276,7 +2276,7 @@ window.generateTrophyData = function () {
       imageIndex: 189,
       sortBy: {
         normal: 190,
-        game: 500,
+        game: 286,
         aZ: 0
       }
     },
@@ -2288,7 +2288,7 @@ window.generateTrophyData = function () {
       imageIndex: 190,
       sortBy: {
         normal: 191,
-        game: 500,
+        game: 288,
         aZ: 0
       }
     },
@@ -2300,7 +2300,7 @@ window.generateTrophyData = function () {
       imageIndex: 191,
       sortBy: {
         normal: 192,
-        game: 500,
+        game: 289,
         aZ: 0
       }
     },
