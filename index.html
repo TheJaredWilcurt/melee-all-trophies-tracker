@@ -78,7 +78,9 @@
         <div class="form-control">
           <label>
             <strong>Highest Game: </strong>
-            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499)) }}
+            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499)) }} -
+            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499))).length }} -
+            {{ trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499).length }}
             <template
               v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499))).length === trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499).length"
             >

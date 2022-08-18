@@ -191,22 +191,26 @@ const app = Vue.createApp({
     },
     filteredTrophies: function () {
       let trophies = this.trophies;
-      trophies = trophies.filter((trophy) => {
-        let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
-        if (this.isJP) {
-          name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
-        }
-        const smash = (
-          this.filterSmash === null ||
-          trophy.smash === this.filterSmash
-        );
-        return name && smash;
-      });
-      trophies = trophies.sort(function (a, b) {
-        let A = a.sortBy.game;
-        let B = b.sortBy.game;
-        return A > B ? 1 : -1;
-      });
+      trophies = trophies
+        .filter((trophy) => {
+          let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
+          if (this.isJP) {
+            name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
+          }
+          const smash = (
+            this.filterSmash === null ||
+            trophy.smash === this.filterSmash
+          );
+          return name && smash;
+        })
+        .sort(function (a, b) {
+          let A = a.sortBy.game;
+          let B = b.sortBy.game;
+          if (A === 500 || B === 500) {
+            console.log({ A, B, C: A - B });
+          }
+          return A > B ? 1 : -1;
+        });
       return trophies;
     }
   },
