@@ -89,6 +89,9 @@ const app = Vue.createApp({
         if (data.language) {
           this.language = data.language;
         }
+        if (data.sortBy) {
+          this.sortBy = data.sortBy;
+        }
         if (data.reductionRatio) {
           this.reductionRatio = data.reductionRatio;
         }
@@ -192,8 +195,9 @@ const app = Vue.createApp({
     dataToSave: function () {
       return JSON.stringify({
         language: this.language,
-        trophiesAcquired: this.trophiesAcquired,
-        reductionRatio: this.reductionRatio
+        reductionRatio: this.reductionRatio,
+        sortBy: this.sortBy,
+        trophiesAcquired: this.trophiesAcquired
       });
     },
     isJP: function () {
@@ -232,9 +236,9 @@ const app = Vue.createApp({
           );
           return name && smash;
         })
-        .sort(function (a, b) {
-          let A = a.sortBy.aZ;
-          let B = b.sortBy.aZ;
+        .sort((a, b) => {
+          let A = a.sortBy[this.sortBy];
+          let B = b.sortBy[this.sortBy];
           return A > B ? 1 : -1;
         });
       return trophies;
