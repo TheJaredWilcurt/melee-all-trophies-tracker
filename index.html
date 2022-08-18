@@ -77,6 +77,13 @@
 
         <div class="form-control">
           <label>
+            <strong>Highest Game: </strong>
+            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.game).filter((game) => game < 499)) }}
+          </label>
+        </div>
+
+        <div class="form-control">
+          <label>
             <strong>Trophy Data: </strong>
             <textarea readonly v-text="trophyTextBox"></textarea>
           </label>
