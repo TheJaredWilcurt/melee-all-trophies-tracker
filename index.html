@@ -67,9 +67,9 @@
           <label>
             <strong>{{ dictionary[language].sortBy }}</strong>
             <select v-model="sortBy">
-              <option value="normal">Normal</option>
-              <option value="game">Game</option>
-              <option value="aZ">A-Z</option>
+              <option value="normal">{{ dictionary[language].normal }}</option>
+              <option value="game">{{ dictionary[language].game }}</option>
+              <option value="aZ">{{ dictionary[language].aZ }}</option>
             </select>
           </label>
         </div>
