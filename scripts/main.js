@@ -219,7 +219,7 @@ const app = Vue.createApp({
       trophies = trophies
         .filter((trophy) => {
           let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
-          if (this.isJP) {
+          if (this.isJP && false) {
             name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
           }
           const smash = (

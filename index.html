@@ -140,7 +140,8 @@
           <tr>
             <th><!-- link --></th>
             <th><!-- checkbox --></th>
-            <th><!-- trophy image --></th>
+            <!--<th><-- trophy image -></th>-->
+            <th><input v-model="filterName"></th>
             <th v-if="isJP"><input v-model="filterNameJP"></th>
             <th v-else><input v-model="filterName"></th>
             <th class="center">
