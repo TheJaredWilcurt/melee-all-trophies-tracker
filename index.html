@@ -82,28 +82,6 @@
           </label>
         </div>
 
-        <div class="form-control">
-          <label>
-            <strong>Highest A-Z (JP): </strong>
-            {{ Math.max(...trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499)) }} -
-            {{ Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499))).length }} -
-            {{ trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499).length }}
-            <template
-              v-if="Array.from(new Set(trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499))).length === trophies.map((trophy) => trophy.sortBy.aZjp).filter((aZjp) => aZjp < 499).length"
-            >
-              ✔️
-            </template>
-            <template v-else>❌</template>
-          </label>
-        </div>
-
-        <div class="form-control">
-          <label>
-            <strong>Trophy Data: </strong>
-            <textarea readonly v-text="trophyTextBox"></textarea>
-          </label>
-        </div>
-
         <div>
           <button @click="selectAll">Select All</button>
           <button @click="selectNone">Select None</button>
@@ -140,8 +118,7 @@
           <tr>
             <th><!-- link --></th>
             <th><!-- checkbox --></th>
-            <!--<th><-- trophy image -></th>-->
-            <th><input v-model="filterName"></th>
+            <th><!-- trophy image --></th>
             <th v-if="isJP"><input v-model="filterNameJP"></th>
             <th v-else><input v-model="filterName"></th>
             <th class="center">
@@ -151,7 +128,6 @@
                 <option :value="false">false</option>
               </select>
             </th>
-            <th><!-- aZjp --></th>
           </tr>
           <tr
             v-for="(trophy, trophyIndex) in filteredTrophies"
@@ -193,10 +169,6 @@
             <td v-if="isJP">{{ trophy.nameJP }}</td>
             <td v-else>{{ trophy.name }}</td>
             <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
-            <td class="center">
-              <input type="number" v-model="trophies[trophy.id].sortBy.aZjp">
-              <button @click="nextIs(trophy.id)">this</button>
-            </td>
           </tr>
         </tbody>
       </table>

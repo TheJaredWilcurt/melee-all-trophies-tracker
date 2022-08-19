@@ -53,11 +53,7 @@ const app = Vue.createApp({
         {
           dictionaryKey: 'smash',
           class: 'center'
-        },
-        {
-          dictionaryKey: 'aZ',
-          class: 'center'
-        },
+        }
       ],
       floatingHeaders: new Array(9).fill('100%'),
       filterName: '',
@@ -142,47 +138,11 @@ const app = Vue.createApp({
     },
     selectNone: function () {
       this.generateTrohpyAcquisitionMap(false);
-    },
-    nextIs: function (id) {
-      const validAZJPSorts = this.trophies
-        .map(function (trophy) {
-          return trophy.sortBy.aZjp;
-        })
-        .filter(function (game) {
-          return game < 499;
-        });
-      const highestAZJPSort = Math.max(...validAZJPSorts);
-      const newSortValue = highestAZJPSort + 1
-      if (this.trophies[id].sortBy.aZjp !== highestAZJPSort)
-      this.trophies[id].sortBy.aZjp = newSortValue;
     }
   },
   computed: {
     dictionary: function () {
       return dictionary;
-    },
-    trophyTextBox: function () {
-      return 'window.generateTrophyData = function () {\n' +
-        '  return [\n' +
-        JSON.stringify(this.trophies, null, 2)
-          .split('\'').join('\\\'')
-          .split('"').join('\'')
-          .split('\n')
-          .map(function (line) {
-            if (line === '[') {
-              return '';
-            }
-            if (!line.includes(':')) {
-              return '  ' + line;
-            }
-            let [key, value] = line.split(':');
-            key = key.replace('\'', '');
-            key = key.replace('\'', '');
-            return '  ' + key + ':' + value;
-          })
-          .filter(Boolean)
-          .join('\n') +
-        ';\n};\n';
     },
     dataToSave: function () {
       return JSON.stringify({
@@ -219,7 +179,7 @@ const app = Vue.createApp({
       trophies = trophies
         .filter((trophy) => {
           let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
-          if (this.isJP && false) {
+          if (this.isJP) {
             name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
           }
           const smash = (
