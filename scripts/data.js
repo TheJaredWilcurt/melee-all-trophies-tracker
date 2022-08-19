@@ -1359,7 +1359,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 104,
       sortBy: {
-        normal: 105,
+        normal: 106,
         game: 28,
         aZ: 257,
         aZjp: 94
@@ -1372,7 +1372,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 105,
       sortBy: {
-        normal: 106,
+        normal: 107,
         game: 29,
         aZ: 207,
         aZjp: 139
@@ -1385,7 +1385,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 106,
       sortBy: {
-        normal: 107,
+        normal: 108,
         game: 33,
         aZ: 250,
         aZjp: 96
@@ -1398,7 +1398,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 107,
       sortBy: {
-        normal: 108,
+        normal: 109,
         game: 119,
         aZ: 190,
         aZjp: 172
@@ -1411,7 +1411,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 108,
       sortBy: {
-        normal: 109,
+        normal: 110,
         game: 100,
         aZ: 239,
         aZjp: 98
@@ -1424,7 +1424,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 109,
       sortBy: {
-        normal: 110,
+        normal: 111,
         game: 32,
         aZ: 165,
         aZjp: 247
@@ -1437,7 +1437,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 110,
       sortBy: {
-        normal: 111,
+        normal: 112,
         game: 70,
         aZ: 29,
         aZjp: 19
@@ -1450,7 +1450,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 111,
       sortBy: {
-        normal: 112,
+        normal: 113,
         game: 197,
         aZ: 42,
         aZjp: 103
@@ -1463,7 +1463,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 112,
       sortBy: {
-        normal: 113,
+        normal: 114,
         game: 54,
         aZ: 14,
         aZjp: 122
@@ -1476,7 +1476,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 113,
       sortBy: {
-        normal: 114,
+        normal: 115,
         game: 284,
         aZ: 191,
         aZjp: 57
@@ -1489,7 +1489,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 114,
       sortBy: {
-        normal: 115,
+        normal: 116,
         game: 277,
         aZ: 44,
         aZjp: 164
@@ -1502,7 +1502,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 115,
       sortBy: {
-        normal: 116,
+        normal: 117,
         game: 275,
         aZ: 13,
         aZjp: 121
@@ -1515,7 +1515,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 116,
       sortBy: {
-        normal: 117,
+        normal: 118,
         game: 278,
         aZ: 30,
         aZjp: 36
@@ -1528,7 +1528,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 117,
       sortBy: {
-        normal: 118,
+        normal: 119,
         game: 280,
         aZ: 64,
         aZjp: 119
@@ -1541,7 +1541,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 118,
       sortBy: {
-        normal: 119,
+        normal: 120,
         game: 279,
         aZ: 246,
         aZjp: 73
@@ -1554,7 +1554,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 119,
       sortBy: {
-        normal: 120,
+        normal: 121,
         game: 178,
         aZ: 208,
         aZjp: 260
@@ -1567,7 +1567,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 120,
       sortBy: {
-        normal: 121,
+        normal: 122,
         game: 131,
         aZ: 275,
         aZjp: 203
@@ -1580,7 +1580,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 121,
       sortBy: {
-        normal: 122,
+        normal: 123,
         game: 132,
         aZ: 37,
         aZjp: 272
@@ -1593,7 +1593,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 122,
       sortBy: {
-        normal: 123,
+        normal: 124,
         game: 133,
         aZ: 248,
         aZjp: 109
@@ -1606,7 +1606,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 123,
       sortBy: {
-        normal: 124,
+        normal: 125,
         game: 134,
         aZ: 20,
         aZjp: 39
@@ -1619,7 +1619,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 124,
       sortBy: {
-        normal: 125,
+        normal: 126,
         game: 136,
         aZ: 40,
         aZjp: 190
@@ -1632,7 +1632,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 125,
       sortBy: {
-        normal: 126,
+        normal: 127,
         game: 139,
         aZ: 66,
         aZjp: 244
@@ -1645,7 +1645,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 126,
       sortBy: {
-        normal: 127,
+        normal: 128,
         game: 140,
         aZ: 281,
         aZjp: 232
@@ -1658,7 +1658,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 127,
       sortBy: {
-        normal: 128,
+        normal: 129,
         game: 141,
         aZ: 36,
         aZjp: 269
@@ -1671,7 +1671,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 128,
       sortBy: {
-        normal: 129,
+        normal: 130,
         game: 142,
         aZ: 95,
         aZjp: 135
@@ -1684,7 +1684,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 129,
       sortBy: {
-        normal: 130,
+        normal: 131,
         game: 143,
         aZ: 253,
         aZjp: 174
@@ -1697,7 +1697,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 130,
       sortBy: {
-        normal: 131,
+        normal: 132,
         game: 146,
         aZ: 247,
         aZjp: 35
@@ -1710,7 +1710,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 131,
       sortBy: {
-        normal: 132,
+        normal: 133,
         game: 147,
         aZ: 5,
         aZjp: 205
@@ -1723,7 +1723,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 132,
       sortBy: {
-        normal: 133,
+        normal: 134,
         game: 148,
         aZ: 291,
         aZjp: 83
@@ -1736,7 +1736,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 133,
       sortBy: {
-        normal: 134,
+        normal: 135,
         game: 149,
         aZ: 173,
         aZjp: 194
@@ -1749,7 +1749,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 134,
       sortBy: {
-        normal: 135,
+        normal: 136,
         game: 151,
         aZ: 168,
         aZjp: 249
@@ -1762,7 +1762,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 135,
       sortBy: {
-        normal: 136,
+        normal: 137,
         game: 152,
         aZ: 38,
         aZjp: 123
@@ -1775,7 +1775,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 136,
       sortBy: {
-        normal: 137,
+        normal: 138,
         game: 153,
         aZ: 47,
         aZjp: 175
@@ -1788,7 +1788,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 137,
       sortBy: {
-        normal: 138,
+        normal: 139,
         game: 159,
         aZ: 264,
         aZjp: 134
@@ -1801,7 +1801,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 138,
       sortBy: {
-        normal: 139,
+        normal: 140,
         game: 160,
         aZ: 18,
         aZjp: 54
@@ -1814,7 +1814,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 139,
       sortBy: {
-        normal: 140,
+        normal: 141,
         game: 161,
         aZ: 149,
         aZjp: 238
@@ -1827,7 +1827,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 140,
       sortBy: {
-        normal: 141,
+        normal: 142,
         game: 162,
         aZ: 255,
         aZjp: 20
@@ -1840,7 +1840,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 141,
       sortBy: {
-        normal: 142,
+        normal: 143,
         game: 163,
         aZ: 272,
         aZjp: 15
@@ -1853,7 +1853,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 142,
       sortBy: {
-        normal: 143,
+        normal: 144,
         game: 164,
         aZ: 283,
         aZjp: 114
@@ -1866,7 +1866,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 143,
       sortBy: {
-        normal: 144,
+        normal: 145,
         game: 166,
         aZ: 238,
         aZjp: 165
@@ -1879,7 +1879,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 144,
       sortBy: {
-        normal: 145,
+        normal: 146,
         game: 168,
         aZ: 213,
         aZjp: 226
@@ -1892,7 +1892,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 145,
       sortBy: {
-        normal: 146,
+        normal: 147,
         game: 169,
         aZ: 219,
         aZjp: 268
@@ -1905,7 +1905,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 146,
       sortBy: {
-        normal: 147,
+        normal: 148,
         game: 170,
         aZ: 67,
         aZjp: 22
@@ -1918,7 +1918,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 147,
       sortBy: {
-        normal: 148,
+        normal: 149,
         game: 171,
         aZ: 256,
         aZjp: 97
@@ -1931,7 +1931,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 148,
       sortBy: {
-        normal: 149,
+        normal: 150,
         game: 172,
         aZ: 142,
         aZjp: 284
@@ -1944,7 +1944,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 149,
       sortBy: {
-        normal: 150,
+        normal: 151,
         game: 173,
         aZ: 107,
         aZjp: 220
@@ -1957,7 +1957,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 150,
       sortBy: {
-        normal: 151,
+        normal: 152,
         game: 174,
         aZ: 35,
         aZjp: 105
@@ -1970,7 +1970,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 151,
       sortBy: {
-        normal: 152,
+        normal: 153,
         game: 11,
         aZ: 263,
         aZjp: 44
@@ -1983,7 +1983,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 152,
       sortBy: {
-        normal: 153,
+        normal: 154,
         game: 31,
         aZ: 43,
         aZjp: 74
@@ -1996,7 +1996,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 153,
       sortBy: {
-        normal: 154,
+        normal: 155,
         game: 38,
         aZ: 274,
         aZjp: 261
@@ -2009,7 +2009,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 154,
       sortBy: {
-        normal: 155,
+        normal: 156,
         game: 40,
         aZ: 162,
         aZjp: 37
@@ -2022,7 +2022,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 155,
       sortBy: {
-        normal: 156,
+        normal: 157,
         game: 69,
         aZ: 140,
         aZjp: 290
@@ -2035,7 +2035,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 156,
       sortBy: {
-        normal: 157,
+        normal: 158,
         game: 105,
         aZ: 123,
         aZjp: 29
@@ -2048,7 +2048,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 157,
       sortBy: {
-        normal: 158,
+        normal: 159,
         game: 106,
         aZ: 124,
         aZjp: 30
@@ -2061,7 +2061,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 158,
       sortBy: {
-        normal: 159,
+        normal: 160,
         game: 107,
         aZ: 125,
         aZjp: 31
@@ -2074,7 +2074,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 159,
       sortBy: {
-        normal: 160,
+        normal: 161,
         game: 108,
         aZ: 126,
         aZjp: 32
@@ -2087,7 +2087,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 160,
       sortBy: {
-        normal: 161,
+        normal: 162,
         game: 109,
         aZ: 127,
         aZjp: 33
@@ -2100,7 +2100,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 161,
       sortBy: {
-        normal: 162,
+        normal: 163,
         game: 41,
         aZ: 214,
         aZjp: 180
@@ -2113,7 +2113,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 162,
       sortBy: {
-        normal: 163,
+        normal: 164,
         game: 19,
         aZ: 12,
         aZjp: 228
@@ -2126,7 +2126,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 163,
       sortBy: {
-        normal: 164,
+        normal: 165,
         game: 18,
         aZ: 133,
         aZjp: 92
@@ -2139,7 +2139,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 164,
       sortBy: {
-        normal: 165,
+        normal: 166,
         game: 27,
         aZ: 200,
         aZjp: 146
@@ -2152,7 +2152,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 165,
       sortBy: {
-        normal: 166,
+        normal: 167,
         game: 26,
         aZ: 19,
         aZjp: 46
@@ -2165,7 +2165,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 166,
       sortBy: {
-        normal: 167,
+        normal: 168,
         game: 53,
         aZ: 128,
         aZjp: 62
@@ -2178,7 +2178,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 167,
       sortBy: {
-        normal: 168,
+        normal: 169,
         game: 45,
         aZ: 244,
         aZjp: 212
@@ -2191,7 +2191,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 168,
       sortBy: {
-        normal: 169,
+        normal: 170,
         game: 47,
         aZ: 188,
         aZjp: 132
@@ -2204,7 +2204,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 169,
       sortBy: {
-        normal: 170,
+        normal: 171,
         game: 62,
         aZ: 262,
         aZjp: 125
@@ -2217,7 +2217,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 170,
       sortBy: {
-        normal: 171,
+        normal: 172,
         game: 74,
         aZ: 175,
         aZjp: 126
@@ -2230,7 +2230,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 171,
       sortBy: {
-        normal: 172,
+        normal: 173,
         game: 73,
         aZ: 270,
         aZjp: 38
@@ -2243,7 +2243,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 172,
       sortBy: {
-        normal: 173,
+        normal: 174,
         game: 75,
         aZ: 83,
         aZjp: 266
@@ -2256,7 +2256,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 173,
       sortBy: {
-        normal: 174,
+        normal: 175,
         game: 68,
         aZ: 160,
         aZjp: 230
@@ -2269,7 +2269,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 174,
       sortBy: {
-        normal: 175,
+        normal: 176,
         game: 77,
         aZ: 72,
         aZjp: 198
@@ -2282,7 +2282,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 175,
       sortBy: {
-        normal: 176,
+        normal: 177,
         game: 78,
         aZ: 88,
         aZjp: 2
@@ -2295,7 +2295,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 176,
       sortBy: {
-        normal: 177,
+        normal: 178,
         game: 82,
         aZ: 182,
         aZjp: 248
@@ -2308,7 +2308,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 177,
       sortBy: {
-        normal: 178,
+        normal: 179,
         game: 87,
         aZ: 6,
         aZjp: 7
@@ -2321,7 +2321,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 178,
       sortBy: {
-        normal: 179,
+        normal: 180,
         game: 88,
         aZ: 99,
         aZjp: 70
@@ -2334,7 +2334,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 179,
       sortBy: {
-        normal: 180,
+        normal: 181,
         game: 85,
         aZ: 196,
         aZjp: 218
@@ -2347,7 +2347,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 180,
       sortBy: {
-        normal: 181,
+        normal: 182,
         game: 86,
         aZ: 245,
         aZjp: 104
@@ -2360,7 +2360,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 181,
       sortBy: {
-        normal: 182,
+        normal: 183,
         game: 96,
         aZ: 132,
         aZjp: 65
@@ -2373,7 +2373,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 182,
       sortBy: {
-        normal: 183,
+        normal: 184,
         game: 99,
         aZ: 39,
         aZjp: 124
@@ -2386,7 +2386,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 183,
       sortBy: {
-        normal: 184,
+        normal: 185,
         game: 115,
         aZ: 282,
         aZjp: 17
@@ -2399,7 +2399,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 184,
       sortBy: {
-        normal: 185,
+        normal: 186,
         game: 120,
         aZ: 82,
         aZjp: 262
@@ -2412,7 +2412,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 185,
       sortBy: {
-        normal: 186,
+        normal: 187,
         game: 127,
         aZ: 271,
         aZjp: 6
@@ -2425,7 +2425,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 186,
       sortBy: {
-        normal: 187,
+        normal: 188,
         game: 180,
         aZ: 209,
         aZjp: 225
@@ -2438,7 +2438,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 187,
       sortBy: {
-        normal: 188,
+        normal: 189,
         game: 220,
         aZ: 89,
         aZjp: 71
@@ -2451,7 +2451,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 188,
       sortBy: {
-        normal: 189,
+        normal: 190,
         game: 287,
         aZ: 260,
         aZjp: 115
@@ -2464,7 +2464,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 189,
       sortBy: {
-        normal: 190,
+        normal: 191,
         game: 286,
         aZ: 237,
         aZjp: 84
@@ -2477,7 +2477,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 190,
       sortBy: {
-        normal: 191,
+        normal: 192,
         game: 288,
         aZ: 15,
         aZjp: 108
@@ -2490,7 +2490,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 191,
       sortBy: {
-        normal: 192,
+        normal: 193,
         game: 289,
         aZ: 77,
         aZjp: 90
@@ -2503,7 +2503,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 192,
       sortBy: {
-        normal: 193,
+        normal: 194,
         game: 20,
         aZ: 97,
         aZjp: 63
@@ -2516,7 +2516,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 193,
       sortBy: {
-        normal: 194,
+        normal: 195,
         game: 21,
         aZ: 131,
         aZjp: 161
@@ -2529,7 +2529,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 194,
       sortBy: {
-        normal: 195,
+        normal: 196,
         game: 22,
         aZ: 130,
         aZjp: 171
@@ -2542,7 +2542,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 195,
       sortBy: {
-        normal: 196,
+        normal: 197,
         game: 64,
         aZ: 223,
         aZjp: 271
@@ -2555,7 +2555,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 196,
       sortBy: {
-        normal: 197,
+        normal: 198,
         game: 66,
         aZ: 187,
         aZjp: 24
@@ -2568,7 +2568,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 197,
       sortBy: {
-        normal: 198,
+        normal: 199,
         game: 65,
         aZ: 135,
         aZjp: 267
@@ -2581,7 +2581,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 198,
       sortBy: {
-        normal: 199,
+        normal: 200,
         game: 182,
         aZ: 266,
         aZjp: 138
@@ -2594,7 +2594,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 199,
       sortBy: {
-        normal: 200,
+        normal: 202,
         game: 184,
         aZ: 210,
         aZjp: 221
@@ -2607,7 +2607,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 200,
       sortBy: {
-        normal: 201,
+        normal: 203,
         game: 4,
         aZ: 217,
         aZjp: 89
@@ -2620,7 +2620,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 201,
       sortBy: {
-        normal: 202,
+        normal: 204,
         game: 3,
         aZ: 154,
         aZjp: 245
@@ -2633,7 +2633,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 202,
       sortBy: {
-        normal: 203,
+        normal: 205,
         game: 5,
         aZ: 166,
         aZjp: 256
@@ -2646,7 +2646,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 203,
       sortBy: {
-        normal: 204,
+        normal: 206,
         game: 6,
         aZ: 189,
         aZjp: 237
@@ -2659,7 +2659,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 204,
       sortBy: {
-        normal: 205,
+        normal: 207,
         game: 12,
         aZ: 279,
         aZjp: 294
@@ -2672,7 +2672,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 205,
       sortBy: {
-        normal: 206,
+        normal: 208,
         game: 14,
         aZ: 206,
         aZjp: 208
@@ -2685,7 +2685,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 206,
       sortBy: {
-        normal: 207,
+        normal: 209,
         game: 13,
         aZ: 48,
         aZjp: 130
@@ -2698,7 +2698,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 207,
       sortBy: {
-        normal: 208,
+        normal: 210,
         game: 15,
         aZ: 278,
         aZjp: 295
@@ -2711,7 +2711,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 208,
       sortBy: {
-        normal: 209,
+        normal: 211,
         game: 17,
         aZ: 261,
         aZjp: 145
@@ -2724,7 +2724,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 209,
       sortBy: {
-        normal: 210,
+        normal: 212,
         game: 23,
         aZ: 22,
         aZjp: 127
@@ -2737,7 +2737,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 210,
       sortBy: {
-        normal: 211,
+        normal: 213,
         game: 24,
         aZ: 129,
         aZjp: 61
@@ -2750,7 +2750,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 211,
       sortBy: {
-        normal: 212,
+        normal: 214,
         game: 25,
         aZ: 276,
         aZjp: 18
@@ -2763,7 +2763,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 212,
       sortBy: {
-        normal: 213,
+        normal: 215,
         game: 34,
         aZ: 27,
         aZjp: 169
@@ -2776,7 +2776,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 213,
       sortBy: {
-        normal: 214,
+        normal: 216,
         game: 39,
         aZ: 218,
         aZjp: 25
@@ -2789,7 +2789,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 214,
       sortBy: {
-        normal: 215,
+        normal: 217,
         game: 44,
         aZ: 9,
         aZjp: 217
@@ -2802,7 +2802,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 215,
       sortBy: {
-        normal: 216,
+        normal: 218,
         game: 43,
         aZ: 8,
         aZjp: 216
@@ -2815,7 +2815,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 216,
       sortBy: {
-        normal: 217,
+        normal: 219,
         game: 46,
         aZ: 220,
         aZjp: 51
@@ -2828,7 +2828,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 217,
       sortBy: {
-        normal: 218,
+        normal: 220,
         game: 51,
         aZ: 51,
         aZjp: 128
@@ -2841,7 +2841,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 218,
       sortBy: {
-        normal: 219,
+        normal: 221,
         game: 52,
         aZ: 119,
         aZjp: 55
@@ -2854,7 +2854,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 219,
       sortBy: {
-        normal: 220,
+        normal: 222,
         game: 60,
         aZ: 98,
         aZjp: 78
@@ -2867,7 +2867,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 220,
       sortBy: {
-        normal: 221,
+        normal: 223,
         game: 61,
         aZ: 150,
         aZjp: 239
@@ -2880,7 +2880,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 221,
       sortBy: {
-        normal: 222,
+        normal: 224,
         game: 72,
         aZ: 147,
         aZjp: 253
@@ -2893,7 +2893,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 222,
       sortBy: {
-        normal: 223,
+        normal: 225,
         game: 71,
         aZ: 186,
         aZjp: 133
@@ -2906,7 +2906,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 223,
       sortBy: {
-        normal: 224,
+        normal: 226,
         game: 79,
         aZ: 231,
         aZjp: 82
@@ -2919,7 +2919,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 224,
       sortBy: {
-        normal: 225,
+        normal: 227,
         game: 80,
         aZ: 60,
         aZjp: 1
@@ -2932,7 +2932,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 225,
       sortBy: {
-        normal: 226,
+        normal: 228,
         game: 81,
         aZ: 116,
         aZjp: 93
@@ -2945,7 +2945,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 226,
       sortBy: {
-        normal: 227,
+        normal: 229,
         game: 89,
         aZ: 134,
         aZjp: 270
@@ -2958,7 +2958,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 227,
       sortBy: {
-        normal: 228,
+        normal: 230,
         game: 90,
         aZ: 284,
         aZjp: 21
@@ -2971,7 +2971,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 228,
       sortBy: {
-        normal: 229,
+        normal: 231,
         game: 92,
         aZ: 3,
         aZjp: 14
@@ -2984,7 +2984,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 229,
       sortBy: {
-        normal: 230,
+        normal: 232,
         game: 91,
         aZ: 2,
         aZjp: 13
@@ -2997,7 +2997,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 230,
       sortBy: {
-        normal: 231,
+        normal: 233,
         game: 94,
         aZ: 236,
         aZjp: 229
@@ -3010,7 +3010,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 231,
       sortBy: {
-        normal: 232,
+        normal: 234,
         game: 95,
         aZ: 235,
         aZjp: 99
@@ -3023,7 +3023,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 232,
       sortBy: {
-        normal: 233,
+        normal: 235,
         game: 97,
         aZ: 167,
         aZjp: 257
@@ -3036,7 +3036,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 233,
       sortBy: {
-        normal: 234,
+        normal: 236,
         game: 98,
         aZ: 226,
         aZjp: 276
@@ -3049,7 +3049,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 234,
       sortBy: {
-        normal: 235,
+        normal: 237,
         game: 104,
         aZ: 79,
         aZjp: 191
@@ -3062,7 +3062,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 235,
       sortBy: {
-        normal: 236,
+        normal: 238,
         game: 103,
         aZ: 75,
         aZjp: 193
@@ -3075,7 +3075,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 236,
       sortBy: {
-        normal: 237,
+        normal: 239,
         game: 102,
         aZ: 10,
         aZjp: 222
@@ -3088,7 +3088,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 237,
       sortBy: {
-        normal: 238,
+        normal: 240,
         game: 111,
         aZ: 277,
         aZjp: 292
@@ -3101,7 +3101,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 238,
       sortBy: {
-        normal: 239,
+        normal: 241,
         game: 110,
         aZ: 118,
         aZjp: 131
@@ -3114,7 +3114,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 239,
       sortBy: {
-        normal: 240,
+        normal: 242,
         game: 113,
         aZ: 225,
         aZjp: 274
@@ -3127,7 +3127,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 240,
       sortBy: {
-        normal: 241,
+        normal: 243,
         game: 112,
         aZ: 96,
         aZjp: 67
@@ -3140,7 +3140,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 241,
       sortBy: {
-        normal: 242,
+        normal: 244,
         game: 114,
         aZ: 164,
         aZjp: 254
@@ -3153,7 +3153,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 242,
       sortBy: {
-        normal: 243,
+        normal: 245,
         game: 122,
         aZ: 192,
         aZjp: 224
@@ -3166,7 +3166,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 243,
       sortBy: {
-        normal: 244,
+        normal: 246,
         game: 123,
         aZ: 112,
         aZjp: 91
@@ -3179,7 +3179,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 244,
       sortBy: {
-        normal: 245,
+        normal: 247,
         game: 124,
         aZ: 212,
         aZjp: 206
@@ -3192,7 +3192,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 245,
       sortBy: {
-        normal: 246,
+        normal: 248,
         game: 126,
         aZ: 251,
         aZjp: 100
@@ -3205,7 +3205,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 246,
       sortBy: {
-        normal: 247,
+        normal: 249,
         game: 130,
         aZ: 28,
         aZjp: 202
@@ -3218,7 +3218,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 247,
       sortBy: {
-        normal: 248,
+        normal: 250,
         game: 138,
         aZ: 211,
         aZjp: 157
@@ -3231,7 +3231,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 248,
       sortBy: {
-        normal: 249,
+        normal: 251,
         game: 144,
         aZ: 50,
         aZjp: 255
@@ -3244,7 +3244,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 249,
       sortBy: {
-        normal: 250,
+        normal: 252,
         game: 145,
         aZ: 63,
         aZjp: 16
@@ -3257,7 +3257,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 250,
       sortBy: {
-        normal: 251,
+        normal: 253,
         game: 154,
         aZ: 269,
         aZjp: 293
@@ -3270,7 +3270,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 251,
       sortBy: {
-        normal: 252,
+        normal: 254,
         game: 155,
         aZ: 46,
         aZjp: 66
@@ -3283,7 +3283,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 252,
       sortBy: {
-        normal: 253,
+        normal: 255,
         game: 157,
         aZ: 41,
         aZjp: 181
@@ -3296,7 +3296,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 253,
       sortBy: {
-        normal: 254,
+        normal: 256,
         game: 158,
         aZ: 111,
         aZjp: 207
@@ -3309,7 +3309,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 254,
       sortBy: {
-        normal: 255,
+        normal: 257,
         game: 165,
         aZ: 254,
         aZjp: 163
@@ -3322,7 +3322,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 255,
       sortBy: {
-        normal: 256,
+        normal: 258,
         game: 167,
         aZ: 104,
         aZjp: 213
@@ -3335,7 +3335,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 256,
       sortBy: {
-        normal: 257,
+        normal: 259,
         game: 175,
         aZ: 163,
         aZjp: 156
@@ -3348,7 +3348,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 257,
       sortBy: {
-        normal: 258,
+        normal: 260,
         game: 176,
         aZ: 215,
         aZjp: 23
@@ -3361,7 +3361,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 258,
       sortBy: {
-        normal: 259,
+        normal: 261,
         game: 177,
         aZ: 172,
         aZjp: 34
@@ -3374,7 +3374,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 259,
       sortBy: {
-        normal: 260,
+        normal: 262,
         game: 179,
         aZ: 295,
         aZjp: 113
@@ -3387,7 +3387,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 260,
       sortBy: {
-        normal: 261,
+        normal: 263,
         game: 202,
         aZ: 158,
         aZjp: 243
@@ -3400,7 +3400,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 261,
       sortBy: {
-        normal: 262,
+        normal: 264,
         game: 185,
         aZ: 230,
         aZjp: 166
@@ -3413,7 +3413,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 262,
       sortBy: {
-        normal: 263,
+        normal: 265,
         game: 186,
         aZ: 117,
         aZjp: 45
@@ -3426,7 +3426,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 263,
       sortBy: {
-        normal: 264,
+        normal: 266,
         game: 187,
         aZ: 141,
         aZjp: 53
@@ -3439,7 +3439,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 264,
       sortBy: {
-        normal: 265,
+        normal: 267,
         game: 188,
         aZ: 102,
         aZjp: 52
@@ -3452,7 +3452,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 265,
       sortBy: {
-        normal: 266,
+        normal: 268,
         game: 189,
         aZ: 222,
         aZjp: 285
@@ -3465,7 +3465,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 266,
       sortBy: {
-        normal: 267,
+        normal: 269,
         game: 190,
         aZ: 16,
         aZjp: 215
@@ -3478,7 +3478,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 267,
       sortBy: {
-        normal: 268,
+        normal: 270,
         game: 191,
         aZ: 4,
         aZjp: 12
@@ -3491,7 +3491,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 268,
       sortBy: {
-        normal: 269,
+        normal: 271,
         game: 193,
         aZ: 265,
         aZjp: 117
@@ -3504,7 +3504,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 269,
       sortBy: {
-        normal: 270,
+        normal: 272,
         game: 194,
         aZ: 268,
         aZjp: 136
@@ -3517,7 +3517,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 270,
       sortBy: {
-        normal: 271,
+        normal: 273,
         game: 192,
         aZ: 180,
         aZjp: 273
@@ -3530,7 +3530,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 271,
       sortBy: {
-        normal: 272,
+        normal: 274,
         game: 198,
         aZ: 105,
         aZjp: 214
@@ -3543,7 +3543,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 272,
       sortBy: {
-        normal: 273,
+        normal: 275,
         game: 201,
         aZ: 1,
         aZjp: 173
@@ -3556,7 +3556,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 273,
       sortBy: {
-        normal: 274,
+        normal: 276,
         game: 9,
         aZ: 273,
         aZjp: 283
@@ -3569,7 +3569,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 274,
       sortBy: {
-        normal: 275,
+        normal: 277,
         game: 200,
         aZ: 204,
         aZjp: 185
@@ -3582,7 +3582,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 275,
       sortBy: {
-        normal: 276,
+        normal: 278,
         game: 199,
         aZ: 31,
         aZjp: 47
@@ -3595,7 +3595,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 276,
       sortBy: {
-        normal: 277,
+        normal: 279,
         game: 211,
         aZ: 68,
         aZjp: 258
@@ -3608,7 +3608,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 277,
       sortBy: {
-        normal: 279,
+        normal: 281,
         game: 49,
         aZ: 56,
         aZjp: 150
@@ -3621,7 +3621,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 278,
       sortBy: {
-        normal: 280,
+        normal: 282,
         game: 204,
         aZ: 62,
         aZjp: 40
@@ -3634,7 +3634,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 279,
       sortBy: {
-        normal: 281,
+        normal: 283,
         game: 203,
         aZ: 26,
         aZjp: 69
@@ -3647,7 +3647,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 280,
       sortBy: {
-        normal: 282,
+        normal: 284,
         game: 206,
         aZ: 65,
         aZjp: 152
@@ -3660,7 +3660,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 281,
       sortBy: {
-        normal: 283,
+        normal: 285,
         game: 205,
         aZ: 146,
         aZjp: 233
@@ -3673,7 +3673,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 282,
       sortBy: {
-        normal: 284,
+        normal: 286,
         game: 207,
         aZ: 11,
         aZjp: 170
@@ -3686,7 +3686,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 283,
       sortBy: {
-        normal: 285,
+        normal: 287,
         game: 50,
         aZ: 249,
         aZjp: 102
@@ -3699,7 +3699,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 284,
       sortBy: {
-        normal: 286,
+        normal: 288,
         game: 209,
         aZ: 205,
         aZjp: 189
@@ -3712,7 +3712,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 285,
       sortBy: {
-        normal: 287,
+        normal: 289,
         game: 210,
         aZ: 61,
         aZjp: 143
@@ -3725,7 +3725,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 286,
       sortBy: {
-        normal: 288,
+        normal: 290,
         game: 216,
         aZ: 52,
         aZjp: 151
@@ -3738,7 +3738,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 287,
       sortBy: {
-        normal: 289,
+        normal: 291,
         game: 215,
         aZ: 7,
         aZjp: 116
@@ -3751,7 +3751,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 288,
       sortBy: {
-        normal: 290,
+        normal: 292,
         game: 214,
         aZ: 174,
         aZjp: 259
@@ -3764,7 +3764,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 289,
       sortBy: {
-        normal: 291,
+        normal: 293,
         game: 217,
         aZ: 243,
         aZjp: 88
@@ -3777,7 +3777,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 290,
       sortBy: {
-        normal: 292,
+        normal: 294,
         game: 218,
         aZ: 49,
         aZjp: 129
@@ -3790,7 +3790,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 291,
       sortBy: {
-        normal: 293,
+        normal: 295,
         game: 222,
         aZ: 93,
         aZjp: 72
@@ -3803,7 +3803,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 292,
       sortBy: {
-        normal: 294,
+        normal: 105,
         game: 196,
         aZ: 216,
         aZjp: 106
@@ -3816,7 +3816,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 293,
       sortBy: {
-        normal: 295,
+        normal: 201,
         game: 183,
         aZ: 267,
         aZjp: 137
@@ -3829,7 +3829,7 @@ window.generateTrophyData = function () {
       smash: false,
       imageIndex: 294,
       sortBy: {
-        normal: 278,
+        normal: 280,
         game: 212,
         aZ: 259,
         aZjp: 120
