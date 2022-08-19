@@ -74,7 +74,9 @@ const app = Vue.createApp({
       let data = window.localStorage.getItem(this.localStorageId);
       data = JSON.parse(data);
       if (data) {
-        if (data.language) {
+        if (data.language === 'en-us') {
+          this.language = 'en';
+        } else if (data.language) {
           this.language = data.language;
         }
         if (data.sortBy) {
