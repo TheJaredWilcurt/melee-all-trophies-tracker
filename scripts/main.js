@@ -1,7 +1,9 @@
 const dictionary = {
   en: {
+    all: 'All',
     allTrophies: 'All Trophies',
     aZ: 'A-Z',
+    false: 'false',
     game: 'Game',
     language: 'Language: ',
     name: 'Name',
@@ -11,11 +13,14 @@ const dictionary = {
     speedrunTracker: 'Speedrun Tracker',
     superSmashBrosMelee: 'Super Smash Bros. Melee',
     trophy: 'Trophy',
-    trophySize: 'Trohpy Size: '
+    trophySize: 'Trohpy Size: ',
+    true: 'true'
   },
   jp: {
+    all: '全て',
     allTrophies: '全てフィギュア',
     aZ: 'あいうえお',
+    false: '偽',
     game: 'タイトル',
     language: '言語： ',
     name: '名前',
@@ -25,7 +30,8 @@ const dictionary = {
     speedrunTracker: 'スピードラントラッカー',
     superSmashBrosMelee: '大乱闘スマッシュブラザーズＤＸ',
     trophy: 'フィギュア',
-    trophySize: 'フィギュアサイズ： '
+    trophySize: 'フィギュアサイズ： ',
+    true: '真'
   }
 };
 
@@ -60,7 +66,9 @@ const app = Vue.createApp({
       filterNameJP: '',
       filterSmash: null,
       trophies: null,
+      bonuses: null,
       trophiesAcquired: null,
+      bonusesAcquired: null,
       reductionRatio: 5416
     };
   },
@@ -85,22 +93,36 @@ const app = Vue.createApp({
         if (data.reductionRatio) {
           this.reductionRatio = data.reductionRatio;
         }
-        if (!data.trophiesAcquired) {
+        if (!data.trophiesAcquired || data?.trophiesAcquired?.[0]?.id === 0) {
           this.generateTrohpyAcquisitionMap();
         } else {
           this.trophiesAcquired = data.trophiesAcquired;
         }
+        if (!data.bonusesAcquired) {
+          this.generateBonusAcquisitionMap();
+        } else {
+          this.bonusesAcquired = data.bonusesAcquired;
+        }
       } else {
         this.generateTrohpyAcquisitionMap();
+        this.generateBonusAcquisitionMap();
       }
     },
-    generateTrohpyAcquisitionMap: function (bool) {
-      const maxID = 294;
-      const trophiesAcquired = {};
-      for (let id = 0; id < (maxID + 1); id++) {
-        trophiesAcquired[id] = bool || false;
+    generateAcquisitionMap: function (items, bool) {
+      const maxID = items.length;
+      const acquired = {};
+      for (let id = 1; id < (maxID + 1); id++) {
+        acquired[id] = bool || false;
       }
-      this.trophiesAcquired = trophiesAcquired;
+      return acquired;
+    },
+    generateTrohpyAcquisitionMap: function (bool) {
+      const trophies = this.trophies || window.generateTrophyData();
+      this.trophiesAcquired = this.generateAcquisitionMap(trophies, bool);
+    },
+    generateBonusAcquisitionMap: function (bool) {
+      const bonuses = this.bonuses || window.generateBonusData();
+      this.bonusesAcquired = this.generateAcquisitionMap(bonuses, bool);
     },
     styling: function (trophyId) {
       const { width, height, size, trophiesPerRow } = this.imageSizes;
@@ -110,7 +132,7 @@ const app = Vue.createApp({
         'width: ' + width + 'px',
         'height: ' + height + 'px',
         'background-size: ' + size + 'px',
-      	'background-position: ' + xOffset + 'px ' + yOffset + 'px'
+        'background-position: ' + xOffset + 'px ' + yOffset + 'px'
       ].join(';');
     },
     scroll: function () {
@@ -135,6 +157,9 @@ const app = Vue.createApp({
     toggleTrohpyAcquired: function (id) {
       this.trophiesAcquired[id] = !this.trophiesAcquired[id];
     },
+    toggleBonusAcquired: function (id) {
+      this.bonusesAcquired[id] = !this.bonusesAcquired[id];
+    },
     selectAll: function () {
       this.generateTrohpyAcquisitionMap(true);
     },
@@ -151,7 +176,8 @@ const app = Vue.createApp({
         language: this.language,
         reductionRatio: this.reductionRatio,
         sortBy: this.sortBy,
-        trophiesAcquired: this.trophiesAcquired
+        trophiesAcquired: this.trophiesAcquired,
+        bonusesAcquired: this.bonusesAcquired
       });
     },
     isJP: function () {
@@ -214,6 +240,7 @@ const app = Vue.createApp({
   created: function () {
     this.load();
     this.trophies = window.generateTrophyData();
+    this.bonuses = window.generateBonusData()
     setTimeout(() => {
       this.scroll();
       this.setSizeTh();

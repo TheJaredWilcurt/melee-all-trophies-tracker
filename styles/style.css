@@ -179,26 +179,22 @@ footer a:hover {
   text-decoration: none;
 }
 .trophy-link svg {
-  width: 100%;
-  max-width: 24px;
-  max-height: 24px;
+  width: 24px;
+  height: 24px;
   margin: 0px auto;
 }
-.trophy-link.compact svg {
-  max-width: 15px;
-  max-height: 15px;
-}
 .trophy-link path {
-  fill: RGBA(255, 255, 255, 0.7);
+  fill: rgba(255, 255, 255, 0.7);
 }
 .trophy-link:hover path {
-  fill: RGBA(255, 255, 255, 0.9);
+  fill: rgba(255, 255, 255, 0.9);
 }
 
 .trophy-checkbox {
   width: 30px;
   height: 30px;
 }
+.trophy-link.compact svg,
 .trophy-checkbox.compact {
   width: 15px;
   height: 15px;
