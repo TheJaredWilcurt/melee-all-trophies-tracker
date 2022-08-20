@@ -13,7 +13,7 @@ const dictionary = {
     speedrunTracker: 'Speedrun Tracker',
     superSmashBrosMelee: 'Super Smash Bros. Melee',
     trophy: 'Trophy',
-    trophySize: 'Trohpy Size: ',
+    trophySize: 'Trophy Size: ',
     true: 'true'
   },
   jp: {
