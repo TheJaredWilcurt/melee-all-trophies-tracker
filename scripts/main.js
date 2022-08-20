@@ -69,7 +69,9 @@ const app = Vue.createApp({
       bonuses: null,
       trophiesAcquired: null,
       bonusesAcquired: null,
-      reductionRatio: 5416
+      reductionRatio: 5416,
+      filterBonusName: '',
+      filterBonusNameJP: ''
     };
   },
   methods: {
@@ -222,6 +224,20 @@ const app = Vue.createApp({
           return A > B ? 1 : -1;
         });
       return trophies;
+    },
+    filteredBonuses: function () {
+      let bonuses = this.bonuses;
+      bonuses = bonuses
+        .filter((bonus) => {
+          let name = bonus.bonus || bonus.bonusEN;
+          console.log(name.toLowerCase());
+          name = name.toLowerCase().includes(this.filterBonusName.toLowerCase());
+          if (this.isJP) {
+            name = bonus.bonusJP.toLowerCase().includes(this.filterBonusNameJP.toLowerCase());
+          }
+          return name;
+        });
+      return bonuses;
     }
   },
   watch: {
