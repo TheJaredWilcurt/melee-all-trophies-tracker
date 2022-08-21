@@ -1,39 +1,4 @@
-const dictionary = {
-  en: {
-    all: 'All',
-    allTrophies: 'All Trophies',
-    aZ: 'A-Z',
-    false: 'false',
-    game: 'Game',
-    language: 'Language: ',
-    name: 'Name',
-    normal: 'Normal',
-    smash: 'Smash',
-    sortBy: 'Sort by: ',
-    speedrunTracker: 'Speedrun Tracker',
-    superSmashBrosMelee: 'Super Smash Bros. Melee',
-    trophy: 'Trophy',
-    trophySize: 'Trophy Size: ',
-    true: 'true'
-  },
-  jp: {
-    all: '全て',
-    allTrophies: '全てフィギュア',
-    aZ: 'あいうえお',
-    false: '偽',
-    game: 'タイトル',
-    language: '言語： ',
-    name: '名前',
-    normal: '通常',
-    smash: 'スマッシュ',
-    sortBy: '並び替え： ',
-    speedrunTracker: 'スピードラントラッカー',
-    superSmashBrosMelee: '大乱闘スマッシュブラザーズＤＸ',
-    trophy: 'フィギュア',
-    trophySize: 'フィギュアサイズ： ',
-    true: '真'
-  }
-};
+
 
 const app = Vue.createApp({
   components: {
