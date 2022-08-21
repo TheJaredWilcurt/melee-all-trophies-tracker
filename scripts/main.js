@@ -71,7 +71,12 @@ const app = Vue.createApp({
       bonusesAcquired: null,
       reductionRatio: 5416,
       filterBonusName: '',
-      filterBonusNameJP: ''
+      filterBonusNameJP: '',
+      filterScore: '',
+      filterDescription: '',
+      filterDescriptionJP: '',
+      filterDescriptionJPEN: '',
+      filterNotes: ''
     };
   },
   methods: {
@@ -190,7 +195,6 @@ const app = Vue.createApp({
       const originalSpriteHeight = 144;
       const trophiesPerRow = 12;
       const totalSpriteSheetWidth = originalSpriteWidth * trophiesPerRow;
-      // const reductionRatio = 0.54166666666666667;
       const reductionRatio = this.reductionRatio / 10000;
 
       const width = originalSpriteWidth * reductionRatio;
@@ -229,13 +233,23 @@ const app = Vue.createApp({
       let bonuses = this.bonuses;
       bonuses = bonuses
         .filter((bonus) => {
-          let name = bonus.bonus || bonus.bonusEN;
-          console.log(name.toLowerCase());
-          name = name.toLowerCase().includes(this.filterBonusName.toLowerCase());
-          if (this.isJP) {
-            name = bonus.bonusJP.toLowerCase().includes(this.filterBonusNameJP.toLowerCase());
-          }
-          return name;
+          let name = (bonus.bonus || bonus.bonusEN).toLowerCase().includes(this.filterBonusName.toLowerCase());
+          let nameJP = bonus.bonusJP.toLowerCase().includes(this.filterBonusNameJP.toLowerCase());
+          let score = String(bonus.score).toLowerCase().includes(String(this.filterScore).toLowerCase());
+          let description = bonus.description.toLowerCase().includes(this.filterDescription.toLowerCase());
+          let descriptionJP = bonus.descriptionJP.toLowerCase().includes(this.filterDescriptionJP.toLowerCase());
+          let descriptionJPEN = bonus.descriptionJPEN.toLowerCase().includes(this.filterDescriptionJPEN.toLowerCase());
+          let notes = bonus.notes.toLowerCase().includes(this.filterNotes.toLowerCase());
+
+          return (
+            name &&
+            nameJP &&
+            score &&
+            description &&
+            descriptionJP &&
+            descriptionJPEN &&
+            notes
+          );
         });
       return bonuses;
     }

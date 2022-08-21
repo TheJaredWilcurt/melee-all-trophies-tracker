@@ -196,11 +196,11 @@
             <td><!-- checkbox --></td>
             <td><input v-model="filterBonusName"></td>
             <td><input v-model="filterBonusNameJP"></td>
-            <td><!-- Score --></td>
-            <td><!-- Description --></td>
-            <td><!-- Description (JP) --></td>
-            <td><!-- Description (JP translated) --></td>
-            <td><!-- Notes --></td>
+            <td><input v-model="filterScore"></td>
+            <td><input v-model="filterDescription"></td>
+            <td><input v-model="filterDescriptionJP"></td>
+            <td><input v-model="filterDescriptionJPEN"></td>
+            <td><input v-model="filterNotes"></td>
           </tr>
           <tr
             v-for="(bonus, bonusIndex) in filteredBonuses"
