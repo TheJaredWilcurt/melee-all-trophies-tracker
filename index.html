@@ -10,12 +10,41 @@
     <link rel="stylesheet" href="styles/style.css" />
     <!-- <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script> -->
     <!-- <script defer type="text/javascript" src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script> -->
+    <!-- <script defer type="text/javascript" src="https://unpkg.com/vue3-sfc-loader@0.8.4/dist/vue3-sfc-loader.js"></script> -->
+    <!-- <script defer type="text/javascript" src="https://unpkg.com/pinia@2.0.20/dist/pinia.iife.js"></script> -->
     <script defer type="text/javascript" src="scripts/vue.js"></script>
+    <script defer type="text/javascript" src="scripts/vue3-sfc-loader.js"></script>
+    <script>
+      window.httpVueLoader = function (componentPath) {
+        const sfcLoaderOptions = {
+          moduleCache: {
+            vue: Vue
+          },
+          getFile: async function (url) {
+            const cacheBust = (new Date()).getTime();
+            const response = await fetch(url + '?t=' + cacheBust);
+            if (!response.ok) {
+              throw Object.assign(new Error(response.statusText + ' ' + url), { response });
+            }
+            return await response.text();
+          },
+          addStyle: function (textContent) {
+            const style = Object.assign(document.createElement('style'), { textContent });
+            const reference = document.head.getElementsByTagName('style')[0] || null;
+            document.head.insertBefore(style, reference);
+          }
+        };
+        return Vue.defineAsyncComponent(function () {
+          return window['vue3-sfc-loader'].loadModule(componentPath, sfcLoaderOptions);
+        });
+      };
+    </script>
     <script defer type="text/javascript" src="scripts/data.js"></script>
     <script defer type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
     <div id="app" v-cloak>
+      <app-composition></app-composition>
       <img
         v-if="isJP"
         src="images/dx-logo.png"
@@ -31,7 +60,6 @@
 
       <h1>"{{ dictionary[language].allTrophies }}"</h1>
       <h2>{{ dictionary[language].speedrunTracker }}</h2>
-
 
 
       <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
