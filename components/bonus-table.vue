@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'BonusTable'
+  name: 'BonusTable',
   data: function () {
     return {
     };

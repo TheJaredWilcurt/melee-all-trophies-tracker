@@ -37,7 +37,7 @@ const dictionary = {
 
 const app = Vue.createApp({
   components: {
-    'app-composition': httpVueLoader('components/app-composition.vue')
+    'app-composition': httpVueLoader('./components/app-composition.vue')
   },
   data: function () {
     return {

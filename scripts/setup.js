@@ -1,3 +1,35 @@
+window.httpVueLoader = function (componentPath) {
+  const options = {
+    moduleCache: {
+      vue: Vue
+    },
+    getFile: async function (url) {
+      const cacheBust = (new Date()).getTime();
+      const result = await fetch(url + '?t=' + cacheBust);
+      if (!result.ok) {
+        throw Object.assign(new Error(result.statusText + ' ' + url), { result });
+      }
+      return {
+        getContentData: (asBinary) => {
+          if (asBinary) {
+            return result.arrayBuffer();
+          }
+          return result.text();
+        }
+      }
+    },
+    addStyle: function (textContent) {
+      const style = Object.assign(document.createElement('style'), { textContent });
+      const ref = document.head.getElementsByTagName('style')[0] || null;
+      document.head.insertBefore(style, ref);
+    },
+  }
+
+  return Vue.defineAsyncComponent(function (){
+    return window['vue3-sfc-loader'].loadModule(componentPath, options);
+  });
+}
+
 window.generateTrophyData = function () {
   return [
     {

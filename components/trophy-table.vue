@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'TrophyTable'
+  name: 'TrophyTable',
   data: function () {
     return {
     };

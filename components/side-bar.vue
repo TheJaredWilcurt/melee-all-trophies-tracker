@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'SideBar'
+  name: 'SideBar',
   data: function () {
     return {
     };
