@@ -1,5 +1,17 @@
+const counterStore = Pinia.defineStore('counter', {
+  state: function () {
+    return {
+      value: 0
+    };
+  },
+  actions: {
+    increment: function (state) {
+      this.value++;
+    }
+  }
+});
 
-
+const pinia = Pinia.createPinia();
 const app = Vue.createApp({
   components: {
     'app-composition': httpVueLoader('./components/app-composition.vue')
@@ -140,7 +152,8 @@ const app = Vue.createApp({
     },
     selectNone: function () {
       this.generateTrohpyAcquisitionMap(false);
-    }
+    },
+    ...Pinia.mapActions(counterStore, ['increment'])
   },
   computed: {
     dictionary: function () {
@@ -220,7 +233,8 @@ const app = Vue.createApp({
           );
         });
       return bonuses;
-    }
+    },
+    ...Pinia.mapState(counterStore, ['value'])
   },
   watch: {
     dataToSave: function () {
@@ -244,4 +258,4 @@ const app = Vue.createApp({
       this.setSizeTh();
     }, 350);
   }
-}).mount('#app');
+}).use(pinia).mount('#app');
