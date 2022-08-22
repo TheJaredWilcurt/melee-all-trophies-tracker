@@ -18,93 +18,6 @@
     <div id="app" v-cloak>
       <app-composition></app-composition>
 
-      <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
-
-      <table id="trophy-list">
-        <thead>
-          <tr>
-            <th
-              v-for="header in headers"
-              :class="header.class"
-            >
-              <template v-if="header.dictionaryKey">
-                {{ dictionary[language][header.dictionaryKey] }}
-              </template>
-            </th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <th
-              v-for="(header, headerIndex) in headers"
-              :class="header.class"
-              :width="floatingHeaders[headerIndex]"
-            >
-              <template v-if="header.dictionaryKey">
-                {{ dictionary[language][header.dictionaryKey] }}
-              </template>
-            </th>
-          </tr>
-        </tfoot>
-        <tbody>
-          <tr>
-            <th><!-- link --></th>
-            <th><!-- checkbox --></th>
-            <th><!-- trophy image --></th>
-            <th v-if="isJP"><input v-model="filterNameJP"></th>
-            <th v-else><input v-model="filterName"></th>
-            <th class="center">
-              <select v-model="filterSmash">
-                <option :value="null">{{ dictionary[language].all }}</option>
-                <option :value="true">{{ dictionary[language].true }}</option>
-                <option :value="false">{{ dictionary[language].false }}</option>
-              </select>
-            </th>
-          </tr>
-          <tr
-            v-for="(trophy, trophyIndex) in filteredTrophies"
-            :key="trophy.id"
-            :class="{ acquired: trophiesAcquired[trophy.id] }"
-            :id="'t' + trophy.id"
-            @click.stop="trophyStore.toggleTrohpyAcquiredById(trophy.id)"
-          >
-            <td
-              class="center"
-              @click.stop
-            >
-              <a
-                class="trophy-link"
-                :class="{ compact: reductionRatio < 2104 }"
-                :href="'#t' + trophy.id"
-                :title="'ID: ' + trophy.id"
-              >
-                <svg
-                  viewbox="0 0 442.246 442.246"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xml:space="preserve"
-                >
-                  <path d="M409.66 32.47c-43.15-43.14-113.84-43.14-156.98 0l-84.76 84.77c29.07-8.27 60.58-6.12 88.12 6.73l44.07-44.07a43.96 43.96 0 0 1 62.12 0 43.96 43.96 0 0 1 0 62.12l-55.39 55.39-36.41 36.41a43.96 43.96 0 0 1-62.12 0l-47.43 47.43a108.18 108.18 0 0 0 37.33 24.48 112.05 112.05 0 0 0 110.47-16.22c3.06-2.44 6.42-5.2 9.18-8.26l57.22-57.22 34.58-34.58c43.45-43.14 43.45-113.52 0-156.98z"/>
-                  <path d="m184.13 320.11-42.22 42.23a43.95 43.95 0 0 1-62.12 0 43.96 43.96 0 0 1 0-62.12l91.8-91.8a43.96 43.96 0 0 1 62.12 0L281.14 161a108.2 108.2 0 0 0-37.33-24.48 111.27 111.27 0 0 0-115.37 20.5 54.7 54.7 0 0 0-4.28 3.99l-91.8 91.8c-43.15 43.14-43.15 113.83 0 156.97 43.15 43.15 113.83 43.15 156.98 0l82.92-83.84c-42.22 9.79-52.02 8.57-88.13-5.82z"/>
-                </svg>
-              </a>
-            </td>
-            <td class="center"><input
-              v-model="trophiesAcquired[trophy.id]"
-              type="checkbox"
-              class="trophy-checkbox"
-              :class="{ compact: reductionRatio < 2104 }"
-            /></td>
-            <td class="center"><div
-              class="sprite"
-              :style="styling(trophy.imageIndex)"
-            ></div></td>
-            <td v-if="isJP">{{ trophy.nameJP }}</td>
-            <td v-else>{{ trophy.name }}</td>
-            <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
-          </tr>
-        </tbody>
-      </table>
-
       <h1 v-if="isJP">ボーナス データは進行中であり、変更されます</h1>
       <h1 v-else>Bonus data is in progress and will change</h1>
 
@@ -176,13 +89,7 @@
         </tbody>
       </table>
 
-      <footer v-if="isJP">
-        <p>ソースコードは <a href="https://github.com/TheJaredWilcurt/melee-all-trophies-tracker">GitHub</a> で入手可能</p>
-      </footer>
-      <footer v-else>
-        <p>source code available on</p>
-        <a href="https://github.com/TheJaredWilcurt/melee-all-trophies-tracker">GitHub</a>
-      </footer>
+
     </div>
   </body>
 </html>

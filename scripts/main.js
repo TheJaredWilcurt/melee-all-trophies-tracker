@@ -58,30 +58,7 @@ const app = Vue.createApp({
   data: function () {
     return {
       localStorageId: 'meleeAllTrophiesData',
-      headers: [
-        {
-          class: 'center'
-        },
-        {
-          class: 'center'
-        },
-        {
-          dictionaryKey: 'trophy',
-          class: 'center'
-        },
-        {
-          dictionaryKey: 'name',
-          class: ''
-        },
-        {
-          dictionaryKey: 'smash',
-          class: 'center'
-        }
-      ],
       floatingHeaders: new Array(9).fill('100%'),
-      filterName: '',
-      filterNameJP: '',
-      filterSmash: null,
       bonuses: null,
       bonusesAcquired: null,
       filterBonusName: '',
@@ -104,7 +81,7 @@ const app = Vue.createApp({
       data = JSON.parse(data);
       if (data) {
         if (data.language === 'en-us') {
-          this.setLanguage('en');
+          store().setLanguage('en');
         } else if (data.language) {
           store().setLanguage(data.language);
         }
@@ -134,34 +111,10 @@ const app = Vue.createApp({
       const acquisitionMap = window.generateAcquisitionMap(bonuses, bool);
       this.bonusesAcquired = acquisitionMap;
     },
-    styling: function (trophyId) {
-      const { width, height, size, trophiesPerRow } = this.imageSizes;
-      const xOffset = width * (trophyId % trophiesPerRow) * -1;
-      const yOffset = height * Math.floor(trophyId / trophiesPerRow) * -1;
-      return [
-        'width: ' + width + 'px',
-        'height: ' + height + 'px',
-        'background-size: ' + size + 'px',
-        'background-position: ' + xOffset + 'px ' + yOffset + 'px'
-      ].join(';');
-    },
     scroll: function () {
       const id = window.location.hash.replace('#', '');
       if (id) {
         document.getElementById(id).scrollIntoView();
-      }
-    },
-    setSizeTh: function () {
-      const ths = Array.from(document.querySelectorAll('thead th'));
-      const table = document.getElementById('trophy-list');
-      const tableSizes = table && table.getBoundingClientRect();
-      const tableWidth = tableSizes && (tableSizes.right - tableSizes.left);
-      if (tableWidth) {
-        ths.forEach((th, index) => {
-          const sizes = th.getBoundingClientRect();
-          const width = sizes.right - sizes.left;
-          this.floatingHeaders[index] = Math.round((width / tableWidth) * 100) + '%';
-        });
       }
     },
     toggleBonusAcquired: function (id) {
@@ -169,9 +122,6 @@ const app = Vue.createApp({
     }
   },
   computed: {
-    trophyStore: function () {
-      return trophyStore();
-    },
     dataToSave: function () {
       return JSON.stringify({
         language: store().language,
@@ -180,45 +130,6 @@ const app = Vue.createApp({
         trophiesAcquired: trophyStore().trophiesAcquired,
         bonusesAcquired: this.bonusesAcquired
       });
-    },
-    imageSizes: function () {
-      const originalSpriteWidth = 128;
-      const originalSpriteHeight = 144;
-      const trophiesPerRow = 12;
-      const totalSpriteSheetWidth = originalSpriteWidth * trophiesPerRow;
-      const reductionRatio = trophyStore().reductionRatio / 10000;
-
-      const width = originalSpriteWidth * reductionRatio;
-      const height = originalSpriteHeight * reductionRatio;
-      const size = totalSpriteSheetWidth * reductionRatio;
-
-      return {
-        width,
-        height,
-        size,
-        trophiesPerRow
-      };
-    },
-    filteredTrophies: function () {
-      let trophies = trophyStore().trophies;
-      trophies = trophies
-        .filter((trophy) => {
-          let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
-          if (this.isJP) {
-            name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
-          }
-          const smash = (
-            this.filterSmash === null ||
-            trophy.smash === this.filterSmash
-          );
-          return name && smash;
-        })
-        .sort((a, b) => {
-          let A = a.sortBy[this.sortBy];
-          let B = b.sortBy[this.sortBy];
-          return A > B ? 1 : -1;
-        });
-      return trophies;
     },
     filteredBonuses: function () {
       let bonuses = this.bonuses;
@@ -248,11 +159,6 @@ const app = Vue.createApp({
       'dictionary',
       'language'
     ]),
-    ...Pinia.mapState(trophyStore, [
-      'reductionRatio',
-      'sortBy',
-      'trophiesAcquired'
-    ]),
     ...Pinia.mapGetters(store, [
       'isJP'
     ])
@@ -260,23 +166,13 @@ const app = Vue.createApp({
   watch: {
     dataToSave: function () {
       this.save();
-    },
-    language: function () {
-      setTimeout(() => {
-        this.setSizeTh();
-      }, 100);
-    },
-    reductionRatio: function () {
-      this.setSizeTh();
     }
   },
   created: function () {
     this.load();
-    trophyStore().setTrophies(window.generateTrophyData());
     this.bonuses = window.generateBonusData()
     setTimeout(() => {
       this.scroll();
-      this.setSizeTh();
     }, 350);
   }
 })
