@@ -1,4 +1,4 @@
-const dictionary = {
+window.dictionary = {
   en: {
     all: 'All',
     allTrophies: 'All Trophies',
@@ -35,14 +35,14 @@ const dictionary = {
   }
 };
 
+window.cacheBust = (new Date()).getTime();
 window.httpVueLoader = function (componentPath) {
   const options = {
     moduleCache: {
       vue: Vue
     },
     getFile: async function (url) {
-      const cacheBust = (new Date()).getTime();
-      const result = await fetch(url + '?t=' + cacheBust);
+      const result = await fetch(url + '?t=' + window.cacheBust);
       if (!result.ok) {
         throw Object.assign(new Error(result.statusText + ' ' + url), { result });
       }
@@ -6693,4 +6693,13 @@ window.generateBonusData = function () {
       notes: ''
     }
   ];
+};
+
+window.generateAcquisitionMap = function (items, bool) {
+  const maxID = items.length;
+  const acquired = {};
+  for (let id = 1; id < (maxID + 1); id++) {
+    acquired[id] = bool || false;
+  }
+  return acquired;
 };

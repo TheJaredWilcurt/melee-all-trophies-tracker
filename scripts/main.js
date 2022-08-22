@@ -1,17 +1,56 @@
-const counterStore = Pinia.defineStore('counter', {
+window.store = Pinia.defineStore('store', {
   state: function () {
     return {
-      value: 0
+      dictionary: window.dictionary,
+      language: 'en'
     };
   },
   actions: {
-    increment: function (state) {
-      this.value++;
+    setLanguage: function (value) {
+      this.language = value;
+    }
+  },
+  getters: {
+    isJP: (state) => {
+      return state.language === 'jp';
     }
   }
 });
+window.trophyStore = Pinia.defineStore('trophyStore', {
+  state: function () {
+    return {
+      reductionRatio: 5416,
+      sortBy: 'normal',
+      trophies: null,
+      trophiesAcquired: null
+    };
+  },
+  actions: {
+    setReductionRatio: function (value) {
+      this.reductionRatio = value;
+    },
+    setSortBy: function (value) {
+      this.sortBy = value;
+    },
+    setTrophies: function (value) {
+      this.trophies = value;
+    },
+    setTrophiesAcquired: function (value) {
+      this.trophiesAcquired = value;
+    },
+    toggleTrohpyAcquiredById: function (id) {
+      this.trophiesAcquired[id] = !this.trophiesAcquired[id];
+    },
+    generateTrohpyAcquisitionMap: function (bool) {
+      const trophies = this.trophies || window.generateTrophyData();
+      const acquisitionMap = window.generateAcquisitionMap(trophies, bool);
+      this.setTrophiesAcquired(acquisitionMap);
+    }
+  },
+  getters: {
+  }
+});
 
-const pinia = Pinia.createPinia();
 const app = Vue.createApp({
   components: {
     'app-composition': httpVueLoader('./components/app-composition.vue')
@@ -19,8 +58,6 @@ const app = Vue.createApp({
   data: function () {
     return {
       localStorageId: 'meleeAllTrophiesData',
-      language: 'en',
-      sortBy: 'normal',
       headers: [
         {
           class: 'center'
@@ -45,11 +82,8 @@ const app = Vue.createApp({
       filterName: '',
       filterNameJP: '',
       filterSmash: null,
-      trophies: null,
       bonuses: null,
-      trophiesAcquired: null,
       bonusesAcquired: null,
-      reductionRatio: 5416,
       filterBonusName: '',
       filterBonusNameJP: '',
       filterScore: '',
@@ -70,20 +104,20 @@ const app = Vue.createApp({
       data = JSON.parse(data);
       if (data) {
         if (data.language === 'en-us') {
-          this.language = 'en';
+          this.setLanguage('en');
         } else if (data.language) {
-          this.language = data.language;
+          store().setLanguage(data.language);
         }
         if (data.sortBy) {
-          this.sortBy = data.sortBy;
+          trophyStore().setSortBy(data.sortBy);
         }
         if (data.reductionRatio) {
-          this.reductionRatio = data.reductionRatio;
+          trophyStore().setReductionRatio(data.reductionRatio);
         }
         if (!data.trophiesAcquired || data?.trophiesAcquired?.[0]?.id === 0) {
-          this.generateTrohpyAcquisitionMap();
+          trophyStore().generateTrohpyAcquisitionMap();
         } else {
-          this.trophiesAcquired = data.trophiesAcquired;
+          trophyStore().setTrophiesAcquired(data.trophiesAcquired);
         }
         if (!data.bonusesAcquired) {
           this.generateBonusAcquisitionMap();
@@ -91,25 +125,14 @@ const app = Vue.createApp({
           this.bonusesAcquired = data.bonusesAcquired;
         }
       } else {
-        this.generateTrohpyAcquisitionMap();
+        trophyStore().generateTrohpyAcquisitionMap();
         this.generateBonusAcquisitionMap();
       }
     },
-    generateAcquisitionMap: function (items, bool) {
-      const maxID = items.length;
-      const acquired = {};
-      for (let id = 1; id < (maxID + 1); id++) {
-        acquired[id] = bool || false;
-      }
-      return acquired;
-    },
-    generateTrohpyAcquisitionMap: function (bool) {
-      const trophies = this.trophies || window.generateTrophyData();
-      this.trophiesAcquired = this.generateAcquisitionMap(trophies, bool);
-    },
     generateBonusAcquisitionMap: function (bool) {
       const bonuses = this.bonuses || window.generateBonusData();
-      this.bonusesAcquired = this.generateAcquisitionMap(bonuses, bool);
+      const acquisitionMap = window.generateAcquisitionMap(bonuses, bool);
+      this.bonusesAcquired = acquisitionMap;
     },
     styling: function (trophyId) {
       const { width, height, size, trophiesPerRow } = this.imageSizes;
@@ -141,42 +164,29 @@ const app = Vue.createApp({
         });
       }
     },
-    toggleTrohpyAcquired: function (id) {
-      this.trophiesAcquired[id] = !this.trophiesAcquired[id];
-    },
     toggleBonusAcquired: function (id) {
       this.bonusesAcquired[id] = !this.bonusesAcquired[id];
-    },
-    selectAll: function () {
-      this.generateTrohpyAcquisitionMap(true);
-    },
-    selectNone: function () {
-      this.generateTrohpyAcquisitionMap(false);
-    },
-    ...Pinia.mapActions(counterStore, ['increment'])
+    }
   },
   computed: {
-    dictionary: function () {
-      return dictionary;
+    trophyStore: function () {
+      return trophyStore();
     },
     dataToSave: function () {
       return JSON.stringify({
-        language: this.language,
-        reductionRatio: this.reductionRatio,
-        sortBy: this.sortBy,
-        trophiesAcquired: this.trophiesAcquired,
+        language: store().language,
+        reductionRatio: trophyStore().reductionRatio,
+        sortBy: trophyStore().sortBy,
+        trophiesAcquired: trophyStore().trophiesAcquired,
         bonusesAcquired: this.bonusesAcquired
       });
-    },
-    isJP: function () {
-      return this.language === 'jp';
     },
     imageSizes: function () {
       const originalSpriteWidth = 128;
       const originalSpriteHeight = 144;
       const trophiesPerRow = 12;
       const totalSpriteSheetWidth = originalSpriteWidth * trophiesPerRow;
-      const reductionRatio = this.reductionRatio / 10000;
+      const reductionRatio = trophyStore().reductionRatio / 10000;
 
       const width = originalSpriteWidth * reductionRatio;
       const height = originalSpriteHeight * reductionRatio;
@@ -190,7 +200,7 @@ const app = Vue.createApp({
       };
     },
     filteredTrophies: function () {
-      let trophies = this.trophies;
+      let trophies = trophyStore().trophies;
       trophies = trophies
         .filter((trophy) => {
           let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
@@ -234,7 +244,18 @@ const app = Vue.createApp({
         });
       return bonuses;
     },
-    ...Pinia.mapState(counterStore, ['value'])
+    ...Pinia.mapState(store, [
+      'dictionary',
+      'language'
+    ]),
+    ...Pinia.mapState(trophyStore, [
+      'reductionRatio',
+      'sortBy',
+      'trophiesAcquired'
+    ]),
+    ...Pinia.mapGetters(store, [
+      'isJP'
+    ])
   },
   watch: {
     dataToSave: function () {
@@ -251,11 +272,13 @@ const app = Vue.createApp({
   },
   created: function () {
     this.load();
-    this.trophies = window.generateTrophyData();
+    trophyStore().setTrophies(window.generateTrophyData());
     this.bonuses = window.generateBonusData()
     setTimeout(() => {
       this.scroll();
       this.setSizeTh();
     }, 350);
   }
-}).use(pinia).mount('#app');
+})
+  .use(Pinia.createPinia())
+  .mount('#app');
