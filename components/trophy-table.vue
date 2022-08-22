@@ -185,7 +185,8 @@ export default {
     },
     ...Pinia.mapState(store, [
       'dictionary',
-      'language'
+      'language',
+      'view'
     ]),
     ...Pinia.mapState(trophyStore, [
       'reductionRatio',
@@ -204,6 +205,11 @@ export default {
     },
     reductionRatio: function () {
       this.setSizeTh();
+    },
+    view: function () {
+      setTimeout(() => {
+        this.setSizeTh();
+      }, 100);
     }
   },
   created: function () {
