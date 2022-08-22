@@ -200,7 +200,7 @@ footer a:hover {
   height: 15px;
   min-width: 15px;
   min-height: 15px;
-  margin: 0px 4px;
+  margin: 0px auto;
 }
 
 .acquired td {

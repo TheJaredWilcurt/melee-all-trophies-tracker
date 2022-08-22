@@ -1,3 +1,72 @@
+window.dictionary = {
+  en: {
+    all: 'All',
+    allTrophies: 'All Trophies',
+    aZ: 'A-Z',
+    false: 'false',
+    game: 'Game',
+    language: 'Language: ',
+    name: 'Name',
+    normal: 'Normal',
+    smash: 'Smash',
+    sortBy: 'Sort by: ',
+    speedrunTracker: 'Speedrun Tracker',
+    superSmashBrosMelee: 'Super Smash Bros. Melee',
+    trophy: 'Trophy',
+    trophySize: 'Trophy Size: ',
+    true: 'true'
+  },
+  jp: {
+    all: '全て',
+    allTrophies: '全てフィギュア',
+    aZ: 'あいうえお',
+    false: '偽',
+    game: 'タイトル',
+    language: '言語： ',
+    name: '名前',
+    normal: '通常',
+    smash: 'スマッシュ',
+    sortBy: '並び替え： ',
+    speedrunTracker: 'スピードラントラッカー',
+    superSmashBrosMelee: '大乱闘スマッシュブラザーズＤＸ',
+    trophy: 'フィギュア',
+    trophySize: 'フィギュアサイズ： ',
+    true: '真'
+  }
+};
+
+window.cacheBust = (new Date()).getTime();
+window.httpVueLoader = function (componentPath) {
+  const options = {
+    moduleCache: {
+      vue: Vue
+    },
+    getFile: async function (url) {
+      const result = await fetch(url + '?t=' + window.cacheBust);
+      if (!result.ok) {
+        throw Object.assign(new Error(result.statusText + ' ' + url), { result });
+      }
+      return {
+        getContentData: (asBinary) => {
+          if (asBinary) {
+            return result.arrayBuffer();
+          }
+          return result.text();
+        }
+      }
+    },
+    addStyle: function (textContent) {
+      const style = Object.assign(document.createElement('style'), { textContent });
+      const ref = document.head.getElementsByTagName('style')[0] || null;
+      document.head.insertBefore(style, ref);
+    },
+  }
+
+  return Vue.defineAsyncComponent(function (){
+    return window['vue3-sfc-loader'].loadModule(componentPath, options);
+  });
+}
+
 window.generateTrophyData = function () {
   return [
     {
@@ -6624,4 +6693,13 @@ window.generateBonusData = function () {
       notes: ''
     }
   ];
+};
+
+window.generateAcquisitionMap = function (items, bool) {
+  const maxID = items.length;
+  const acquired = {};
+  for (let id = 1; id < (maxID + 1); id++) {
+    acquired[id] = bool || false;
+  }
+  return acquired;
 };
