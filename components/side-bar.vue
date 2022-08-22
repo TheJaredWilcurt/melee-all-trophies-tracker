@@ -19,6 +19,11 @@
         ></span>
       </div>
 
+      <div>
+        <button @click="store.setView('trophy')">Trophy</button>
+        <button @click="store.setView('bonus')">Bonus</button>
+      </div>
+
       <div class="form-control">
         <label>
           <strong>{{ dictionary[language].trophySize }}</strong>

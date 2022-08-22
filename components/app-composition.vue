@@ -7,17 +7,11 @@
     </div>
 
     <div>
-      <trophy-table></trophy-table>
-      <bonus-table></bonus-table>
+      <trophy-table v-show="view === 'trophy'"></trophy-table>
+      <bonus-table v-show="view === 'bonus'" :key="33"></bonus-table>
     </div>
 
-    <footer v-if="isJP">
-      <p>ソースコードは <a :href="githubLink">GitHub</a> で入手可能</p>
-    </footer>
-    <footer v-else>
-      <p>source code available on</p>
-      <a :href="githubLink">GitHub</a>
-    </footer>
+    <footer-section></footer-section>
   </div>
 </template>
 
@@ -26,15 +20,13 @@ export default {
   name: 'AppComposition',
   components: {
     'bonus-table': httpVueLoader('./components/bonus-table.vue'),
+    'footer-section': httpVueLoader('./components/footer-section.vue'),
     'side-bar': httpVueLoader('./components/side-bar.vue'),
     'trophy-table': httpVueLoader('./components/trophy-table.vue')
   },
   computed: {
-    githubLink: function () {
-      return 'https://github.com/TheJaredWilcurt/melee-all-trophies-tracker';
-    },
-    ...Pinia.mapGetters(store, [
-      'isJP'
+    ...Pinia.mapState(store, [
+      'view',
     ])
   }
 };

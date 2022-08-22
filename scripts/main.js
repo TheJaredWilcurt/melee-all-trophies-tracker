@@ -2,12 +2,16 @@ window.store = Pinia.defineStore('store', {
   state: function () {
     return {
       dictionary: window.dictionary,
-      language: 'en'
+      language: 'en',
+      view: 'trophy'
     };
   },
   actions: {
     setLanguage: function (value) {
       this.language = value;
+    },
+    setView: function (value) {
+      this.view = value;
     }
   },
   getters: {
@@ -46,10 +50,33 @@ window.trophyStore = Pinia.defineStore('trophyStore', {
       const acquisitionMap = window.generateAcquisitionMap(trophies, bool);
       this.setTrophiesAcquired(acquisitionMap);
     }
-  },
-  getters: {
   }
 });
+window.bonusStore = Pinia.defineStore('bonusStore', {
+  state: function () {
+    return {
+      bonuses: null,
+      bonusesAcquired: null
+    };
+  },
+  actions: {
+    setBonuses: function (value) {
+      this.bonuses = value;
+    },
+    setBonusesAcquired: function (value) {
+      this.bonusesAcquired = value;
+    },
+    toggleBonusAcquiredById: function (id) {
+      this.bonusesAcquired[id] = !this.bonusesAcquired[id];
+    },
+    generateBonusAcquisitionMap: function (bool) {
+      const bonuses = this.bonuses || window.generateBonusData();
+      const acquisitionMap = window.generateAcquisitionMap(bonuses, bool);
+      this.setBonusesAcquired(acquisitionMap);
+    }
+  }
+});
+
 
 const app = Vue.createApp({
   components: {
@@ -57,17 +84,7 @@ const app = Vue.createApp({
   },
   data: function () {
     return {
-      localStorageId: 'meleeAllTrophiesData',
-      floatingHeaders: new Array(9).fill('100%'),
-      bonuses: null,
-      bonusesAcquired: null,
-      filterBonusName: '',
-      filterBonusNameJP: '',
-      filterScore: '',
-      filterDescription: '',
-      filterDescriptionJP: '',
-      filterDescriptionJPEN: '',
-      filterNotes: ''
+      localStorageId: 'meleeAllTrophiesData'
     };
   },
   methods: {
@@ -97,28 +114,20 @@ const app = Vue.createApp({
           trophyStore().setTrophiesAcquired(data.trophiesAcquired);
         }
         if (!data.bonusesAcquired) {
-          this.generateBonusAcquisitionMap();
+          bonusStore().generateBonusAcquisitionMap();
         } else {
-          this.bonusesAcquired = data.bonusesAcquired;
+          bonusStore().setBonusesAcquired(data.bonusesAcquired);
         }
       } else {
         trophyStore().generateTrohpyAcquisitionMap();
-        this.generateBonusAcquisitionMap();
+        bonusStore().generateBonusAcquisitionMap();
       }
-    },
-    generateBonusAcquisitionMap: function (bool) {
-      const bonuses = this.bonuses || window.generateBonusData();
-      const acquisitionMap = window.generateAcquisitionMap(bonuses, bool);
-      this.bonusesAcquired = acquisitionMap;
     },
     scroll: function () {
       const id = window.location.hash.replace('#', '');
       if (id) {
         document.getElementById(id).scrollIntoView();
       }
-    },
-    toggleBonusAcquired: function (id) {
-      this.bonusesAcquired[id] = !this.bonusesAcquired[id];
     }
   },
   computed: {
@@ -128,40 +137,9 @@ const app = Vue.createApp({
         reductionRatio: trophyStore().reductionRatio,
         sortBy: trophyStore().sortBy,
         trophiesAcquired: trophyStore().trophiesAcquired,
-        bonusesAcquired: this.bonusesAcquired
+        bonusesAcquired: bonusStore().bonusesAcquired
       });
-    },
-    filteredBonuses: function () {
-      let bonuses = this.bonuses;
-      bonuses = bonuses
-        .filter((bonus) => {
-          let name = (bonus.bonus || bonus.bonusEN).toLowerCase().includes(this.filterBonusName.toLowerCase());
-          let nameJP = bonus.bonusJP.toLowerCase().includes(this.filterBonusNameJP.toLowerCase());
-          let score = String(bonus.score).toLowerCase().includes(String(this.filterScore).toLowerCase());
-          let description = bonus.description.toLowerCase().includes(this.filterDescription.toLowerCase());
-          let descriptionJP = bonus.descriptionJP.toLowerCase().includes(this.filterDescriptionJP.toLowerCase());
-          let descriptionJPEN = bonus.descriptionJPEN.toLowerCase().includes(this.filterDescriptionJPEN.toLowerCase());
-          let notes = bonus.notes.toLowerCase().includes(this.filterNotes.toLowerCase());
-
-          return (
-            name &&
-            nameJP &&
-            score &&
-            description &&
-            descriptionJP &&
-            descriptionJPEN &&
-            notes
-          );
-        });
-      return bonuses;
-    },
-    ...Pinia.mapState(store, [
-      'dictionary',
-      'language'
-    ]),
-    ...Pinia.mapGetters(store, [
-      'isJP'
-    ])
+    }
   },
   watch: {
     dataToSave: function () {
@@ -170,7 +148,6 @@ const app = Vue.createApp({
   },
   created: function () {
     this.load();
-    this.bonuses = window.generateBonusData()
     setTimeout(() => {
       this.scroll();
     }, 350);
