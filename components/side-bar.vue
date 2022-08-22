@@ -1,23 +1,8 @@
 <template>
-  <div>
+  <div class="sidebar">
     <div class="controls">
-      <div class="form-control">
-        <label><strong>{{ dictionary[language].language }}</strong></label>
-        <span
-          v-text="'🇺🇸'"
-          class="cursor flag"
-          :class="{ selected: language === 'en' }"
-          title="EN-US"
-          @click="setLanguage('en')"
-        ></span>
-        <span
-          v-text="'🇯🇵'"
-          class="cursor flag"
-          :class="{ selected: isJP }"
-          title="JP"
-          @click="setLanguage('jp')"
-        ></span>
-      </div>
+      <h1>"{{ dictionary[language].allTrophies }}"</h1>
+      <h2>{{ dictionary[language].speedrunTracker }}</h2>
 
       <div>
         <button @click="store.setView('trophy')">Trophy</button>
@@ -45,6 +30,24 @@
       </div>
 
       <div class="form-control">
+        <label><strong>{{ dictionary[language].language }}</strong></label>
+        <span
+          v-text="'🇺🇸'"
+          class="cursor flag"
+          :class="{ selected: language === 'en' }"
+          title="EN-US"
+          @click="setLanguage('en')"
+        ></span>
+        <span
+          v-text="'🇯🇵'"
+          class="cursor flag"
+          :class="{ selected: isJP }"
+          title="JP"
+          @click="setLanguage('jp')"
+        ></span>
+      </div>
+
+      <div class="form-control">
         <label>
           <strong>Currently Selected: </strong>
           <textarea readonly v-text="JSON.stringify(trophiesAcquired)"></textarea>
@@ -57,20 +60,20 @@
       </div>
     </div>
 
-    <img
-      v-if="isJP"
-      src="images/dx-logo.png"
-      class="logo-dx"
-      :alt="dictionary.jp.superSmashBrosMelee"
-    />
-    <img
-      v-else
-      src="images/melee-logo.png"
-      class="logo"
-      :alt="dictionary.en.superSmashBrosMelee"
-    />
-    <h1>"{{ dictionary[language].allTrophies }}"</h1>
-    <h2>{{ dictionary[language].speedrunTracker }}</h2>
+    <div class="logo-container">
+      <img
+        v-if="isJP"
+        src="images/dx-logo.png"
+        class="logo-dx"
+        :alt="dictionary.jp.superSmashBrosMelee"
+      />
+      <img
+        v-else
+        src="images/melee-logo.png"
+        class="logo"
+        :alt="dictionary.en.superSmashBrosMelee"
+      />
+    </div>
   </div>
 </template>
 

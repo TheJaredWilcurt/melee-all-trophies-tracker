@@ -128,6 +128,28 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.wrapper {}
+.sidebar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+  background-color: #444;
+  overflow: auto;
+}
+.view {
+  margin: 0px 0px 0px 400px;
+}
+
+
+.logo-container {
+  margin: 20px;
+}
 .logo,
 .logo-dx {
   display: block;
@@ -135,10 +157,11 @@ footer a:hover {
   margin: 0px auto;
 }
 .logo {
-  max-width: 587px;
+  max-width: 220px;
+  margin-bottom: 18px;
 }
 .logo-dx {
-  max-width: 350px;
+  max-width: 200px;
 }
 
 .go-to-top {
@@ -154,6 +177,7 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .form-control label {

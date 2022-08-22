@@ -1,17 +1,14 @@
 <template>
-  <div>
+  <div class="wrapper">
     <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
-    <div>
-      <side-bar></side-bar>
-    </div>
+    <side-bar></side-bar>
 
-    <div>
+    <div class="view">
       <trophy-table v-show="view === 'trophy'"></trophy-table>
       <bonus-table v-show="view === 'bonus'" :key="33"></bonus-table>
+      <footer-section></footer-section>
     </div>
-
-    <footer-section></footer-section>
   </div>
 </template>
 
