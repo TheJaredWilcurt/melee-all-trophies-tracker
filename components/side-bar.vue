@@ -24,7 +24,9 @@
         :title="dictionary[language].sortBy"
       >
         <sort-button
-          v-for="sortBy in sortBys"
+          v-for="(sortBy, index) in sortBys"
+          :index="index"
+          :length="sortBys.length"
           :name="dictionary[language][sortBy]"
           :active="trophyStore.sortBy === sortBy"
           @clicked="trophyStore.setSortBy(sortBy)"

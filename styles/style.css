@@ -158,15 +158,21 @@ footer a:hover {
 .sort-button {
   position: relative;
   display: inline-block;
+  background: transparent;
   border-width: 1px 1px 1px 0px;
   border-style: solid;
   border-color: #257219;
   border-radius: 0px 100px 100px 0px;
+  margin: 0px;
   margin-left: -25px;
   padding: 5px 5px 5px 32px;
   color: #257219;
   line-height: 1.18;
+  clip-path: none;
   cursor: pointer;
+}
+.sort-button:hover {
+  z-index: 1;
 }
 .sort-button:hover,
 .sort-button.active {
