@@ -118,15 +118,25 @@ const app = Vue.createApp({
         } else {
           bonusStore().setBonusesAcquired(data.bonusesAcquired);
         }
+        if (data.view) {
+          store().setView(data.view);
+        }
       } else {
         trophyStore().generateTrohpyAcquisitionMap();
         bonusStore().generateBonusAcquisitionMap();
       }
     },
-    scroll: function () {
+    scroll: async function () {
       const id = window.location.hash.replace('#', '');
       if (id) {
-        document.getElementById(id).scrollIntoView();
+        if (id.startsWith('t')) {
+          store().setView('trophy');
+        } else if (id.startsWith('b')) {
+          store().setView('bonus');
+        }
+        setTimeout(function () {
+          document.getElementById(id)?.scrollIntoView();
+        }, 350);
       }
     }
   },
@@ -137,7 +147,8 @@ const app = Vue.createApp({
         reductionRatio: trophyStore().reductionRatio,
         sortBy: trophyStore().sortBy,
         trophiesAcquired: trophyStore().trophiesAcquired,
-        bonusesAcquired: bonusStore().bonusesAcquired
+        bonusesAcquired: bonusStore().bonusesAcquired,
+        view: store().view
       });
     }
   },
@@ -148,9 +159,7 @@ const app = Vue.createApp({
   },
   created: function () {
     this.load();
-    setTimeout(() => {
-      this.scroll();
-    }, 350);
+    this.scroll();
   }
 })
   .use(Pinia.createPinia())

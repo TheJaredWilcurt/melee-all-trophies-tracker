@@ -40,40 +40,42 @@
           </select>
         </th>
       </tr>
-      <tr
-        v-for="(trophy, trophyIndex) in filteredTrophies"
-        :key="trophy.id"
-        :class="{ acquired: trophiesAcquired[trophy.id] }"
-        :id="'t' + trophy.id"
-        @click.stop="trophyStore.toggleTrohpyAcquiredById(trophy.id)"
-      >
-        <td
-          class="center"
-          @click.stop
+      <transition-group>
+        <tr
+          v-for="(trophy, trophyIndex) in filteredTrophies"
+          :key="trophy.id"
+          :class="{ acquired: trophiesAcquired[trophy.id] }"
+          :id="'t' + trophy.id"
+          @click.stop="trophyStore.toggleTrohpyAcquiredById(trophy.id)"
         >
-          <a
-            class="trophy-link"
-            :class="{ compact: reductionRatio < 2104 }"
-            :href="'#t' + trophy.id"
-            :title="'ID: ' + trophy.id"
+          <td
+            class="center"
+            @click.stop
           >
-            <link-icon></link-icon>
-          </a>
-        </td>
-        <td class="center"><input
-          v-model="trophiesAcquired[trophy.id]"
-          type="checkbox"
-          class="trophy-checkbox"
-          :class="{ compact: reductionRatio < 2104 }"
-        /></td>
-        <td class="center"><div
-          class="sprite"
-          :style="styling(trophy.imageIndex)"
-        ></div></td>
-        <td v-if="isJP">{{ trophy.nameJP }}</td>
-        <td v-else>{{ trophy.name }}</td>
-        <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
-      </tr>
+            <a
+              class="trophy-link"
+              :class="{ compact: reductionRatio < 2104 }"
+              :href="'#t' + trophy.id"
+              :title="'ID: ' + trophy.id"
+            >
+              <link-icon></link-icon>
+            </a>
+          </td>
+          <td class="center"><input
+            v-model="trophiesAcquired[trophy.id]"
+            type="checkbox"
+            class="trophy-checkbox"
+            :class="{ compact: reductionRatio < 2104 }"
+          /></td>
+          <td class="center"><div
+            class="sprite"
+            :style="styling(trophy.imageIndex)"
+          ></div></td>
+          <td v-if="isJP">{{ trophy.nameJP }}</td>
+          <td v-else>{{ trophy.name }}</td>
+          <td class="center"><span v-if="trophy.smash" class="smash-pill">SMASH</span></td>
+        </tr>
+      </transition-group>
     </tbody>
   </table>
 </template>

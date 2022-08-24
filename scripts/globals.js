@@ -3,6 +3,7 @@ window.dictionary = {
     all: 'All',
     allTrophies: 'All Trophies',
     aZ: 'A-Z',
+    aZjp: 'A-Z (JP)',
     false: 'false',
     game: 'Game',
     language: 'Language: ',
@@ -19,7 +20,8 @@ window.dictionary = {
   jp: {
     all: '全て',
     allTrophies: '全てフィギュア',
-    aZ: 'あいうえお',
+    aZ: 'あいうえお (EN)',
+    aZjp: 'あいうえお',
     false: '偽',
     game: 'タイトル',
     language: '言語： ',

@@ -9,7 +9,7 @@
         <button @click="store.setView('bonus')">Bonus</button>
       </div>
 
-      <div class="form-control">
+      <div v-if="isTrophyView" class="form-control">
         <label>
           <strong>{{ dictionary[language].trophySize }}</strong>
           <input type="range" v-model.number="trophyStore.reductionRatio" min="1" max="10000" />
@@ -17,16 +17,23 @@
         </label>
       </div>
 
-      <div class="form-control">
-        <label>
-          <strong>{{ dictionary[language].sortBy }}</strong>
-          <select v-model="trophyStore.sortBy">
-            <option value="normal">{{ dictionary[language].normal }}</option>
-            <option value="game">{{ dictionary[language].game }}</option>
-            <option value="aZ">{{ dictionary[language].aZ }} (US)</option>
-            <option value="aZjp">{{ dictionary[language].aZ }} (JP)</option>
-          </select>
-        </label>
+      <div
+        v-if="isTrophyView"
+        class="sort-buttons-container"
+        :class="{ jp: isJP }"
+        :title="dictionary[language].sortBy"
+      >
+        <sort-button
+          v-for="sortBy in sortBys"
+          :name="dictionary[language][sortBy]"
+          :active="trophyStore.sortBy === sortBy"
+          @clicked="trophyStore.setSortBy(sortBy)"
+        ></sort-button>
+      </div>
+
+      <div>
+        <button @click="selectAll">Select All</button>
+        <button @click="selectNone">Select None</button>
       </div>
 
       <div class="form-control">
@@ -45,18 +52,6 @@
           title="JP"
           @click="setLanguage('jp')"
         ></span>
-      </div>
-
-      <div class="form-control">
-        <label>
-          <strong>Currently Selected: </strong>
-          <textarea readonly v-text="JSON.stringify(trophiesAcquired)"></textarea>
-        </label>
-      </div>
-
-      <div>
-        <button @click="selectAll">Select All</button>
-        <button @click="selectNone">Select None</button>
       </div>
     </div>
 
@@ -80,16 +75,33 @@
 <script>
 export default {
   name: 'SideBar',
+  components: {
+    'sort-button': httpVueLoader('./components/sort-button.vue'),
+  },
   data: function () {
     return {
+      sortBys: [
+        'normal',
+        'game',
+        'aZ',
+        'aZjp'
+      ]
     };
   },
   methods: {
     selectAll: function () {
-      trophyStore().generateTrohpyAcquisitionMap(true);
+      if (this.isTrophyView) {
+        trophyStore().generateTrohpyAcquisitionMap(true);
+      } else {
+        bonusStore().generateBonusAcquisitionMap(true);
+      }
     },
     selectNone: function () {
-      trophyStore().generateTrohpyAcquisitionMap(false);
+      if (this.isTrophyView) {
+        trophyStore().generateTrohpyAcquisitionMap(false);
+      } else {
+        bonusStore().generateBonusAcquisitionMap(false);
+      }
     },
     ...Pinia.mapActions(store, [
       'setLanguage'
@@ -102,13 +114,16 @@ export default {
     trophyStore: function () {
       return trophyStore();
     },
+    isTrophyView: function () {
+      return this.view === 'trophy';
+    },
     ...Pinia.mapState(store, [
       'dictionary',
-      'language'
+      'language',
+      'view'
     ]),
     ...Pinia.mapState(trophyStore, [
       'reductionRatio',
-      'sortBy',
       'trophiesAcquired'
     ]),
     ...Pinia.mapGetters(store, [

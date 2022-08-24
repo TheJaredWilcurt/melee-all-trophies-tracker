@@ -31,6 +31,10 @@ h2 {
   text-align: center;
 }
 
+h2 {
+  margin-top: 0px;
+}
+
 a {
   color: #FFF;
 }
@@ -146,6 +150,73 @@ footer a:hover {
   margin: 0px 0px 0px 400px;
 }
 
+.sort-buttons-container {
+  width: 400px;
+  margin: 20px 0px;
+}
+.sort-button {
+  position: relative;
+  display: inline-block;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #257219;
+  border-radius: 0px 100px 100px 0px;
+  margin-left: -25px;
+  padding: 5px 5px 5px 32px;
+  color: #257219;
+  cursor: pointer;
+}
+.sort-button:hover,
+.sort-button.active {
+  background: #4BB13F;
+  border-color: #4BB13F;
+  color: #4BB13F;
+}
+.sort-button:first-of-type {
+  margin-left: 0px;
+  padding-left: 9px;
+}
+.sort-button:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  width: 24px;
+  height: 37px;
+  background: #257219;
+  border-radius: 0px 100px 100px 0px;
+  z-index: 2;
+}
+.sort-button:hover:after {
+  background: #4BB13F;
+}
+.sort-button.active:after {
+  top: 1px;
+  right: 1px;
+  height: 35px;
+  background: #285F22;
+}
+.sort-button-inner {
+  position: relative;
+  display: inline-block;
+  background: #111;
+  border: 2px solid #257219;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 3;
+}
+.sort-button.active .sort-button-inner {
+  border-color: #4BB13F;
+}
+.sort-buttons-container.jp .sort-button:after {
+  height: 40px;
+}
+.sort-buttons-container.jp .sort-button.active:after {
+  height: 38px;
+}
 
 .logo-container {
   margin: 20px;
