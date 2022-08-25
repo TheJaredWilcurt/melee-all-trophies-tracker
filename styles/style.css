@@ -215,6 +215,7 @@ footer a:hover {
   padding: 0px 10px;
   font-size: 20px;
   font-weight: bold;
+  line-height: 23px;
   z-index: 3;
 }
 .sort-button.active .sort-button-inner {
@@ -231,7 +232,8 @@ footer a:hover {
   height: 34px;
 }
 .jp.sort-buttons-container .sort-button-inner {
-  font-size:  14px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 
