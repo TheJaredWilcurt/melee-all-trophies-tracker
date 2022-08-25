@@ -180,6 +180,7 @@ footer a:hover {
   border-color: #4BB13F;
   color: #4BB13F;
 }
+.jp.sort-buttons-container .sort-button:first-of-type
 .sort-button:first-of-type {
   margin-left: 0px;
   padding-left: 9px;
@@ -219,15 +220,20 @@ footer a:hover {
 .sort-button.active .sort-button-inner {
   border-color: #4BB13F;
 }
-.sort-buttons-container.jp .sort-button {
+.jp.sort-buttons-container .sort-button {
+  padding-left: 28px;
   line-height: 1.6;
 }
-.sort-buttons-container.jp .sort-button:after {
-  height: 46px;
+.jp.sort-buttons-container .sort-button:after {
+  height: 36px;
 }
-.sort-buttons-container.jp .sort-button.active:after {
-  height: 44px;
+.jp.sort-buttons-container .sort-button.active:after {
+  height: 34px;
 }
+.jp.sort-buttons-container .sort-button-inner {
+  font-size:  14px;
+}
+
 
 .logo-container {
   margin: 20px;

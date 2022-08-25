@@ -24,7 +24,7 @@ window.dictionary = {
     aZjp: 'あいうえお',
     false: '偽',
     game: 'タイトル',
-    language: '言語： ',
+    language: '日本語切り替え： ',
     name: '名前',
     normal: '通常',
     smash: 'スマッシュ',
