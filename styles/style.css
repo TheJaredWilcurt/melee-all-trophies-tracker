@@ -320,12 +320,19 @@ footer a:hover {
   margin: 0px auto;
 }
 
-.acquired td {
+.acquired td,
+.grid-item.acquired .sprite {
   background-color: #367B36;
 }
-.acquired:hover td {
+button.active,
+.acquired:hover td,
+.grid-item.acquired:hover .sprite {
   background-color: #468B46;
 }
+button.active:hover {
+  background-color: #66AB66;
+}
+
 .sprite {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.2);
@@ -345,6 +352,7 @@ footer a:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.smash-mini,
 .smash-pill {
   background: #999;
   border: 1px solid #666;
@@ -352,4 +360,25 @@ footer a:hover {
   padding: 0px 2px;
   color: #777;
   font-weight: 900;
+}
+.smash-mini {
+  font-size: 10px;
+}
+
+.grid-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.grid-item {
+  display: inline-block;
+  margin: 14px;
+}
+.grid-name {
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.grid-name.tiny {
+  font-size: 12px;
 }

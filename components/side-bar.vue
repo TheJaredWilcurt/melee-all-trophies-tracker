@@ -5,14 +5,32 @@
       <h2>{{ dictionary[language].speedrunTracker }}</h2>
 
       <div>
-        <button @click="store.setView('trophy')">Trophy</button>
-        <button @click="store.setView('bonus')">Bonus</button>
+        <button
+          v-text="'Trophy Table'"
+          :class="{ active: view === 'trophy' }"
+          @click="store.setView('trophy')"
+        ></button>
+        <button
+          v-text="'Trophy Grid'"
+          :class="{ active: view === 'grid' }"
+          @click="store.setView('grid')"
+        ></button>
+        <button
+          v-text="'Bonus'"
+          :class="{ active: view === 'bonus' }"
+          @click="store.setView('bonus')"
+        ></button>
       </div>
 
       <div v-if="isTrophyView" class="form-control">
         <label>
           <strong>{{ dictionary[language].trophySize }}</strong>
-          <input type="range" v-model.number="trophyStore.reductionRatio" min="1" max="10000" />
+          <input
+            type="range"
+            v-model.number="trophyStore.reductionRatio"
+            :min="view === 'trophy' ? '1' : '2500'"
+            max="10000"
+          />
           {{ reductionRatio / 100 }}%
         </label>
       </div>
@@ -33,7 +51,26 @@
         ></sort-button>
       </div>
 
-      <div>
+      <div v-if="isTrophyView" class="form-control">
+        <label>
+          <strong>{{ dictionary[language].nameLabel }}</strong>
+          <input v-if="isJP" v-model="trophyStore.filterNameJP">
+          <input v-else v-model="trophyStore.filterName">
+        </label>
+      </div>
+
+      <div v-if="isTrophyView" class="form-control">
+        <label>
+          <strong>{{ dictionary[language].smashLabel }}</strong>
+          <select v-model="trophyStore.filterSmash">
+            <option :value="null">{{ dictionary[language].all }}</option>
+            <option :value="true">{{ dictionary[language].true }}</option>
+            <option :value="false">{{ dictionary[language].false }}</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="form-control">
         <button @click="selectAll">Select All</button>
         <button @click="selectNone">Select None</button>
       </div>
@@ -117,7 +154,7 @@ export default {
       return trophyStore();
     },
     isTrophyView: function () {
-      return this.view === 'trophy';
+      return ['trophy', 'grid'].includes(this.view);
     },
     ...Pinia.mapState(store, [
       'dictionary',

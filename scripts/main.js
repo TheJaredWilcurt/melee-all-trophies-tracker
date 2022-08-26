@@ -26,7 +26,11 @@ window.trophyStore = Pinia.defineStore('trophyStore', {
       reductionRatio: 5416,
       sortBy: 'normal',
       trophies: null,
-      trophiesAcquired: null
+      trophiesAcquired: null,
+      gridSize: 100,
+      filterSmash: null,
+      filterName: '',
+      filterNameJP: ''
     };
   },
   actions: {
@@ -49,6 +53,59 @@ window.trophyStore = Pinia.defineStore('trophyStore', {
       const trophies = this.trophies || window.generateTrophyData();
       const acquisitionMap = window.generateAcquisitionMap(trophies, bool);
       this.setTrophiesAcquired(acquisitionMap);
+    },
+    spriteStyles: function (trophyId) {
+      const { width, height, size, trophiesPerRow } = this.imageSizes;
+      const xOffset = width * (trophyId % trophiesPerRow) * -1;
+      const yOffset = height * Math.floor(trophyId / trophiesPerRow) * -1;
+      this.gridSize = width;
+      return [
+        'width: ' + width + 'px',
+        'height: ' + height + 'px',
+        'background-size: ' + size + 'px',
+        'background-position: ' + xOffset + 'px ' + yOffset + 'px'
+      ].join(';');
+    }
+  },
+  getters: {
+    imageSizes: function () {
+      const originalSpriteWidth = 128;
+      const originalSpriteHeight = 144;
+      const trophiesPerRow = 12;
+      const totalSpriteSheetWidth = originalSpriteWidth * trophiesPerRow;
+      const reductionRatio = this.reductionRatio / 10000;
+
+      const width = originalSpriteWidth * reductionRatio;
+      const height = originalSpriteHeight * reductionRatio;
+      const size = totalSpriteSheetWidth * reductionRatio;
+
+      return {
+        width,
+        height,
+        size,
+        trophiesPerRow
+      };
+    },
+    filteredTrophies: function () {
+      let trophies = this.trophies || [];
+      trophies = trophies
+        .filter((trophy) => {
+          let name = trophy.name.toLowerCase().includes(this.filterName.toLowerCase());
+          if (store().isJP) {
+            name = trophy.nameJP.toLowerCase().includes(this.filterNameJP.toLowerCase());
+          }
+          const smash = (
+            this.filterSmash === null ||
+            trophy.smash === this.filterSmash
+          );
+          return name && smash;
+        })
+        .sort((a, b) => {
+          let A = a.sortBy[this.sortBy];
+          let B = b.sortBy[this.sortBy];
+          return A > B ? 1 : -1;
+        });
+      return trophies;
     }
   }
 });
