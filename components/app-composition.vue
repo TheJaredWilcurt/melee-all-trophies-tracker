@@ -2,6 +2,7 @@
   <div class="wrapper">
     <a href="#" title="Scroll to top" class="go-to-top">⬆️</a>
 
+    <video-side-bar></video-side-bar>
     <side-bar></side-bar>
 
     <div class="view">
@@ -21,7 +22,8 @@ export default {
     'footer-section': httpVueLoader('./components/footer-section.vue'),
     'side-bar': httpVueLoader('./components/side-bar.vue'),
     'trophy-grid': httpVueLoader('./components/trophy-grid.vue'),
-    'trophy-table': httpVueLoader('./components/trophy-table.vue')
+    'trophy-table': httpVueLoader('./components/trophy-table.vue'),
+    'video-side-bar': httpVueLoader('./components/video-side-bar.vue')
   },
   computed: {
     ...Pinia.mapState(store, [

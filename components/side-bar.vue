@@ -70,24 +70,24 @@
         </label>
       </div>
 
+      <div>
+        <label>
+          <input type="checkbox" v-model="store.bgAnimate">
+          {{ dictionary[language].animateBackgrounds }}
+        </label>
+      </div>
+
       <div class="form-control">
         <button @click="selectAll">Select All</button>
         <button @click="selectNone">Select None</button>
       </div>
 
       <div class="form-control">
-        <label
-          class="language-label"
-          :class="{ jp: isJP }"
-        >
-          <strong>{{ dictionary[language].language }}</strong>
-        </label>
-
         <div class="language-controls">
           <button
             class="flag-language-container jp"
             :class="{ active: isJP }"
-            title="JP"
+            :title="dictionary.jp.language + '日本語'"
             @click="setLanguage('jp')"
           >
             <div class="flag-container jp">
@@ -101,7 +101,7 @@
           <button
             class="flag-language-container en"
             :class="{ active: isEN }"
-            title="EN-US"
+            :title="dictionary.en.language + ' English'"
             @click="setLanguage('en')"
           >
             <div class="flag-container en">
@@ -135,9 +135,7 @@
           </button>
         </div>
       </div>
-
     </div>
-
 
     <div class="logo-container">
       <img

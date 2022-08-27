@@ -143,19 +143,26 @@ footer a:hover {
 }
 
 .wrapper {}
-.sidebar {
+.sidebar,
+.sidebar-video {
   position: fixed;
   top: 0px;
   left: 0px;
+  width: 400px;
+  height: 100vh;
+}
+.sidebar-video {
+  object-fit: cover;
+  z-index: 1;
+}
+.sidebar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  width: 400px;
-  height: 100vh;
-  background-color: #0C0C26;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 2;
 }
 .view {
   margin: 0px 0px 0px 400px;

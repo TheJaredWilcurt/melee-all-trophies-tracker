@@ -1,12 +1,16 @@
 window.store = Pinia.defineStore('store', {
   state: function () {
     return {
+      bgAnimate: true,
       dictionary: window.dictionary,
       language: 'en',
       view: 'trophy'
     };
   },
   actions: {
+    setBgAnimate: function (value) {
+      this.bgAnimate = !!value;
+    },
     setLanguage: function (value) {
       this.language = value;
     },
@@ -133,7 +137,6 @@ window.bonusStore = Pinia.defineStore('bonusStore', {
     }
   }
 });
-
 
 const app = Vue.createApp({
   components: {

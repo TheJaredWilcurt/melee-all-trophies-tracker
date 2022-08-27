@@ -2,6 +2,7 @@ window.dictionary = {
   en: {
     all: 'All',
     allTrophies: 'All Trophies',
+    animateBackgrounds: 'Animate backgrounds',
     aZ: 'A-Z',
     aZjp: 'A-Z (JP)',
     false: 'false',
@@ -22,6 +23,7 @@ window.dictionary = {
   jp: {
     all: '全て',
     allTrophies: '全てフィギュア',
+    animateBackgrounds: '背景をアニメートする',
     aZ: 'あいうえお (EN)',
     aZjp: 'あいうえお',
     false: '偽',
