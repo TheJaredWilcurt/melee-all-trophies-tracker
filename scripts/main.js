@@ -157,6 +157,9 @@ const app = Vue.createApp({
       let data = window.localStorage.getItem(this.localStorageId);
       data = JSON.parse(data);
       if (data) {
+        if (typeof(data.bgAnimate) === 'boolean') {
+          store().setBgAnimate(data.bgAnimate);
+        }
         if (data.language === 'en-us') {
           store().setLanguage('en');
         } else if (data.language) {
@@ -203,6 +206,7 @@ const app = Vue.createApp({
   computed: {
     dataToSave: function () {
       return JSON.stringify({
+        bgAnimate: store().bgAnimate,
         language: store().language,
         reductionRatio: trophyStore().reductionRatio,
         sortBy: trophyStore().sortBy,

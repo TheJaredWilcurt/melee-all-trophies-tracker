@@ -95,7 +95,7 @@ tbody tr {
   );
 }
 tbody tr td {
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.5);
 }
 tbody tr td:first-of-type {
   border-radius: 3px 0px 0px 0px;
@@ -104,7 +104,7 @@ tbody tr td:last-of-type {
   border-radius: 0px 0px 3px 0px;
 }
 tbody tr:hover td {
-  background-color: #444;
+  background-color: rgba(68, 68, 68, 0.5);
 }
 
 footer {
@@ -163,6 +163,15 @@ footer a:hover {
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 2;
+}
+.main-video {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: calc(100% - 400px);
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.05;
 }
 .view {
   margin: 0px 0px 0px 400px;
@@ -313,6 +322,7 @@ footer a:hover {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+  width: 100%;
 }
 
 .form-control {
@@ -356,15 +366,15 @@ footer a:hover {
 
 .acquired td,
 .grid-item.acquired .sprite {
-  background-color: #367B36;
+  background-color: #367B36BF;
 }
 button.active,
 .acquired:hover td,
 .grid-item.acquired:hover .sprite {
-  background-color: #468B46;
+  background-color: #468B46BF;
 }
 button.active:hover {
-  background-color: #66AB66;
+  background-color: #66AB66BF;
 }
 
 .sprite {
