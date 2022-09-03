@@ -221,6 +221,7 @@ const app = Vue.createApp({
         const ID = i + 1;
         obj[ID] = arr[i];
       }
+      Object.fromEntries(Object.entries(obj).sort());
       return obj;
     }
   },
