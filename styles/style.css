@@ -165,7 +165,7 @@ footer a:hover {
   z-index: 2;
 }
 .main-video {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 400px;
   width: calc(100% - 400px);
@@ -195,6 +195,7 @@ footer a:hover {
   position: absolute;
   width: 100%;
   background-image: linear-gradient(0deg, #F00, #F00, #000, #000, #000);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
