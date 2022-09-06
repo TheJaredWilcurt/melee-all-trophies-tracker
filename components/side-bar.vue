@@ -222,7 +222,7 @@ export default {
       return trophyStore();
     },
     isTrophyView: function () {
-      return this.isLoggedIn && ['trophy', 'grid'].includes(this.view);
+      return this.loggedIn && ['trophy', 'grid'].includes(this.view);
     },
     isEN: function () {
       return this.language === 'en';
