@@ -29,7 +29,7 @@
         ></h2>
       </div>
 
-      <div>
+      <div v-if="loggedIn">
         <button
           v-text="'Trophy Table'"
           :class="{ active: view === 'trophy' }"
@@ -102,7 +102,7 @@
         </label>
       </div>
 
-      <div class="form-control">
+      <div v-if="loggedIn" class="form-control">
         <button @click="selectAll">Select All</button>
         <button @click="selectNone">Select None</button>
       </div>
@@ -222,7 +222,7 @@ export default {
       return trophyStore();
     },
     isTrophyView: function () {
-      return ['trophy', 'grid'].includes(this.view);
+      return this.isLoggedIn && ['trophy', 'grid'].includes(this.view);
     },
     isEN: function () {
       return this.language === 'en';
@@ -230,6 +230,7 @@ export default {
     ...Pinia.mapState(store, [
       'dictionary',
       'language',
+      'loggedIn',
       'view'
     ]),
     ...Pinia.mapState(trophyStore, [

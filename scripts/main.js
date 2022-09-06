@@ -4,6 +4,7 @@ window.store = Pinia.defineStore('store', {
       bgAnimate: true,
       dictionary: window.dictionary,
       language: 'en',
+      loggedIn: false,
       view: 'trophy'
     };
   },
