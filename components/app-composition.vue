@@ -10,7 +10,7 @@
       <template v-if="loggedIn">
         <trophy-grid v-show="view === 'grid'"></trophy-grid>
         <trophy-table v-show="view === 'trophy'"></trophy-table>
-        <bonus-table v-show="view === 'bonus'" :key="33"></bonus-table>
+        <bonus-table v-show="view === 'bonus'"></bonus-table>
       </template>
       <session-login v-else></session-login>
       <footer-section></footer-section>
