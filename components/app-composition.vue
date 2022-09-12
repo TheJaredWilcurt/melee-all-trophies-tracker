@@ -16,7 +16,6 @@
       <footer-section></footer-section>
     </div>
   </div>
-
 </template>
 
 <script>
