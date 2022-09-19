@@ -16,9 +16,16 @@
   display: none;
 }
 
+html,
+body {
+  height: 100%;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background: #222;
-  padding-top: 30px;
   color: #FFF;
   font-family: sans-serif;
 }
@@ -176,6 +183,8 @@ footer a:hover {
 .view {
   margin: 0px 0px 0px 400px;
 }
+
+/* SIDEBAR */
 
 .melee-slant {
   position: absolute;
@@ -608,4 +617,37 @@ button.active:hover {
 .flag-language-container.active:hover .flag.jp,
 .flag-language-container.active:hover .flag.en {
   opacity: 0.9;
+}
+
+/* SESSION LOG IN */
+
+.login-view-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 220px);
+}
+.login-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.start-new-session-button {
+  background-color: #977333;
+  border: 4px solid #D8981C;
+  border-radius: 2px 10% 2px 10%;
+  padding: 20px 46px;
+  color: #FFF;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transform: skewY(1deg) skewX(-14deg);
+  clip-path: none;
+}
+.start-new-session-button:hover {
+  background-color: #B07E23;
+}
+.past-sessions-container {
 }
