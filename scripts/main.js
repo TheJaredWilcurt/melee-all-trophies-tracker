@@ -201,9 +201,43 @@ const app = Vue.createApp({
           document.getElementById(id)?.scrollIntoView();
         }, 350);
       }
+    },
+    compressData: function (data) {
+      let arr = Object.values(data);
+      arr = arr.map(function (value) {
+        return Number(value);
+      });
+      let str = arr.join('');
+      return window.LZString.compress(str);
+    },
+    decompressData: function (data) {
+      let str = window.LZString.decompress(data);
+      let arr = str.split('');
+      arr = arr.map(function (value) {
+        return !!parseInt(value);
+      });
+      let obj = {};
+      for (let i = 0; i < arr.length; i++) {
+        const ID = i + 1;
+        obj[ID] = arr[i];
+      }
+      Object.fromEntries(Object.entries(obj).sort());
+      return obj;
     }
   },
   computed: {
+    compressedData: function () {
+      return {
+        t: this.compressData(trophyStore().trophiesAcquired),
+        b: this.compressData(bonusStore().bonusesAcquired)
+      };
+    },
+    decompressedData: function () {
+      return {
+        trophiesAcquired: this.decompressData(this.compressedData.t),
+        bonusesAcquired: this.decompressData(this.compressedData.b)
+      };
+    },
     dataToSave: function () {
       return JSON.stringify({
         bgAnimate: store().bgAnimate,
