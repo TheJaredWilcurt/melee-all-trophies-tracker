@@ -23,8 +23,8 @@ Super Smash Bros. Melee - All Trophies Speedrun tracker
    * Potentially allow visual tweaks, like background/text colors to fit the aesthetic of a streamer's brand
 1. Chatbot support (blocked until API finished)
    * Could just DM/whisper to people on Twitch or Discord that have specific roles (Mod, VIP, sub, etc) a link to the website with the session ID and secret
-   * Could set values via API, but likely would only work with trophies that have a unique name
-   * Would require this repo to support the "secret" param `site.com/50?secret=1234`, then set it locally and remove from URL
+   * Could set values via API, but likely would only work with trophies that have a unique name (we could create human-readable unique names as a column in the UI)
+   * Would require tracker website to support the "secret" param `site.com/50?secret=1234`, then set it locally and remove from URL
 1. Image recognition (blocked until API finished)
    * Would work with any video capture/input (from console or emulator)
    * You would define a set of images for the tool to look for (these tools already exist, but I haven't looked into them)
