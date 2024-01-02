@@ -1,10 +1,25 @@
+const localStorageId = 'meleeAllTrophiesData';
+
+// Websocket keys
+const appId = 'VAH15Ghi76jHV752kjID6B3QqZDDw08mC2oWygLb';
+const jsKey = 'mrzVvSeeaFIN2GEPnPkRr18WykoV7fsh00nEhgAs';
+const parseApiAddress = 'https://parseapi.back4app.com/';
+const webSocketAddress = 'ws://meleetrophytracker.b4a.io';
+
+// Websocket init
+Parse.initialize(appId, jsKey);
+Parse.serverURL = parseApiAddress;
+Parse.liveQueryServerURL = webSocketAddress;
+
 window.store = Pinia.defineStore('store', {
   state: function () {
     return {
       bgAnimate: true,
       dictionary: window.dictionary,
       language: 'en',
-      view: 'trophy'
+      loggedIn: false,
+      view: 'trophy',
+      sessions: []
     };
   },
   actions: {
@@ -16,9 +31,114 @@ window.store = Pinia.defineStore('store', {
     },
     setView: function (value) {
       this.view = value;
+    },
+    // Compression
+    compressData: function (data) {
+      let arr = Object.values(data);
+      arr = arr.map(function (value) {
+        return Number(value);
+      });
+      let str = arr.join('');
+      return window.LZString.compress(str);
+    },
+    decompressData: function (data) {
+      let str = window.LZString.decompress(data);
+      let arr = str.split('');
+      arr = arr.map(function (value) {
+        return !!parseInt(value);
+      });
+      let obj = {};
+      for (let i = 0; i < arr.length; i++) {
+        const ID = i + 1;
+        obj[ID] = arr[i];
+      }
+      Object.fromEntries(Object.entries(obj).sort());
+      return obj;
+    },
+    // Websockets
+    wsCreate: async function (data) {
+      let record = new Parse.Object('acquired');
+      data
+      record.set('acquiredValues', { t: 'yes', b: 'indeed' });
+      await record.save();
+      // response === {
+      //   _objCount: 0
+      //   className: "acquired"
+      //   id: "BsfVJcfb2O"
+      // }
+      const response = await record.save();
+      const session = {
+        id: response.id,
+        date: new Date(),
+        data: {
+          t: this.compressData(window.generateAcquisitionMap(window.generateTrophyData())),
+          b: this.compressData(window.generateAcquisitionMap(window.generateBonusData()))
+        }
+      };
+      this.sessions.push(session);
+    },
+    wsSubscribe: async function () {
+      console.log('Starting app');
+      let query = new Parse.Query('acquired');
+      try {
+        let subscription = await query.subscribe();
+        subscription.on('open', function () {
+          console.log('Connection open');
+        });
+        subscription.on('create', function (obj) {
+          console.log('Object created', obj.get('acquiredValues'));
+        });
+        subscription.on('update', function (obj) {
+          console.log('Object updated', obj.get('acquiredValues'));
+        });
+        subscription.on('enter', function (obj) {
+          console.log('Object entered', obj.get('acquiredValues'));
+        });
+        subscription.on('leave', function (obj) {
+          console.log('Object left', obj.get('acquiredValues'));
+        });
+        subscription.on('delete', function (obj) {
+          console.log('Object deleted', obj.get('acquiredValues'));
+        });
+      } catch (err) {
+        console.log('Error', err);
+      }
+    },
+    wsSave: async function () {
+      const id = 'DjlhvAw0Ai';
+
+      let query = new Parse.Query('acquired');
+      query.equalTo('objectId', id);
+      const record = await query.first();
+      record.set('acquiredValues', { t: 'okay', b: 'cool' });
+      const response = await record.save();
+      console.log(response);
     }
   },
   getters: {
+    dataToSave: function (state) {
+      return JSON.stringify({
+        bgAnimate: state.bgAnimate,
+        language: state.language,
+        reductionRatio: trophyStore().reductionRatio,
+        sortBy: trophyStore().sortBy,
+        trophiesAcquired: trophyStore().trophiesAcquired,
+        bonusesAcquired: bonusStore().bonusesAcquired,
+        view: state.view
+      });
+    },
+    compressedData: function () {
+      return {
+        t: this.compressData(trophyStore().trophiesAcquired),
+        b: this.compressData(bonusStore().bonusesAcquired)
+      };
+    },
+    decompressedData: function () {
+      return {
+        trophiesAcquired: this.decompressData(this.compressedData.t),
+        bonusesAcquired: this.decompressData(this.compressedData.b)
+      };
+    },
     isJP: (state) => {
       return state.language === 'jp';
     }
@@ -201,43 +321,9 @@ const app = Vue.createApp({
           document.getElementById(id)?.scrollIntoView();
         }, 350);
       }
-    },
-    compressData: function (data) {
-      let arr = Object.values(data);
-      arr = arr.map(function (value) {
-        return Number(value);
-      });
-      let str = arr.join('');
-      return window.LZString.compress(str);
-    },
-    decompressData: function (data) {
-      let str = window.LZString.decompress(data);
-      let arr = str.split('');
-      arr = arr.map(function (value) {
-        return !!parseInt(value);
-      });
-      let obj = {};
-      for (let i = 0; i < arr.length; i++) {
-        const ID = i + 1;
-        obj[ID] = arr[i];
-      }
-      Object.fromEntries(Object.entries(obj).sort());
-      return obj;
     }
   },
   computed: {
-    compressedData: function () {
-      return {
-        t: this.compressData(trophyStore().trophiesAcquired),
-        b: this.compressData(bonusStore().bonusesAcquired)
-      };
-    },
-    decompressedData: function () {
-      return {
-        trophiesAcquired: this.decompressData(this.compressedData.t),
-        bonusesAcquired: this.decompressData(this.compressedData.b)
-      };
-    },
     dataToSave: function () {
       return JSON.stringify({
         bgAnimate: store().bgAnimate,
