@@ -14,6 +14,7 @@
         Start New Session
       </button>
       <div class="past-sessions-container">
+        Past sessions:
         <ul>
           <li
             v-for="session in sessions"

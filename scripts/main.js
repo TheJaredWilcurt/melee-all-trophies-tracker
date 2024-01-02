@@ -1,3 +1,5 @@
+const localStorageId = 'meleeAllTrophiesData';
+
 // Websocket keys
 const appId = 'VAH15Ghi76jHV752kjID6B3QqZDDw08mC2oWygLb';
 const jsKey = 'mrzVvSeeaFIN2GEPnPkRr18WykoV7fsh00nEhgAs';
@@ -65,10 +67,15 @@ window.store = Pinia.defineStore('store', {
       //   id: "BsfVJcfb2O"
       // }
       const response = await record.save();
-      console.log({
+      const session = {
         id: response.id,
-        date: new Date()
-      });
+        date: new Date(),
+        data: {
+          t: this.compressData(window.generateAcquisitionMap(window.generateTrophyData())),
+          b: this.compressData(window.generateAcquisitionMap(window.generateBonusData()))
+        }
+      };
+      this.sessions.push(session);
     },
     wsSubscribe: async function () {
       console.log('Starting app');
@@ -109,6 +116,29 @@ window.store = Pinia.defineStore('store', {
     }
   },
   getters: {
+    dataToSave: function (state) {
+      return JSON.stringify({
+        bgAnimate: state.bgAnimate,
+        language: state.language,
+        reductionRatio: trophyStore().reductionRatio,
+        sortBy: trophyStore().sortBy,
+        trophiesAcquired: trophyStore().trophiesAcquired,
+        bonusesAcquired: bonusStore().bonusesAcquired,
+        view: state.view
+      });
+    },
+    compressedData: function () {
+      return {
+        t: this.compressData(trophyStore().trophiesAcquired),
+        b: this.compressData(bonusStore().bonusesAcquired)
+      };
+    },
+    decompressedData: function () {
+      return {
+        trophiesAcquired: this.decompressData(this.compressedData.t),
+        bonusesAcquired: this.decompressData(this.compressedData.b)
+      };
+    },
     isJP: (state) => {
       return state.language === 'jp';
     }
@@ -294,18 +324,6 @@ const app = Vue.createApp({
     }
   },
   computed: {
-    compressedData: function () {
-      return {
-        t: this.compressData(trophyStore().trophiesAcquired),
-        b: this.compressData(bonusStore().bonusesAcquired)
-      };
-    },
-    decompressedData: function () {
-      return {
-        trophiesAcquired: this.decompressData(this.compressedData.t),
-        bonusesAcquired: this.decompressData(this.compressedData.b)
-      };
-    },
     dataToSave: function () {
       return JSON.stringify({
         bgAnimate: store().bgAnimate,
