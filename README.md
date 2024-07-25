@@ -39,3 +39,6 @@ Super Smash Bros. Melee - All Trophies Speedrun tracker
    * Map the trophy/bonus data from the save to the ID's used by the tracker
    * Diff against the save data from the memory card
    * Make `PATCH` requests to automatically synchronize the game data with the server data so that the tracker/mini-tracker will be accurate
+1. Viewing live data from over network
+   * https://github.com/dansalvato/melee-gci-compiler/issues/10
+   * Essentially same as Memory Card reader, but with live data transferred from GC over network
